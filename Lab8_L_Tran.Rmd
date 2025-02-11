@@ -1,0 +1,157 @@
+---
+title: 'GGIS 224 - Lab 8'
+author: 'Lyons Tran, Environmental Data Science @UIUC '
+date: "3/22/2024"
+output:
+  html_document: default
+  word_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Overview
+
+In this lab, you will practice census data wrangling using the tidycensus and/or tigris package in R. 
+
+To get started, go through the tutorial [Census Data Wrangling](https://geodacenter.github.io/opioid-environment-toolkit/getACSData-tutorial.html), acquire a Census API key, and learn how to query and retrieve census information from the American Community Survey (ACS) at different boundary/neighborhood levels (e.g., state, county, tract, and zip code). 
+
+Make sure to read Section 5.6 Appendix and explore some of the variables that are not used by the examples of the tutorial.
+
+**Goal:**
+Use publicly available census data to map the percentage of young adults (aged 20-24 years old) living in Chicago, at both the census tract level and at the zip code level.
+
+**DUE AFTER SPRING BREAK ON 3/22 AT 1PM**
+
+## Workflow
+
+**Step 1:**
+Retrieve an API key (http://api.census.gov/data/key_signup.html) through your email and copy and paste it into your Environment Setup code chunk to replace "Your-key". Run your libraries and make sure all necessary packages are installed. 
+
+**Step 2:**
+Create a new object that quantifies the population of young adults (20 to 24 years old) as a percentage (%) of the total population in the census year of 2020. 
+
+You will need to first retrieve two variables from the ACS data: (1) the total population in 2020 and (2) the population of 20-24 years old in 2020, and then calculate the percentage for the latter variable into a new attribute. To do this:
+
+Follow the appendix 5.6.1 in the text to explore variables and load the "acs5/subject", "acs5/profile", and "acs5" variables for 2020.
+
+**Step 3:**
+Create a spatial dataframe (df) (ex: tract_level) that describes the total population and 20-24 year old population at the Tract Level (5.4.3):
+
+(1) Assign values in the "name" column of your "acs5/subject" df to new columns for total population and population of 20-24 year olds. 
+(2) Make sure you mutate your population variables to create the 20-24 year old population percentage.
+(3) Your census population data at the tract level may have some empty geometries, which will make it hard to map in Step 5. If you do have empty geometries, insert this code:
+"tract_level = tract_level[!st_is_empty(tract_level),,drop=FALSE]"
+
+**Step 4:**
+Now that we have the necessary census information, we need to map it in Chicago:
+
+(1) read in the city boundary file from your Lab 8 folder (in 5.5.2).
+(2) set your Chicago boundary file to the same coordinate system (crs = 4326) as your census tract df from Step 3.
+(3) intersect your two spatial dfs so you now have one df that contains both census data and Chicago data.
+(4) use tmap (tm_shape) to map the percentage of 20-24 year olds in each Chicago census tract.
+
+**WARNING:** *Transforming spatial df coordinate systems take a very long time, but it's an important step! Be patient and make sure you wait for the red stop sign to go away before closing R or running any more code!!!!!*
+
+**Step 5:**
+Repeat Step 3 but at the zip code level (5.4.4). 
+
+**Step 6:**
+Repeat parts 2-4 of Step 4 but at the zip code level.
+
+**Make sure you have 2 maps visible in your html to receive credit**
+
+Show your code below to implement the steps above. Don't forget to comment your code!
+
+Render your completed RmD document by clicking on the "Knit" option in RStudio. Upload the .html file to your lab submission.
+Your uploaded .html file should follow this naming convention: Lab8_FirstNameInitial_LastName.html (for example, Lab8_E_Hall.html).
+
+---
+
+## Environment Setup
+
+Load up all libraries needed for this lab. 
+
+```{r environment-setup, warning=FALSE, message=FALSE}
+library(sf) # to read/write sf (spatial) objects
+library(tidycensus) # to download census variables using ACS API. If not yet installed, execute: install.packages("tidycensus")
+library(tidyverse) # to manipulate and clean data
+library(tigris) # to download census tiger shapefiles, If not yet installed, execute: install.packages("tidycensus")
+library(tmap) # to generate maps
+
+#Acquire a census API key:
+
+#census_api_key("87cf8ea47f6583664791aae072b24399cec3968e", install = TRUE) #install the key. The key only needs to be installed once. 
+Sys.getenv("CENSUS_API_KEY") #Check an already installed census API key
+```
+
+---
+
+```{r code chunk for submission}
+#Enter your code here. Make sure to comment the code to show logical development. 
+
+
+#step 2
+sVarNames <- load_variables(2020, "acs5/subject", cache = TRUE)
+pVarNames <- load_variables(2020, "acs5/profile", cache = TRUE)
+otherVarNames <- load_variables(2020, "acs5", cache = TRUE)
+
+#Creating a object that quantifies the population of young adults (20 to 24 years old) as a percentage (%) of the total population in the census year of 2020. -> acquired the variable codes through the 5.6.1 appendix as well as this source : https://api.census.gov/data/2020/acs/acs5/subject/groups/S0101.html
+
+tot_pop_2020 = "S0101_C01_001"
+tot_age_20t24 = "S0101_C01_006"
+
+obj = get_acs(geography = 'us', variables = c(tPop20 = tot_pop_2020, Age20t24 = tot_age_20t24))
+percent_tot_20_t_24 = (obj[['estimate']][2] / obj[['estimate']][1]) * 100
+percent_tot_20_t_24
+#In the two lines above, I extract the values in the list of pop estimates in the obj list and divide the values appropriately and multiply by 100 to get the percentage of young adults as a percentage of the total population in 2020.
+#________________________________________________________________________________________________________
+#step 3
+
+#Creating a spatial dataframe (df) (ex: tract_level) that describes the total population and 20-24 year old population at the Tract Level
+tractDf <- get_acs(geography = 'tract',variables = c(totPop = tot_pop_2020, 
+                                                   age_20t24 = tot_age_20t24), 
+                    year = 2020, state = 'IL', geometry = TRUE) |> 
+            select(GEOID, NAME, variable, estimate) |> 
+            spread(variable, estimate) |>
+            mutate(age_20t24Pr  = age_20t24 /totPop) |>
+            select(GEOID, age_20t24Pr)
+#using tutorial from 5.4.3
+#______________________________________________________________________________________________________
+#step 4
+
+#mapping census tracts in Chicago:
+
+chiCityBoundary <- st_read("C:/Users/lyons/OneDrive/Desktop/ggis224/boundaries_chicago.geojson")
+chiCityBoundary <- st_transform(chiCityBoundary, 4326) 
+tractDf = st_transform(tractDf, 4326) #have to transform tractDf to have some CRS
+intersect = st_intersection(chiCityBoundary, tractDf)
+tm_shape(intersect) + tm_fill("age_20t24Pr")
+#_____________________________________________________________________________________
+#Step 5:
+#Repeating Step 3 but at the zip code level (5.4.4).
+
+zctaDf <- get_acs(geography = 'zcta',variables = c(totPop = tot_pop_2020, 
+                                                   age_20t24 = tot_age_20t24), 
+                    year = 2020, geometry = TRUE) |> 
+            select(GEOID, NAME, variable, estimate) |> 
+            spread(variable, estimate) |>
+            mutate(age_20t24Pr  = age_20t24 /totPop) |>
+            select(GEOID, age_20t24Pr)
+#basically following 5.4.4 tutorial
+#____________________________________________________________________________________________
+#step 6
+#Repeat parts 2-4 of Step 4 but at the zip code level.
+
+zctaDf = st_transform(zctaDf, 4326)
+zip_intersect = st_intersection(chiCityBoundary, zctaDf)
+tm_shape(zip_intersect) + tm_fill("age_20t24Pr")
+
+```
+
+---
+
+Render your document by clicking on the "Knit" option in RStudio. Upload the .html file to your assignment submission!
+
+.

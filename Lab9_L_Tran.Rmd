@@ -1,0 +1,239 @@
+---
+title: 'Lyons Tran, Environmental Data Science @UIUC. Lab 9 - Watershed analysis'
+date: 4/05/2024"
+output:
+  html_document: default
+  word_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Overview
+
+In this lab, you will practice watershed analysis in R using a DEM file downloaded by yourself.
+
+As a preparation, please go through the exercise under Canvas module \> Week 11 \> Watershed-analysis-tutorial-updated.html/rmd, and understand the purpose and meaning of each script line.
+
+Then, replicate the entire watershed analysis process as described in Watershed-analysis-tutorial-updated.html using a DEM tile covering your own region of interest (e.g., part of the Rocky Mountain, Flint Hills, or Central Illinois) in the US. In other words, you will need to download your own DEM, instead of using the DEM available in the spDataLarge package.
+
+One platform to download high-resolution national DEM is The National Map (TNM) Download Apps: <https://apps.nationalmap.gov/downloader>.
+
+Once you are on the TNM webpage, zoom to your area of interest using the interactive map, and then further refine your region using the "Extent", "Polygon", or "Point" option after "Area of Interest".
+
+Then, check "Elevation Products (3DEP)" and select the DEM with your preferred spatial resolution (e.g., 1/3 arc-second, which is about \~10 m). Think about what resolution will serve your purpose (note: very high-resolution DEM is not always necessary).
+
+Under "File Formats", check the GeoTIFF format (.tif).
+
+After the region is defined and the DEM and the file format are specified, click on "Search Products". The DEM tiles satisfying your search criteria will be returned. If multiple files are returned, you will need to download only ONE of them for the purpose of this lab. You can click on "Footprint" to see where the DEM tile covers. Once you have decided which tile to download, click on "Download Link (TIF)", and the DEM tile will be downloaded to your computer.
+
+Now you have your own DEM! Congrats! And you are ready to continue following the procedure described in Watershed-analysis-tutorial-updated.html.
+
+Submission: A fully commented and formatted R Markdown file that replicates each of the steps in the entire watershed analysis as described in Watershed-analysis-tutorial-updated.rmd but based on your downloaded DEM.
+
+To start: load the packages and define the variable environments as below...
+
+```{r environment-setup, warning=FALSE, message=FALSE}
+library(tidyverse)
+library(raster)
+library(sf)
+library(tmap)
+library(stars)
+library(rgl)
+library(terra)
+library(dplyr)
+library(spData)
+library(spDataLarge)
+
+#install.packages("rayshader")
+library(rayshader) 
+
+#install.packages("whitebox", repos="http://R-Forge.R-project.org")
+library(whitebox)
+whitebox::wbt_init()
+
+#READ IN DEM
+tmap_mode("view")
+my_directory = "C:/Users/lyons/OneDrive/Desktop/ggis224"
+setwd(my_directory)
+dem = rast("lab9geotif.tif")
+writeRaster(dem, "dem.tif", overwrite = TRUE)
+dem = rast("dem.tif")
+if (ncol(dem)<1000 & nrow(dem)<1000)
+{
+  tm_shape(dem)+
+    tm_raster(style = "cont", palette = "PuOr", legend.show = TRUE)+
+    tm_scale_bar()
+} else {
+  tm_shape(aggregate(dem, 10), raster.downsample = TRUE)+
+    tm_raster(style = "cont", palette = "PuOr", legend.show = TRUE)+
+    tm_scale_bar()
+}
+
+#did not do 4 as it is noted that it isn't necessary for watershed analysis
+
+#PREPARE DEM FOR HYDROLOGY ANALYSES
+wbt_fill_single_cell_pits(dem = paste0(my_directory, "/lab9geotif.tif"),  output = paste0(my_directory,  "/dem_filled.tif"))
+
+wbt_breach_depressions_least_cost(
+  dem = paste0(my_directory, "/dem_filled.tif"),
+  output = paste0(my_directory, "/dem_breached.tif"),
+  dist = 5,
+  fill = TRUE)
+
+wbt_fill_depressions_wang_and_liu(
+  dem = paste0(my_directory, "/dem_breached.tif"),
+  output = paste0(my_directory, "/dem_filled_breached.tif"),
+) 
+dem = rast("dem_filled_breached.tif") 
+if (ncol(dem)<1000 & nrow(dem)<1000)
+{
+  tm_shape(dem)+
+    tm_raster(style = "cont", palette = "PuOr", legend.show = TRUE)+
+    tm_scale_bar()
+} else {
+  #for the tm_shape, in the argument that takes in the aggregate function, I increased the number to 50 from 10. I did this as the lower the number got, the less visible the plot was.
+  tm_shape(aggregate(dem, 50), raster.downsample = TRUE)+
+    tm_raster(style = "cont", palette = "PuOr", legend.show = TRUE)+
+    tm_scale_bar()
+}
+
+#Create flow accumulation and pointer grids (flow direction)
+#I chose to use the fisher classification method over quantile. 
+wbt_d8_flow_accumulation(
+  input = paste0(my_directory, "/dem_filled_breached.tif"), 
+  output = paste0(my_directory, "/D8FA.tif")
+)
+wbt_d8_flow_accumulation_lyr = rast("D8FA.tif") 
+
+if (ncol(wbt_d8_flow_accumulation_lyr) < 1000 & nrow(wbt_d8_flow_accumulation_lyr) < 1000) {
+  tm_shape(wbt_d8_flow_accumulation_lyr) +
+    tm_raster(style = "quantile", legend.show = TRUE) + 
+    tm_scale_bar()
+} else {
+  tm_shape(aggregate(wbt_d8_flow_accumulation_lyr, 10), raster.downsample = TRUE) +
+    tm_raster(style = "quantile", legend.show = TRUE) + 
+    tm_scale_bar()
+}
+#chose to use quantile classification for more balanced representation
+
+#Read the produced flow direction file
+wbt_d8_pointer(dem = paste0(my_directory, "/dem_filled_breached.tif"), output = paste0(my_directory, "/D8pointer.tif"))
+
+wbt_d8_pointer_lyr = rast("D8pointer.tif")
+
+#Visualize the flow direction map
+if (ncol(wbt_d8_pointer_lyr)<1000 & nrow(wbt_d8_pointer_lyr)<1000)
+{
+  tm_shape(wbt_d8_pointer_lyr)+
+    tm_raster(style = "cont", legend.show = TRUE)+
+    tm_scale_bar()
+} else {
+  tm_shape(aggregate(wbt_d8_pointer_lyr, 10, fun = modal), raster.downsample = TRUE) + 
+    tm_raster(style = "cont", legend.show = TRUE)+
+    tm_scale_bar()
+}
+
+#SETTING POUR POINTS
+ppoints <- tribble(
+  ~Lon, ~Lat,
+  37, -90, #chose two points relative to my DEM 
+  38, -91,
+)
+
+#Create dataframe with pour points (make sure to set up the correct spatial coordinate system)
+ppointsSP <- SpatialPoints(ppoints, proj4string = CRS("+proj=longlat +datum=WGS84")) #
+
+#Convert data frame to shapefile and write the shapefile to our data directory
+shapefile(ppointsSP, filename = "pourpoints.shp", overwrite = TRUE)
+
+#Read the shapefile
+ppointsSP_gcs = st_read("pourpoints.shp")
+st_crs(ppointsSP_gcs)
+ppointsSP_prj = st_transform(ppointsSP_gcs, crs="EPSG:32717")
+st_write(ppointsSP_prj, "ppointsSP_prj.shp", layer_options = 'OVERWRITE=YES', update = TRUE)
+wbt_extract_streams(flow_accum = paste0(my_directory, "/D8FA.tif"),
+                    output = paste0(my_directory, "/raster_streams.tif"),
+                    threshold = 50)
+wbt_jenson_snap_pour_points(pour_pts = paste0(my_directory, "/ppointsSP_prj.shp"),
+                            streams = paste0(my_directory, "/raster_streams.tif"),
+                            
+                            output = paste0(my_directory, "/snappedpp.shp"), #here is generation of /snappedpp.shp
+                            snap_dist = 100)
+snappedpp_file <- paste0(my_directory, "/snappedpp.shp")
+file.exists(snappedpp_file) #this reports back as false, indicating that snappedpp doesn't exists which doesn't make sens
+streams <- raster("raster_streams.tif") #Read the generated stream network
+pp = shapefile("snappedpp.shp") #Read the snapped pour points -> this part has been problematic and has not worked
+
+
+#Visualize the pour points BEFORE being snapped to the network. 
+if (ncol(streams)<1000 & nrow(streams)<1000)
+{
+  tm_shape(streams)+
+    tm_raster(legend.show = TRUE, palette = "Blues")+
+    tm_shape(ppointsSP_prj)+
+    tm_dots(col = "red")
+} else {
+  tm_shape(aggregate(streams, 10, fun = max), raster.downsample = TRUE)+ #downsample function set to be MAX to improve continuity of the stream network. 
+    tm_raster(legend.show = TRUE, palette = "Blues")+
+    tm_shape(ppointsSP_prj)+
+    tm_dots(col = "red")
+}
+
+
+
+#_________________WON'T WORK SINCE pp = shapefile("snappedpp.shp") won't run___________________
+
+if (ncol(streams)<1000 & nrow(streams)<1000)
+{
+  tm_shape(streams)+
+    tm_raster(legend.show = TRUE, palette = "Blues")+
+    tm_shape(pp)+
+    tm_dots(col = "red")
+} else {
+  tm_shape(aggregate(streams, 10, fun = max), raster.downsample = TRUE)+ #downsample function set to be MAX to improve continuity of the stream network.
+    tm_raster(legend.show = TRUE, palette = "Blues")+
+    tm_shape(pp)+
+    tm_dots(col = "red")
+}
+#_________________________________________________________________________________________
+
+#Delineate Watersheds -> this section also doesn't work -> says that ws is never made 
+wbt_watershed(d8_pntr = paste0(my_directory,"/D8pointer.tif"),
+              pour_pts = paste0(my_directory,"/snappedpp.shp"),
+              output = paste0(my_directory,"/watersheds.tif"))
+ws = raster("watersheds.tif") #Read the watershed raster file, same problem occurs here as well. 
+
+
+if (ncol(hillshade)<1000 & nrow(hillshade)<1000)
+{
+  tm_shape(hillshade)+
+    tm_raster(style = "cont",palette = "-Greys", legend.show = FALSE)+
+    tm_shape(ws)+
+    tm_raster(legend.show = TRUE, alpha = 0.5, style = "cat")+
+    tm_shape(pp)+
+    tm_dots(col = "red")
+} else {
+  tm_shape(aggregate(hillshade, 10), raster.downsample = TRUE)+
+    tm_raster(style = "cont",palette = "-Greys", legend.show = FALSE)+
+    tm_shape(aggregate(ws, 10, fun = max), raster.downsample = TRUE)+
+    tm_raster(legend.show = TRUE, alpha = 0.5, style = "cat")+
+    tm_shape(pp)+
+    tm_dots(col = "red")
+}
+
+
+freq(ws)
+wsshape = st_as_stars(ws) %>% st_as_sf(merge = T)
+wsshape_dissolved <- wsshape %>%
+group_by(watersheds) %>% #here "watersheds" is the attribute representing the watershed ID values. This attribute should be consistent with the name of your watershed tif (e.g., watersheds.tif).
+  # summarise()
+
+st_write(wsshape_dissolved, 'watersheds_shape.shp', layer_options = 'OVERWRITE=YES', update = TRUE) #Save the shapefile in your directory.
+
+```
+
+
+```{}
+```
