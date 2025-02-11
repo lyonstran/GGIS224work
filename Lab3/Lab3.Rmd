@@ -1,0 +1,231 @@
+---
+title: 'GGIS 224 - Lab 3'
+author: 'Lyons Tran, Environmental Data Science @UIUC '
+date: "02/02/2024"
+output:
+  html_document: default
+  word_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Overview
+In this assignment, we'll explore a dataset of environmental features in the City of Chicago. Along the way, you'll hone in on key themes learned from the first three weeks of our class. You'll specifically review:
+
+- Data Inspection 
+- Basic Mapping in R
+- Attribute Queries
+- Aggregating Data
+
+You will be on your way to mastering the basics of `sf`, `tmap`, and basics of the `tidyverse`. Also recall the materials we practiced in Lab 2 from *Chapter 3. Attribute Data Operations* in the textbook [Geocomputation in R](https://geocompr.robinlovelace.net/). 
+
+This assignment uses the *Chives* dataset from [chichives.com](https://chichives.com). *ChiVes* is a collaborative project that integrates and visualizes data; a handful of key metrics―tree cover, air pollution estimates, heat island effects, traffic volumes, and social vulnerability index― help to reveal where in the city people face particular challenges as we work towards a healthier Chicago. You will need to review the [Data](https://chichives.com/data) page to understand the variable names and definitions to complete this assignment. 
+
+## Environment Setup
+
+Download and open Lab3 folder (including the **.geojson** file and this **RMarkdown** file) on your system, or RStudio Cloud environment. Open the RmD file in RStudio. Set your working directory. 
+
+```{r setwd}
+setwd(r"(C:\Users\lyons\OneDrive\Desktop\ggis224\Lab3)")
+# Replace "D:\E\Teaching\UIUC\GGIS224\Labs\Lab3\Lab3" by your own working directory.
+```
+
+Next, load up all the libraries needed for this assignment.
+
+```{r environment-setup, warning=FALSE, message=FALSE}
+library(sf)
+library(spData)
+library(tidyverse)
+library(tmap)
+```
+
+Now you're ready to load in the data. Make sure you've loaded the geojson in the same file directory as your RmD document.
+
+Use the `sf` library function `st_read` to read in the geojson file. This spatial dataset was downloaded directly from *Chives*.
+
+```{r data-load}
+chives = st_read("chives-data.geojson") # note '=' can be replaced by '<-'.
+```
+
+---
+
+## Explore Data 
+
+Over the past few weeks, we've been reading about, coding through examples of, and practicing attribute data wrangling. First we need to inspect and examine the data carefully, looking for interesting trends. 
+
+Use the `head()` function to inspect the data (uncomment on your own machine.) . There are many other functions to use, if you prefer, like `glimpse`.
+
+```{r head}
+#head(chives)
+glimpse(chives)
+```
+
+How many census tracts do we have in this dataset? Use the `dim()` function to check. 
+```{r dim}
+dim(chives)
+```
+
+There are 801 rows, or census tracts, and 42 columns, or field attributes in this dataset.
+
+Let's quickly map an interesting variable in our dataset using `tmap`. We'll explore the `tree_crown_den` attribute, which shows us the proportion of a census tract covered by tree crowns, as measured from LiDar data in 2010. Review the *Chives* website to learn more about this variable. 
+
+In this map we'll use quantile breaks to classify the variable of interest; a red-yellow-green diverging color palette; and will also rename the variable in the legend for easier viewing.
+
+```{r quick-map}
+
+tm_shape(chives) + tm_fill("trees_crown_den", 
+                           style = "quantile", 
+                           palette = "RdYlGn",
+                           title = "Tree Coverage %")
+
+```
+
+Let's explore data breaks further. Here's one way of selecting all census tracts that have less than 10% of its area covered by trees:
+
+```{r subset-ex}
+fewTrees = chives |>
+  filter(trees_crown_den < 10)
+
+head(fewTrees)
+```
+
+82 features were selected, meaning 82 out of all census tracts in the city have less than 10% of their areas covered by trees.
+
+### Question 1 
+
+What's another way to do this (ie. query your data)? Use a different selection option based on your readings and practice. The end output also identify tracts with less than 10% areas covered by trees. 
+
+```{r Question-1}
+
+  ### ADD YOUR CODE HERE ###  
+fewTrees2 = chives |> subset(trees_crown_den < 10)
+```
+
+---
+
+Let's quickly map these tracts to see where they show up. We place our original dataset, *chives*, as the first layer. We don't pass any parameters to the `tm_fill()` function to force a default gray background. Then we add the new filtered dataset, *fewTrees*, coloring it brown. 
+
+```{r fewTrees-map}
+tm_shape(chives) + tm_fill() + 
+  tm_shape(fewTrees) + tm_fill(col = "brown") 
+  
+```
+
+The subset of data that we have includes all of the original data. Let's map social vulnerability measures for the `fewTrees` attribute. Higher SVI indicates higher vulnerability.
+
+```{r fewTreesdata}
+
+tm_shape(chives) + tm_fill() + 
+  tm_shape(fewTrees) + tm_fill("svi_pecentile") 
+  
+```
+
+Let's say we want to identify some key characteristics of areas without too many trees in the city. Using our same filter above (or whatever version you'd like to use), we can add an additional option. In the example below, we select all areas with <10% tree crown density that have high social vulnerability (ie. the social vulnerability index percentile is above 60%). Then, we map it.
+
+```{r queryData}
+fewTreesSVI = chives %>% 
+  filter(trees_crown_den < 10 & svi_pecentile > 60)
+
+tm_shape(chives) + tm_fill() + 
+  tm_shape(fewTreesSVI) + tm_fill(col = "brown") 
+  
+```
+
+### Question 2
+
+We can see that several tracts could be found in areas with fewer trees, and higher social vulnerability. Explore another paired query, choosing a new variable (instead of social vulnerability). You can explore the data on your own, read the metadata further on the original data website, etc. to identify a reasonable cutoff.
+
+Generate and run the query (with 2 criteria).
+
+```{r Question-2}
+
+  ### ADD YOUR CODE HERE ###  
+question2 = chives |> filter(hardship > 30 & heatisl > 90)
+
+
+```
+
+### Question 3
+
+Explain why you selected this query, and  briefly describe any interesting patterns you discovered.
+
+*ADD YOUR DESCRIPTION HERE.*
+I selected to query by hardship and heatisl because I was wondering if there was some sort of connection to higher hardship levels and land surface temperature. An interesting pattern I found was that in all 39 census tracts returned, they all reflected a urban flooding susceptibility greater than 9. 
+
+---
+
+Let's take data wrangling a bit further and start to aggregate our dataset. We will use `group_by` and `summarise` functions from the `tidyverse` library we're using. (Technically, they're from the `dplyr` package within the `tidyverse`.) 
+
+`Group_by` tells the code which variable we should aggregate on. For example, let's say we want to know how many trees exist in each community area in Chicago. We'll (1) `group_by` the "community" field and (2) `summarise` using the total sum of trees. We'll assign the total number of trees to equal a new variable, called "Trees". We may also want to know how many tracts are included in each community, so are interested the total `n` of tracts. The code looks like this:
+
+```{r groupComTree}
+treeCom <- chives %>% 
+  group_by(community) %>%
+  summarize(Trees = sum(trees_n),
+            TotTracts = n())
+
+head(treeCom)
+```
+
+And we can map it!
+
+```{r mapComTree}
+tm_shape(treeCom) + tm_fill(col = "Trees")
+```
+
+Note that this dataset no longer shows tracts, since we're actually working with *communities*. You can check the dimension of this data frame to be sure: 
+
+```{r dimComTree}
+dim(treeCom)  
+```
+
+### Question 4
+
+Take this aggregation further. Add more to the code chunk above to generate a community area dataset that includes **at least five variables of interest**. Note that some variables you'll need to sum (like total number of trees), whereas others will need to be averaged. You should use the variables included in the original *Chives* dataset.
+
+Your code should also output a table view of the data.
+
+```{r Question-4}
+
+  ### ADD YOUR CODE HERE ### 
+treeComUpdated <- chives %>% 
+  group_by(community) %>%
+  summarize(Trees = sum(trees_n),
+            TotTracts = n(),
+            percent_asian = mean(pct_asian),
+            avg_hardship = mean(hardship),
+            avg_ufs_rate = mean (urban_flood_suscep),
+            num_plant_life = sum(specCt, na.rm = TRUE),
+            avg_traffic = mean(logtraf))
+head(treeComUpdated)
+
+```
+
+**Pro Tip:** If there are null or NA variables in the census tracts, you won't get a mean value in aggregate. To force an average when some areas may have values (and others remain NA/excluded) add  `na.rm = TRUE`. For example: `mean(trees, na.rm=TRUE)`.
+
+### Question 5
+
+Generate three maps of three different variables at the community area level using `tmap`. Try to work with thoughtful `tmap` parameters including data classification method! 
+Review the lecture notes and the reading materials of Week 3 for this question.  
+
+```{r Question-5}
+
+  ### ADD YOUR CODE HERE ###  
+tm_shape(treeComUpdated) + tm_polygons("avg_traffic", style= "jenks", title = "Average Daily Traffic Counts per Community")
+
+tm_shape(treeComUpdated) + tm_polygons("num_plant_life", style= "quantile", title = "Total Observations of Plant Life per Community")
+
+tm_shape(treeComUpdated) + tm_polygons("percent_asian", style= "equal", title = "Percentage of Asian Population per Community")
+
+
+
+```
+
+---
+
+
+Render your document by clicking on the "Knit" option in RStudio. Upload the .html file to your assignment submission!
+
+.

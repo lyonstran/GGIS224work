@@ -1,0 +1,851 @@
+﻿pointID,SITE  NAME,EIS Facility ID,STATE,State-County,Pollutant,Pollutant Type,Emissions (Tons),Facility Type,Street Address,NAICS,EPA Region,FIPS,Latitude,Longitude
+1,ADM Animal Nutrition,3344211,Illinois,IL - Adams,Lead Compounds,CAP/HAP,0.00001,Unspecified,1000 N 30th St,Other Animal Food Manufacturing,5,17001,39.945335,-91.366239
+2,Prince Agri Products Inc,3345811,Illinois,IL - Adams,Lead Compounds,CAP/HAP,0.00006,Unspecified,4618 Gardner Expy,Other Animal Food Manufacturing,5,17001,39.876164,-91.398272
+3,Prince Minerals Inc,7314711,Illinois,IL - Adams,Lead Compounds,CAP/HAP,0.00256,Unspecified,401 N Prince Plz,Synthetic Dye and Pigment Manufacturing,5,17001,39.895106,-91.409158
+4,Quincy Regional Airport - Baldwin Field,3346911,Illinois,IL - Adams,Lead Compounds,CAP/HAP,0.03723,Airport,1645 Highway 104,Other Airport Operations,5,17001,39.940926,-91.194253
+5,Bunge North America Inc,3347011,Illinois,IL - Alexander,Lead Compounds,CAP/HAP,0.00032,Food Products Processing Plant,203 34th St,Soybean and Other Oilseed Processing,5,17003,37.016051,-89.177772
+6,Cairo Dry Kilns Inc,3362711,Illinois,IL - Alexander,Lead Compounds,CAP/HAP,0.00002,Unspecified,2 Miles N Of Cairo on Hwy 51,Home Centers,5,17003,37.045866,-89.184679
+7,Cairo Regional Airport,2414811,Illinois,IL - Alexander,Lead Compounds,CAP/HAP,0.01921,Airport,Airport Rd,Other Airport Operations,5,17003,37.061442,-89.218335
+8,Carlisle Const Materials Inc,2415411,Illinois,IL - Bond,Lead Compounds,CAP/HAP,0.00002,Unspecified,1825 E Rte 40,All Other Rubber Product Manufacturing,5,17005,38.881977,-89.385079
+9,Greenville Airport,2417211,Illinois,IL - Bond,Lead Compounds,CAP/HAP,0.05075,Airport,Airport Ave,Other Airport Operations,5,17005,38.836042,-89.37644
+10,Greenville Ready Mix,2415511,Illinois,IL - Bond,Lead Compounds,CAP/HAP,0.00001,Concrete Batch Plant,1311 S 4th St,Ready-Mix Concrete Manufacturing,5,17005,38.880582,-89.41527
+11,SpecGx LLC,2415111,Illinois,IL - Bond,Lead Compounds,CAP/HAP,0.00001,Pharmaceutical Manufacturing,100 Louis Latzer Dr,Medicinal and Botanical Manufacturing,5,17005,38.884004,-89.411683
+12,COMPASS ROSE,12465011,Illinois,IL - Boone,Lead Compounds,CAP/HAP,0.00014,Airport,Unknown,Airport Operations,5,17007,42.454895,-88.904708
+13,FCA US LLC,930911,Illinois,IL - Boone,Lead Compounds,CAP/HAP,0.00013,Automobile/Truck or Parts Plant,3000 W Chrysler Dr,Automobile and Light Duty Motor Vehicle Manufacturing,5,17007,42.236391,-88.869135
+14,General Mills Operations Inc,2417311,Illinois,IL - Boone,Lead Compounds,CAP/HAP,0.00001,Unspecified,915 E Pleasant St,Nonchocolate Confectionery Manufacturing,5,17007,42.263405,-88.830783
+15,Poplar Grove Airport,2452711,Illinois,IL - Boone,Lead Compounds,CAP/HAP,0.14914,Airport,11619 Route 76,Other Airport Operations,5,17007,42.320895,-88.836063
+16,US Chrome Corp of Illinois,2452611,Illinois,IL - Boone,Lead Compounds,CAP/HAP,0.00032,Unspecified,305 Herbert Rd,"Electroplating, Plating, Polishing, Anodizing, and Coloring",5,17007,42.156502,-88.775311
+17,Mt Sterling Municipal Airport,2362911,Illinois,IL - Brown,Lead Compounds,CAP/HAP,0.00678,Airport,US 24,Other Airport Operations,5,17009,39.985389,-90.804139
+18,WL Miller Co,2362611,Illinois,IL - Brown,Lead Compounds,CAP/HAP,0,Hot Mix Asphalt Plant,Rt 24 W,Asphalt Paving Mixture and Block Manufacturing,5,17009,39.995888,-90.809411
+19,LCN Closers Division of Schlage Lock Co LLC,559711,Illinois,IL - Bureau,Lead Compounds,CAP/HAP,0.00001,Unspecified,121 W Railroad Ave,Hardware Manufacturing,5,17011,41.386988,-89.467945
+20,McDonald Trucking & Paving Inc,2381911,Illinois,IL - Bureau,Lead Compounds,CAP/HAP,0.00001,Hot Mix Asphalt Plant,28237 2000 E St,Asphalt Paving Mixture and Block Manufacturing,5,17011,41.556662,-89.471979
+21,Monterey Mushrooms Inc,2382211,Illinois,IL - Bureau,Lead Compounds,CAP/HAP,0.00006,Food Products Processing Plant,27268 Rte 6,Mushroom Production,5,17011,41.360565,-89.329196
+22,Hardin Ready Mix Inc,2382911,Illinois,IL - Calhoun,Lead Compounds,CAP/HAP,0.00001,Concrete Batch Plant,Illinois River Rd,Ready-Mix Concrete Manufacturing,5,17013,39.107168,-90.617621
+23,Danisco America Inc,2590111,Illinois,IL - Carroll,Lead Compounds,CAP/HAP,0.00011,Wet Corn Mill,10994 Three Mile Rd,Wet Corn Milling and Starch Manufacturing,5,17015,41.999729,-90.109274
+24,Powerlab Inc,948211,Illinois,IL - Carroll,Lead Compounds,CAP/HAP,0.00132,Unspecified,Powerlab Rd,Synthetic Dye and Pigment Manufacturing,5,17015,42.059357,-90.115801
+25,Tri-Township Airport,1974511,Illinois,IL - Carroll,Lead Compounds,CAP/HAP,0.00904,Airport,8049 State Route 84 S,Other Airport Operations,5,17015,42.045833,-90.107944
+26,Greater Beardstown Airport,1725011,Illinois,IL - Cass,Lead Compounds,CAP/HAP,0.00678,Airport,9487 Airport Rd,Other Airport Operations,5,17017,39.973459,-90.405889
+27,JBS/Swift Pork Co,1974811,Illinois,IL - Cass,Lead Compounds,CAP/HAP,0.00029,Unspecified,8295 Arenzville Rd,Animal (except Poultry) Slaughtering,5,17017,39.99379,-90.404577
+28,Beauty Quest Group,2460011,Illinois,IL - Champaign,Lead Compounds,CAP/HAP,0.00001,Unspecified,205 Shellhouse Dr,Toilet Preparation Manufacturing,5,17019,40.314794,-88.201848
+29,Clifford-Jacobs Forging Co,1913811,Illinois,IL - Champaign,Lead Compounds,CAP/HAP,0.00008,Steel Mill,2410 N Fifth St,Iron and Steel Forging,5,17019,40.144085,-88.230019
+30,Emulsicoat Inc,2275211,Illinois,IL - Champaign,Lead Compounds,CAP/HAP,0.00002,Hot Mix Asphalt Plant,705 E University Ave,Asphalt Paving Mixture and Block Manufacturing,5,17019,40.114952,-88.200447
+31,Frasca Field,1925611,Illinois,IL - Champaign,Lead Compounds,CAP/HAP,0.0339,Airport,1402 E Airport Rd,Other Airport Operations,5,17019,40.145051,-88.200698
+32,Guardian West,2276211,Illinois,IL - Champaign,Lead Compounds,CAP/HAP,0.00006,Unspecified,601 Guardian Dr,Other Motor Vehicle Parts Manufacturing,5,17019,40.118279,-88.185131
+33,Herff Jones Cap & Gown Division,1725311,Illinois,IL - Champaign,Lead Compounds,CAP/HAP,0.00001,Unspecified,1000 N Market St,Cut and Sew Apparel Manufacturing (except Contractors),5,17019,40.125682,-88.237846
+34,JELD-WEN,2459711,Illinois,IL - Champaign,Lead Compounds,CAP/HAP,0.00001,"Woodwork, Furniture, Millwork Manufacturing",201 Evans Rd,Wood Window and Door Manufacturing,5,17019,40.315051,-88.19536
+35,Kraft Heinz Co,7415111,Illinois,IL - Champaign,Lead Compounds,CAP/HAP,0.00018,Food Products Processing Plant,1701 W Bradley Ave,"Dry Pasta, Dough, and Flour Mixes Manufacturing from Purchased Flour",5,17019,40.125922,-88.271951
+36,Meadowbrook Farms Coop,15451011,Illinois,IL - Champaign,Lead Compounds,CAP/HAP,0.00007,Unspecified,205 Turner Dr,Animal (except Poultry) Slaughtering,5,17019,40.314305,-88.211031
+37,Open Road Asphalt Co LLC,2276111,Illinois,IL - Champaign,Lead Compounds,CAP/HAP,0,Hot Mix Asphalt Plant,3004 N Oak St,Asphalt Paving Mixture and Block Manufacturing,5,17019,40.146663,-88.223545
+38,Peoples Gas Light & Coke Co,558811,Illinois,IL - Champaign,Lead Compounds,CAP/HAP,0.00001,Unspecified,230 CR 2800N,Pipeline Transportation of Natural Gas,5,17019,40.2844,-88.4153
+39,Rantoul National Aviation Center - Frank Elliott Field,1925511,Illinois,IL - Champaign,Lead Compounds,CAP/HAP,0.0452,Airport,6 Aviation Center Dr,Other Airport Operations,5,17019,40.294516,-88.140618
+40,Solo Cup Operating Corp,2275411,Illinois,IL - Champaign,Lead Compounds,CAP/HAP,0.00002,Unspecified,1505 E Main St,All Other Plastics Product Manufacturing,5,17019,40.110852,-88.189947
+41,University of Illinois,1725411,Illinois,IL - Champaign,Lead Compounds,CAP/HAP,0.00148,"Institutional (school, hospital, prison, etc.)",354 Administration Building,"Colleges, Universities, and Professional Schools",5,17019,40.104712,-88.242048
+42,Willard Airport,1925711,Illinois,IL - Champaign,Lead Compounds,CAP/HAP,0.06952,Airport,1 Airport Rd,Other Airport Operations,5,17019,40.039881,-88.276254
+43,Ahlstrom-Munksjo Filtration LLC,929011,Illinois,IL - Christian,Lead Compounds,CAP/HAP,0.00006,Pulp and Paper Plant,1200 E Elm St,Paper Mills,5,17021,39.555441,-89.280587
+44,GSI Group LLC,10773411,Illinois,IL - Christian,Lead Compounds,CAP/HAP,0.0005,Unspecified,1004 E Illinois St,All Other Miscellaneous Fabricated Metal Product Manufacturing,5,17021,39.517462,-89.03807
+45,Kincaid Generation LLC,1929211,Illinois,IL - Christian,Lead Compounds,CAP/HAP,0.00779,Electricity Generation via Combustion,4 Mi W Of Kincaid Rte 104,Fossil Fuel Electric Power Generation,5,17021,39.590599,-89.496613
+46,Taylorville Airport,1787711,Illinois,IL - Christian,Lead Compounds,CAP/HAP,0.02017,Airport,1501 S Spresser,Other Airport Operations,5,17021,39.529851,-89.327412
+47,Casey Municipal Airport,1943711,Illinois,IL - Clark,Lead Compounds,CAP/HAP,0.01761,Airport,Airport Rd,Other Airport Operations,5,17023,39.302103,-88.003345
+48,Hoerr's Blacktop & Sealcoating LLC,1942511,Illinois,IL - Clark,Lead Compounds,CAP/HAP,0.00002,Hot Mix Asphalt Plant,16870 N Quality Lime Rd,Asphalt Paving Mixture and Block Manufacturing,5,17023,39.394874,-87.665868
+49,ID Castings of Illinois LLC,1845611,Illinois,IL - Clark,Lead Compounds,CAP/HAP,0.03222,"Foundries, Iron and Steel",147 W Cumberland St,Iron Foundries,5,17023,39.332108,-87.884251
+50,ZF Active Safety & Electronics US LLC,1845511,Illinois,IL - Clark,Lead Compounds,CAP/HAP,0.00131,Unspecified,902 S Second St,Other Motor Vehicle Parts Manufacturing,5,17023,39.383501,-87.699464
+51,Cargill Inc,1944311,Illinois,IL - Clay,Lead Compounds,CAP/HAP,0.00003,Unspecified,6 Industrial Park,Other Animal Food Manufacturing,5,17025,38.672268,-88.469169
+52,Flora Airport,1946211,Illinois,IL - Clay,Lead Compounds,CAP/HAP,0.02172,Airport,1 Airport Rd,Other Airport Operations,5,17025,38.664284,-88.452704
+53,Beelman Ready Mix,1816011,Illinois,IL - Clinton,Lead Compounds,CAP/HAP,0,Concrete Batch Plant,8200 Old US Hwy 50,Ready-Mix Concrete Manufacturing,5,17027,38.610482,-89.549204
+54,Kaskaskia Community College,1816111,Illinois,IL - Clinton,Lead Compounds,CAP/HAP,0.00001,"Institutional (school, hospital, prison, etc.)",27210 College Rd,"Colleges, Universities, and Professional Schools",5,17027,38.563267,-89.190666
+55,Natural Gas Pipeline Co of America,1816411,Illinois,IL - Clinton,Lead Compounds,CAP/HAP,0.00003,Compressor Station,1/4 mile S of Il 161 on Broadway,Pipeline Transportation of Natural Gas,5,17027,38.531149,-89.266177
+56,WG Murray Dev Center,1804511,Illinois,IL - Clinton,Lead Compounds,CAP/HAP,0.03374,"Institutional (school, hospital, prison, etc.)",1535 W McCord St,Psychiatric and Substance Abuse Hospitals,5,17027,38.52845,-89.168373
+57,Bimbo Bakeries USA Inc,2616611,Illinois,IL - Coles,Lead Compounds,CAP/HAP,0.00002,Unspecified,3801 Dewitt Ave,"Frozen Cakes, Pies, and Other Pastries Manufacturing",5,17029,39.488854,-88.406749
+58,Coles County Memorial Airport,2617811,Illinois,IL - Coles,Lead Compounds,CAP/HAP,0.06006,Airport,432 Airport Rd,Other Airport Operations,5,17029,39.477968,-88.279593
+59,JJ Collins Sons Inc,1877711,Illinois,IL - Coles,Lead Compounds,CAP/HAP,0,Printing/Publishing Facility,2351 Madison Ave,Commercial Printing (except Screen and Books),5,17029,39.500193,-88.155752
+60,LSC Communications Inc,931911,Illinois,IL - Coles,Lead Compounds,CAP/HAP,0.00005,Printing/Publishing Facility,6821 E CR 1100N,Commercial Printing (except Screen and Books),5,17029,39.533027,-88.349816
+61,Mars Pet Care US Inc,1962311,Illinois,IL - Coles,Lead Compounds,CAP/HAP,0.00003,Food Products Processing Plant,6565 E CR 1000N,Dog and Cat Food Manufacturing,5,17029,39.522324,-88.353865
+62,122 South Michigan LLC,1896311,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00001,Unspecified,122 S Michigan Ave,Lessors of Nonresidential Buildings (except Miniwarehouses),5,17031,41.879909,-87.624927
+63,135 S LaSalle Property LLC,1764711,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00003,Unspecified,135 S LaSalle St,Commercial Banking,5,17031,41.879789,-87.631675
+64,A Finkl & Sons Co,10798011,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.02156,Unspecified,1355 E 93rd St,Iron and Steel Forging,5,17031,41.726794,-87.590059
+65,A-F Acquisition LLC dba Pullman Innovations,1776811,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00001,Unspecified,2701 E 100th St,Fats and Oils Refining and Blending,5,17031,41.712233,-87.558033
+66,Aallied Die Casting Co of Illinois,1866711,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00065,"Foundries, non-ferrous",3021 Cullerton Dr,Nonferrous Metal Die-Casting Foundries,5,17031,41.93407,-87.891324
+67,Active Biomaterials,14983711,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0,Unspecified,1300 Chase Ave,Medicinal and Botanical Manufacturing,5,17031,42.010176,-87.967285
+68,Advocate Trinity Hospital,2446811,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00002,"Institutional (school, hospital, prison, etc.)",2320 E 93rd St,General Medical and Surgical Hospitals,5,17031,41.726722,-87.567006
+69,Allied Asphalt Paving Co,10894611,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00006,Hot Mix Asphalt Plant,2200 Graham St,Asphalt Paving Mixture and Block Manufacturing,5,17031,42.010568,-88.260634
+70,Allied Asphalt Paving Co,9708511,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00008,Hot Mix Asphalt Plant,10555 Waveland Ave,Asphalt Paving Mixture and Block Manufacturing,5,17031,41.946131,-87.891895
+71,Allied Metal Co,1730311,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.001,Secondary Copper Smelting/Refining Plant,4528 W Division St,"Copper Rolling, Drawing, Extruding, and Alloying",5,17031,41.903133,-87.739426
+72,Allied Tube & Conduit Corp,3337511,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00001,Unspecified,16100 S Lathrop Ave,Iron and Steel Pipe and Tube Manufacturing from Purchased Steel,5,17031,41.595535,-87.642446
+73,Alpha Baking Co Inc,1773611,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00002,Bakeries,5001 W Polk St,Commercial Bakeries,5,17031,41.869491,-87.749807
+74,ALSCO-American Linen Division,4653111,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00001,Dry Cleaner - Petroleum Solvent,2641 S Leavitt St,Industrial Launderers,5,17031,41.843618,-87.679632
+75,Alsip MiniMill LLC,2618311,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00033,Pulp and Paper Plant,13101 S Pulaski Rd,Paper Mills,5,17031,41.654057,-87.716457
+76,Aluminum Coil Anodizing Corp,3355111,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00003,Unspecified,501 E Lake St,"Electroplating, Plating, Polishing, Anodizing, and Coloring",5,17031,42.000068,-88.173674
+77,American Airlines,3152911,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00006,Unspecified,O'Hare International Airport,Scheduled Passenger Air Transportation,5,17031,41.994279,-87.915058
+78,American Bottling Co,17734511,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00004,Food Products Processing Plant,401 N Railroad Ave,Soft Drink Manufacturing,5,17031,41.915759,-87.911997
+79,American Sugar Refining Inc,1746711,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00002,Unspecified,2905 S Western Ave,All Other Miscellaneous Food Manufacturing,5,17031,41.839134,-87.683048
+80,American Sweetener Corp,2306311,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00002,Sugar Mill,2400 E 130th St,Cane Sugar Manufacturing,5,17031,41.661905,-87.567245
+81,American Zinc Recycling Corp,7337011,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.11486,"Secondary Non-ferrous Metal Smelting/Refining Plant (not Lead, Aluminum, or Copper)",2701 E 114th St,"Secondary Smelting, Refining, and Alloying of Nonferrous Metal (except Copper and Aluminum)",5,17031,41.687645,-87.554445
+82,Amitron Corp,8313411,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00232,Unspecified,2001 Landmeier Rd,Bare Printed Circuit Board Manufacturing,5,17031,42.009722,-87.952668
+83,Ampel Inc,2649611,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00022,Unspecified,925 Estes Ave.,Bare Printed Circuit Board Manufacturing,5,17031,42.00194,-87.98166
+84,Ann & Robert H Lurie Childrens Hospital of Chicago,14984411,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0,Unspecified,225 E Chicago Ave,General Medical and Surgical Hospitals,5,17031,41.896447,-87.621517
+85,Aramark Uniform & Career Apparel,9721911,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00003,Dry Cleaner - Petroleum Solvent,4200 S Halsted St,Industrial Launderers,5,17031,41.816865,-87.646985
+86,Ardagh Glass Inc,7335811,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.219,Glass Plant,13850 Cottage Grove Ave,Glass Container Manufacturing,5,17031,41.642307,-87.600021
+87,ARYZTA LLC,2749111,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00002,Bakeries,111 Northwest Ave,Commercial Bakeries,5,17031,41.909464,-87.917622
+88,Ashland LLC,929611,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00004,"Plastic, Resin, Rubber or Syn Fiber Manuf Plant",14303 Paxton Ave,Plastics Material and Resin Manufacturing,5,17031,41.637025,-87.567324
+89,Asphalt Operating Services,9723411,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00001,Unspecified,651 Comiskey Rd,Other Warehousing and Storage,5,17031,42.010411,-88.25586
+90,Atlas Tube Inc,3203711,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.0005,Unspecified,1855 E 122nd St,Iron and Steel Pipe and Tube Manufacturing from Purchased Steel,5,17031,41.671655,-87.578045
+91,B&B Pullman Properties Inc,9718411,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0,Unspecified,700 E 107th St,Meat and Meat Product Merchant Wholesalers,5,17031,41.700529,-87.604087
+92,Bagcraft Packaging LLC,1729911,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00001,"Plastic, Resin, Rubber or Syn Fiber Manuf Plant",3900 W 43rd St,Paper Bag and Coated and Treated Paper Manufacturing,5,17031,41.81566,-87.720989
+93,Blommer Chocolate Co,1755911,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00007,Food Products Processing Plant,600 W Kinzie St,Chocolate and Confectionery Manufacturing from Cacao Beans,5,17031,41.889413,-87.643653
+94,Bluewater Thermal Solutions,2265411,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00002,Unspecified,5400 W Lake St,Metal Heat Treating,5,17031,41.899638,-87.899166
+95,BNSF Railway Co,16785411,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00006,Unspecified,3611 W 38th St,Short Line Railroads,5,17031,41.816133,-87.715054
+96,BorgWarner Transmission Products LLC,2293811,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00004,Unspecified,700 25th Ave,Other Motor Vehicle Parts Manufacturing,5,17031,41.880436,-87.865316
+97,BWAY Corp,1730011,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00006,Fabricated Metal Products Plant,3200 S Kilbourn,Metal Can Manufacturing,5,17031,41.8349,-87.737591
+98,Calumet Brass Foundry Inc,1917511,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.033,"Foundries, non-ferrous",14610 Lakeside Ave,Other Nonferrous Metal Foundries (except Die-Casting),5,17031,41.629145,-87.611213
+99,Calumet Refining LLC,1761911,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00001,Unspecified,13921 Mackinaw Ave,Petroleum Lubricating Oil and Grease Manufacturing,5,17031,41.640553,-87.542623
+100,Campagna-Turano Bakery Inc,2431311,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00004,Bakeries,6501 W Roosevelt Rd,Commercial Bakeries,5,17031,41.86501,-87.786474
+101,Carbit Paint Co,1897111,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0,Unspecified,927 W Blackhawk St,Paint and Coating Manufacturing,5,17031,41.907493,-87.651854
+102,Cargill Inc,3359411,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00006,Unspecified,12201 S Torrence,All Other Basic Organic Chemical Manufacturing,5,17031,41.676227,-87.555765
+103,Carl Buddig & Co,3353411,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00005,Food Products Processing Plant,50 Taft Dr W,Meat Processed from Carcasses,5,17031,41.59484,-87.619682
+104,Carl Sandburg High School,1863211,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00001,"Institutional (school, hospital, prison, etc.)",13100 S LaGrange Rd,Elementary and Secondary Schools,5,17031,41.649536,-87.855478
+105,Chicago - Dept of Aviation,1756611,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00019,Unspecified,O'Hare International Airport,Other Airport Operations,5,17031,41.979201,-87.89832
+106,Chicago American Manufacturing LLC,2782311,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00001,Unspecified,4500 W 47th St,All Other Miscellaneous Fabricated Metal Product Manufacturing,5,17031,41.808322,-87.735834
+107,Chicago Dowel Co Inc,1746611,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0,Unspecified,4700 W Grand Ave,All Other Miscellaneous Manufacturing,5,17031,41.913252,-87.743512
+108,Chicago Extruded Metals Co,1931211,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00516,Fabricated Metal Products Plant,1601 S 54th Ave,"Copper Rolling, Drawing, Extruding, and Alloying",5,17031,41.857065,-87.757981
+109,Chicago Midway International Airport,2726111,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.05311,Airport,5700 S Cicero,Other Airport Operations,5,17031,41.785,-87.7519
+110,Chicago O'Hare International Airport,2681611,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.07696,Airport,10000 Bessie Coleman Dr,Other Airport Operations,5,17031,41.9772,-87.9044
+111,Chicago State University,1769611,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00003,"Institutional (school, hospital, prison, etc.)",9501 S Martin Luther King Dr,"Colleges, Universities, and Professional Schools",5,17031,41.716714,-87.607025
+112,Chicago Transit Authority,4652011,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00002,Unspecified,358 S Kedzie,Bus and Other Motor Vehicle Transit Systems,5,17031,41.876389,-87.707287
+113,Chicago Transit Authority,4651911,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00002,Unspecified,642 N Pulaski Rd,Bus and Other Motor Vehicle Transit Systems,5,17031,41.892717,-87.730581
+114,Chicago Transit Authority,4651711,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00002,Unspecified,1702 E 103rd St,Bus and Other Motor Vehicle Transit Systems,5,17031,41.709869,-87.581501
+115,Chicago Transit Authority,4652111,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00001,Unspecified,3112 W Foster Ave,Regulation and Administration of Transportation Programs,5,17031,41.976126,-87.706996
+116,Chicago Transit Authority,2781711,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00002,Unspecified,3701 W Oakton St,Regulation and Administration of Transportation Programs,5,17031,42.025024,-87.721507
+117,Chicago Transit Authority,3214211,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0,Unspecified,3900 W Maypole Ave,Regulation and Administration of Transportation Programs,5,17031,41.884628,-87.723957
+118,Chicago Transit Authority,4652211,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00005,Unspecified,7801 S Vincennes Ave,Bus and Other Motor Vehicle Transit Systems,5,17031,41.753155,-87.63148
+119,Chromium Industries LLC,7315511,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00001,Unspecified,4645 W Chicago Ave,"Electroplating, Plating, Polishing, Anodizing, and Coloring",5,17031,41.894743,-87.742859
+120,Cintas Corp,2645811,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00001,Dry Cleaner - Petroleum Solvent,1025 National Pkwy,Industrial Launderers,5,17031,42.054592,-88.051586
+121,Cintas Corp,9706711,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00001,Dry Cleaner - Petroleum Solvent,1201 W St Charles Rd,Industrial Launderers,5,17031,41.888594,-87.847719
+122,Cintas Corp,3211011,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0,Dry Cleaner - Petroleum Solvent,8201 S Cork Ave,Industrial Launderers,5,17031,41.742539,-87.837313
+123,CITGO Petroleum Corp,1931611,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00002,Unspecified,3737 S Cicero Ave,Petroleum Lubricating Oil and Grease Manufacturing,5,17031,41.823301,-87.742179
+124,Clear Channel Outdoor,3201611,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0,Printing/Publishing Facility,4000 S Morgan St,Commercial Screen Printing,5,17031,41.820542,-87.651516
+125,Cleveland-Cliffs Riverdale LLC,10692111,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.0491,Steel Mill,13500 S Perry Ave,Iron and Steel Mills and Ferroalloy Manufacturing,5,17031,41.656474,-87.625847
+126,Coca Cola Refreshments USA Inc,2385011,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00007,Food Products Processing Plant,7400 N Oak Park Ave,Soft Drink Manufacturing,5,17031,42.016187,-87.795561
+127,Color Communications LLC,1897211,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00003,Printing/Publishing Facility,4000 W Fillmore St,Paper Bag and Coated and Treated Paper Manufacturing,5,17031,41.868239,-87.728874
+128,Contanda Terminals,3210911,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0,Unspecified,13550 S Indiana Ave,Other Warehousing and Storage,5,17031,41.64938,-87.619177
+129,Cook County c/o MB Real Estate,10797411,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00001,Unspecified,69 W Washington St,Other General Government Support,5,17031,41.882915,-87.630027
+130,Corrugated Supplies Co LLC,2293611,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00006,Unspecified,5043 W 67th St,Corrugated and Solid Fiber Box Manufacturing,5,17031,41.770355,-87.746941
+131,Cosmic Ventures LLC,16900611,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0,Unspecified,2299 Busse Rd,Custom Computer Programming Services,5,17031,41.993917,-87.957702
+132,Daubert Chemical Co,7334711,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00002,Chemical Plant,4700 S Central Ave,Adhesive Manufacturing,5,17031,41.808214,-87.763735
+133,Deluxe Manufacturing Operations Inc,1832611,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0,Printing/Publishing Facility,1600 E Touhy Ave,Commercial Printing (except Screen and Books),5,17031,42.010917,-87.88437
+134,Domestic Linen Supply Co,1754911,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00001,Dry Cleaner - Petroleum Solvent,4131 N Ravenswood Ave,Linen Supply,5,17031,41.95714,-87.673419
+135,Ed Miniat LLC,3354611,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00005,Food Products Processing Plant,16250 Vincennes Rd,Meat Processed from Carcasses,5,17031,41.59825,-87.629014
+136,Elkay Plumbing Products Co,1759511,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00001,Unspecified,2700 S 17th Ave,All Other Miscellaneous Fabricated Metal Product Manufacturing,5,17031,41.854223,-87.853941
+137,Envirite of Illinois Inc,3337711,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00167,Unspecified,16435 S Center Ave,Hazardous Waste Treatment and Disposal,5,17031,41.590415,-87.644746
+138,Ester Solutions,8189311,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00002,Chemical Plant,5851 W 73rd St,All Other Miscellaneous Chemical Product and Preparation Manufacturing,5,17031,41.758689,-87.767414
+139,Evans Food Products Co,3229711,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00008,Food Products Processing Plant,4118 S Halsted St,Other Snack Food Manufacturing,5,17031,41.81954,-87.646573
+140,Evanston Hospital,7299411,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0,"Institutional (school, hospital, prison, etc.)",2650 Ridge Ave,General Medical and Surgical Hospitals,5,17031,42.066159,-87.68442
+141,ExxonMobil Oil Corporation,1931911,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00004,Unspecified,3801 S Cicero Ave,Petroleum Bulk Stations and Terminals,5,17031,41.823232,-87.740116
+142,Fareva Morton Grove Inc,2268411,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00003,Unspecified,6901 Golf Rd,Soap and Other Detergent Manufacturing,5,17031,42.053999,-87.797363
+143,Federal-Mogul Corp,1881911,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0,Printing/Publishing Facility,7450 N McCormick Blvd,"Gasket, Packing, and Sealing Device Manufacturing",5,17031,42.015981,-87.713
+144,Ferrara Candy Co,3200911,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00003,Unspecified,2945 W 31st St,Confectionery Manufacturing from Purchased Chocolate,5,17031,41.836093,-87.699054
+145,Ferrara Candy Co,2295511,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00004,Unspecified,3000 W Washington Blvd,Confectionery Manufacturing from Purchased Chocolate,5,17031,41.880416,-87.870086
+146,Fervalue USA Inc,1865211,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00007,Unspecified,3401 Mount Prospect Rd,Confectionery Manufacturing from Purchased Chocolate,5,17031,41.93786,-87.917964
+147,Fisk Electric Generating Station,1731811,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00006,Electricity Generation via Combustion,1111 W Cermak Rd,Fossil Fuel Electric Power Generation,5,17031,41.8508,-87.6533
+148,Fluid Handling LLC,2268711,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.0005,Unspecified,8200 Austin Ave,"Measuring, Dispensing, and Other Pumping Equipment Manufacturing",5,17031,42.028861,-87.778432
+149,Fontanini Foods LLC,10782511,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00008,Unspecified,8751 W 50th St,Meat Processed from Carcasses,5,17031,41.799274,-87.837744
+150,Ford Motor Co,5413411,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00005,Automobile/Truck or Parts Plant,1000 E Lincoln Hwy,Motor Vehicle Metal Stamping,5,17031,41.503522,-87.601409
+151,Ford Motor Co,7317011,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00025,Automobile/Truck or Parts Plant,12600 S Torrence Ave,Automobile and Light Duty Motor Vehicle Manufacturing,5,17031,41.663722,-87.561409
+152,Fresenius Kabi USA LLC,2266111,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00003,Pharmaceutical Manufacturing,2020 N Ruby St,Pharmaceutical Preparation Manufacturing,5,17031,41.912311,-87.870362
+153,Fuchs Lubricants Co,3338511,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00002,Unspecified,17050 Lathrop Ave,Petroleum Lubricating Oil and Grease Manufacturing,5,17031,41.58044,-87.642526
+154,GCP Applied Technologies,17933711,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0,Unspecified,6050 W 51st St,All Other Miscellaneous Chemical Product and Preparation Manufacturing,5,17031,41.800752,-87.773466
+155,GCP Applied Technologies Inc,2336511,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00001,Chemical Plant,6051 W 65th St,All Other Miscellaneous Chemical Product and Preparation Manufacturing,5,17031,41.773446,-87.773904
+156,Gelita USA Inc,929711,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00009,Chemical Plant,10 Wentworth Ave,All Other Miscellaneous Chemical Product and Preparation Manufacturing,5,17031,41.626625,-87.530043
+157,General III LLC,18948311,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00007,Unspecified,11600 S Burley Ave,Recyclable Material Merchant Wholesalers,5,17031,41.684417,-87.548552
+158,General Services Administration,1949511,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00004,Unspecified,219 S Dearborn,Lessors of Nonresidential Buildings (except Miniwarehouses),5,17031,41.878723,-87.628852
+159,Glenbrook Hospital,2308611,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0,"Institutional (school, hospital, prison, etc.)",2100 Pfingsten Rd,General Medical and Surgical Hospitals,5,17031,42.093526,-87.852795
+160,Gold Eagle Co,2665411,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00001,Unspecified,4400 S Kildare Ave,Petroleum Lubricating Oil and Grease Manufacturing,5,17031,41.813463,-87.733954
+161,Griffith Foods Inc,7321311,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0,Unspecified,12200 S Central Ave,All Other Miscellaneous Food Manufacturing,5,17031,41.672193,-87.760052
+162,H Kramer & Co,1730711,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00249,Secondary Copper Smelting/Refining Plant,1339 W 21st St,"Copper Rolling, Drawing, Extruding, and Alloying",5,17031,41.85386,-87.659974
+163,Heritage Asphalt LLC,3354911,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00001,Unspecified,4950 W 41st St,Petroleum Bulk Stations and Terminals,5,17031,41.818025,-87.745697
+164,Hidden Valley Mfg-Wheeling,10791711,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00004,Unspecified,1197 Willis Ave,Fruit and Vegetable Canning,5,17031,42.11909,-87.92128
+165,Holcim (US) Inc,1778711,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00013,Unspecified,2150 E 130th St,Other Nonmetallic Mineral Mining and Quarrying,5,17031,41.659995,-87.570645
+166,Hood Container Corp,2751211,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00002,Unspecified,4800 S Austin,Corrugated and Solid Fiber Box Manufacturing,5,17031,41.804576,-87.774658
+167,Horween Leather Co,1773811,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00002,Unspecified,2015 N Elston Ave,Leather and Hide Tanning and Finishing,5,17031,41.918727,-87.667429
+168,Humboldt Park Health,1848911,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0,"Institutional (school, hospital, prison, etc.)",1044 N Francisco Ave,General Medical and Surgical Hospitals,5,17031,41.900726,-87.699998
+169,Imperial Zinc Corp,7300511,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.0005,Secondary Copper Smelting/Refining Plant,1031 E 103rd St,"Copper Rolling, Drawing, Extruding, and Alloying",5,17031,41.70676,-87.597904
+170,IMTT - Lemont,2646411,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00004,Unspecified,13589 Main St,Other Warehousing and Storage,5,17031,41.692782,-87.951101
+171,Indium Corp of America,10789111,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00307,Fabricated Metal Products Plant,80 N Scott St,"Nonferrous Metal (except Copper and Aluminum) Rolling, Drawing, and Extruding",5,17031,42.028725,-87.976912
+172,Industrial Council of Northwest Chicago,3214111,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0,Unspecified,2023 W Carroll Ste 280,Lessors of Nonresidential Buildings (except Miniwarehouses),5,17031,41.887394,-87.677922
+173,Industrial Motion Control LLC,3392511,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0,Unspecified,1444 S Wolf Rd,All Other Miscellaneous Fabricated Metal Product Manufacturing,5,17031,42.105987,-87.911169
+174,Ingredion Inc,946411,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.21322,Wet Corn Mill,6400 S Archer Ave,Wet Corn Milling and Starch Manufacturing,5,17031,41.775132,-87.822356
+175,Inland Die Casting Inc,3392211,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.0015,"Foundries, non-ferrous",161 Carpenter Ave,Nonferrous Metal Die-Casting Foundries,5,17031,42.129695,-87.921525
+176,Innophos Inc,7315311,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00006,Unspecified,612 E 138th St,Other Basic Inorganic Chemical Manufacturing,5,17031,41.646323,-87.607217
+177,Innophos Inc,1762811,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00005,Unspecified,1101 Arnold St,Synthetic Dye and Pigment Manufacturing,5,17031,41.51217,-87.618873
+178,International Paper Co,1831711,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00004,Unspecified,100 E Oakton St,Corrugated and Solid Fiber Box Manufacturing,5,17031,42.024269,-87.917267
+179,International Paper Co,2748411,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0,Unspecified,401 Northwest Ave,Corrugated and Solid Fiber Box Manufacturing,5,17031,41.911902,-87.917458
+180,International Paper Co,2293511,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00002,Unspecified,5300 W 73rd St,Corrugated and Solid Fiber Box Manufacturing,5,17031,41.761324,-87.754994
+181,James Walker Mfg Co,2309311,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.0015,Unspecified,511 W 195th St,"Gasket, Packing, and Sealing Device Manufacturing",5,17031,41.535838,-87.628956
+182,John Crane Inc,2268311,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00001,Unspecified,6400 Oakton St,"Gasket, Packing, and Sealing Device Manufacturing",5,17031,42.028478,-87.787019
+183,John H Stroger Jr Hospital of Cook Co,1894911,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00002,"Institutional (school, hospital, prison, etc.)",1901 W Harrison St,General Medical and Surgical Hospitals,5,17031,41.872269,-87.674297
+184,KA Steel Chemicals Inc,3212711,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00001,Chemical Plant,15185 Main St,Other Basic Inorganic Chemical Manufacturing,5,17031,41.680941,-87.989859
+185,Kappa Products Corp,1768811,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00001,Food Products Processing Plant,1301 E 99th St,Soybean and Other Oilseed Processing,5,17031,41.714535,-87.592047
+186,Keystone Bar Products Inc,10927811,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00637,Steel Mill,317 E 11th St,Iron and Steel Mills and Ferroalloy Manufacturing,5,17031,41.513201,-87.621295
+187,Kinder Morgan Liquid Terminals LP,559511,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00003,Unspecified,8500 W 68th St,Other Warehousing and Storage,5,17031,41.767962,-87.831849
+188,Kinder Morgan Liquids Terminals LLC,8188911,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00003,Unspecified,12200 S Stony Island Ave,Other Warehousing and Storage,5,17031,41.668445,-87.581256
+189,Koppers Inc,8137811,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00011,Chemical Plant,3900 S Laramie Ave,Synthetic Dye and Pigment Manufacturing,5,17031,41.820499,-87.750807
+190,Kraft Heinz Foods Co,2308811,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00003,Unspecified,801 Waukegan Rd,Research and Development in Nanotechnology,5,17031,42.069108,-87.797857
+191,Kropp Forge,1931411,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00006,Industrial Machinery or Equipment Plant,5301 W Roosevelt Rd,Machine Tool Manufacturing,5,17031,41.864242,-87.758257
+192,Lake Book Mfg,16566811,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0,Unspecified,2085 Cornell Ave,Support Activities for Printing,5,17031,41.913967,-87.875
+193,Lakeside Lithography LLC,2753011,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0,Printing/Publishing Facility,1600 S Laflin St,Commercial Printing (except Screen and Books),5,17031,41.859414,-87.664665
+194,Land-o-Frost Inc,3212111,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00002,Unspecified,16850 Chicago Ave,Animal (except Poultry) Slaughtering,5,17031,41.588555,-87.545146
+195,Lansing Municipal Airport,2752411,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.12462,Airport,194th And Burnham,Other Airport Operations,5,17031,41.539867,-87.527626
+196,Lawrence Foods Inc,2716811,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00001,Unspecified,2200 Lunt Ave,All Other Miscellaneous Food Manufacturing,5,17031,42.002749,-87.947667
+197,Light Logic of IL dba Framburg,7313711,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00009,Unspecified,941 Cernan Dr,Residential Electric Lighting Fixture Manufacturing,5,17031,41.875074,-87.867444
+198,Loyola University Medical Center,7333511,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00016,"Institutional (school, hospital, prison, etc.)",2160 S 1st Ave,"Colleges, Universities, and Professional Schools",5,17031,41.856893,-87.837549
+199,Macy's North,1764811,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00002,Unspecified,111 N State St,Warehouse Clubs and Supercenters,5,17031,41.883902,-87.627038
+200,Madden Mental Health Center,2648311,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00002,Unspecified,1200 S 1st Ave,Lessors of Nonresidential Buildings (except Miniwarehouses),5,17031,41.863461,-87.836058
+201,Marriott Motor Hotel,1772611,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00001,Unspecified,8535 W Higgins Rd,Hotels (except Casino Hotels) and Motels,5,17031,41.9853,-87.842063
+202,Mars Wrigley Confectionery US LLC,3203311,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00005,Unspecified,2019 N Oak Park Ave,Confectionery Manufacturing from Purchased Chocolate,5,17031,41.917251,-87.793459
+203,Marvel Group Inc,1773211,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00001,Unspecified,3843 W 43rd St,Office Furniture (except Wood) Manufacturing,5,17031,41.814691,-87.720191
+204,Material Sciences Corp,7316911,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00001,Unspecified,2300 E Pratt Blvd,"Metal Coating, Engraving (except Jewelry and Silverware), and Allied Services to Manufacturers",5,17031,41.99945,-87.945815
+205,Menasha Packaging Co LLC,3340711,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00001,Unspecified,4545 W Palmer St,All Other Industrial Machinery Manufacturing,5,17031,41.920188,-87.74073
+206,Merchandise Mart Properties Inc,1765011,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00003,Unspecified,222 Merchandise Mart Plaza,Lessors of Nonresidential Buildings (except Miniwarehouses),5,17031,41.88869,-87.636174
+207,Methodist Hospital,1849111,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00003,"Institutional (school, hospital, prison, etc.)",5025 N Paulina St,General Medical and Surgical Hospitals,5,17031,41.972854,-87.670412
+208,Metra,2782211,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00002,Unspecified,147 W 47th St,Short Line Railroads,5,17031,41.805735,-87.630285
+209,Metropolitan Biosolids Management,10927911,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00003,Unspecified,6001 W Pershing Rd,Sewage Treatment Facilities,5,17031,41.817046,-87.764088
+210,Metropolitan Pier & Exposition Authority,3359611,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00002,Unspecified,600 E Grand Ave,All Other Amusement and Recreation Industries,5,17031,41.891803,-87.604152
+211,Metropolitan Pier & Exposition Authority,3357911,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00014,Steam/Heating Facility,2211 S Dr Martin Luther King Dr,Convention and Trade Show Organizers,5,17031,41.852748,-87.617842
+212,Metropolitan W R D of Greater Chicago,2734511,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00001,Wastewater Treatment Facility,1200 E Sycamore Ave,Sewage Treatment Facilities,5,17031,42.000228,-88.13813
+213,Metropolitan Water Reclamation,1770511,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00003,Wastewater Treatment Facility,400 E 130th St,Sewage Treatment Facilities,5,17031,41.665278,-87.607855
+214,Metropolitan Water Reclamation District,1892911,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00001,Wastewater Treatment Facility,3500 W Howard St,Sewage Treatment Facilities,5,17031,42.020201,-87.717059
+215,Meyer Steel Drum Inc,1732311,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00004,Unspecified,3201 S Millard,Electronic and Precision Equipment Repair and Maintenance,5,17031,41.834119,-87.715211
+216,Midwestern Rust Proof Inc,7298611,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00001,Unspecified,3636 N Kilbourn Ave,"Electroplating, Plating, Polishing, Anodizing, and Coloring",5,17031,41.947532,-87.740558
+217,Mondelez Global LLC,3201211,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00005,Unspecified,7300 S Kedzie Ave,Cookie and Cracker Manufacturing,5,17031,41.758892,-87.705313
+218,Motorola Solutions Inc,2631711,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00001,Unspecified,2000 Progress Pkwy,Telephone Apparatus Manufacturing,5,17031,42.066136,-88.049142
+219,MWRDGC-Egan Wrp,2648911,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00004,Wastewater Treatment Facility,550 S Meacham,Sewage Treatment Facilities,5,17031,42.018531,-88.038315
+220,Nalco Production LLC,930511,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00014,Chemical Plant,6216 W 66th Pl,All Other Miscellaneous Chemical Product and Preparation Manufacturing,5,17031,41.771348,-87.777899
+221,National Technology Inc,7315111,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00094,Unspecified,1101 Carnegie St,Bare Printed Circuit Board Manufacturing,5,17031,42.098586,-88.028651
+222,Navistar Inc,2288411,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00001,Unspecified,10400 W North Ave,Other Engine Equipment Manufacturing,5,17031,41.910625,-87.879982
+223,Naylor Pipe Co,1733511,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00002,Unspecified,1230 E 92nd St,Iron and Steel Pipe and Tube Manufacturing from Purchased Steel,5,17031,41.728339,-87.593124
+224,Nelsen Steel & Wire Co Inc,1865711,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.0045,Unspecified,9400 W Belmont Ave,Rolled Steel Shape Manufacturing,5,17031,41.938961,-87.861662
+225,Nobert Plating Co,7322311,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00216,Unspecified,1445 N Pulaski Rd,"Electroplating, Plating, Polishing, Anodizing, and Coloring",5,17031,41.907406,-87.726075
+226,Northwestern University,1948711,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00001,"Institutional (school, hospital, prison, etc.)",2020 Ridge Ave,"Colleges, Universities, and Professional Schools",5,17031,42.054816,-87.674477
+227,Nufarm Americas Inc,7414211,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00002,Unspecified,220 E 17th St,Pesticide and Other Agricultural Chemical Manufacturing,5,17031,41.500125,-87.627543
+228,OSI Industries LLC,1755211,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00003,Unspecified,4201 S Ashland Ave,Frozen Specialty Food Manufacturing,5,17031,41.81767,-87.663604
+229,OSI Industries LLC,2750911,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00006,Unspecified,4900 S Major Ave,Animal (except Poultry) Slaughtering,5,17031,41.803123,-87.765453
+230,Owens-Corning Corp,559311,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.03373,Hot Mix Asphalt Plant,5824 S Archer Rd,Asphalt Shingle and Coating Materials Manufacturing,5,17031,41.784732,-87.818156
+231,Packaging Corporation of America DBA PCA-Chicago Container,16801611,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00004,Unspecified,5445 W 73rd St,Corrugated and Solid Fiber Box Manufacturing,5,17031,41.758199,-87.757562
+232,Pal-Waukee,2649411,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.14994,Airport,1020 S Plant Rd,Other Airport Operations,5,17031,42.113296,-87.901882
+233,Peoples Gas Light & Coke Co,1778611,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0,Unspecified,1241 W Division St,Natural Gas Distribution,5,17031,41.902322,-87.658172
+234,Peoples Gas Light & Coke Co,1748111,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00001,Unspecified,3200 E 98th St,Natural Gas Distribution,5,17031,41.717837,-87.546645
+235,Peoples Gas Light & Coke Co,1776411,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00001,Unspecified,3625 W 73rd St,Natural Gas Distribution,5,17031,41.760137,-87.713709
+236,Pepsi-Cola General Bottlers Inc,1748011,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00002,Food Products Processing Plant,650 W 51st St,Soft Drink Manufacturing,5,17031,41.802898,-87.641863
+237,Perfection Plating Inc,3979911,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00001,Unspecified,775 Morse Ave,"Electroplating, Plating, Polishing, Anodizing, and Coloring",5,17031,41.999403,-87.976383
+238,Perfection Plating Inc,15469111,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00001,Unspecified,1521 Morse Ave,"Electroplating, Plating, Polishing, Anodizing, and Coloring",5,17031,41.999521,-87.96238
+239,Perkins Products Inc,2278311,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00007,Unspecified,7025 W 66th Pl,Petroleum Lubricating Oil and Grease Manufacturing,5,17031,41.770895,-87.796867
+240,Polychem Services Inc,1930611,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00002,Unspecified,374 E Joe Orr Rd,Paint and Coating Manufacturing,5,17031,41.515617,-87.62395
+241,Precision Plating Co,1909211,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00185,Unspecified,4123 W Peterson Ave,"Electroplating, Plating, Polishing, Anodizing, and Coloring",5,17031,41.989711,-87.732618
+242,Presence Resurrection Medical Center,1895911,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0,"Institutional (school, hospital, prison, etc.)",7435 W Talcott Ave,General Medical and Surgical Hospitals,5,17031,41.986355,-87.814988
+243,Primrose Candy Factory,2561811,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00002,Unspecified,4111 W Parker Ave,Confectionery Manufacturing from Purchased Chocolate,5,17031,41.930519,-87.729949
+244,Progress Rail Locomotive Inc,2453611,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00005,Steam/Heating Facility,9301 W 55th St,Steam and Air-Conditioning Supply,5,17031,41.79472,-87.844441
+245,PVS Chemical Solutions Inc,1731411,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0,Chemical Plant,12260 S Carondolet Ave,Synthetic Dye and Pigment Manufacturing,5,17031,41.672212,-87.551584
+246,QTG Development Inc-Pepsico,2714911,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00002,Unspecified,617 W Main St,Research and Development in Nanotechnology,5,17031,42.152526,-88.14765
+247,Quality Snack Foods Inc,14591511,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00003,Unspecified,3750 W 131st St,Other Snack Food Manufacturing,5,17031,41.655362,-87.714753
+248,Real Alloy Recycling LLC,7322411,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.001,Secondary Copper Smelting/Refining Plant,400 E Lincoln Hwy,Secondary Smelting and Alloying of Aluminum,5,17031,41.505176,-87.617121
+249,Regina Dominican High School,1759211,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00001,"Institutional (school, hospital, prison, etc.)",701 Locust Rd,Elementary and Secondary Schools,5,17031,42.075369,-87.744561
+250,Reliable Plating Corp,7336911,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00001,Unspecified,1538 W Lake St,"Electroplating, Plating, Polishing, Anodizing, and Coloring",5,17031,41.885676,-87.66606
+251,Rich Products - Niles,4828811,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00001,Unspecified,6200 Mulford St,All Other Miscellaneous Food Manufacturing,5,17031,42.023228,-87.781988
+252,RML Specialty Hospital,2735011,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00001,"Institutional (school, hospital, prison, etc.)",5601 S County Line Rd,General Medical and Surgical Hospitals,5,17031,41.78612,-87.915486
+253,Roosevelt University,1949411,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0,"Institutional (school, hospital, prison, etc.)",425 S Wabash Ave,"Colleges, Universities, and Professional Schools",5,17031,41.876392,-87.625162
+254,Royal Continental Box Co,1932111,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0,Unspecified,1301 S 47th Ave,Corrugated and Solid Fiber Box Manufacturing,5,17031,41.863642,-87.74106
+255,S & C Electric Co,3204011,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00005,Unspecified,6601 N Ridge Blvd,Switchgear and Switchboard Apparatus Manufacturing,5,17031,42.002313,-87.676617
+256,Safety-Kleen Systems Inc,1917811,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00005,Unspecified,633 E 138th St,All Other Business Support Services,5,17031,41.6426,-87.605855
+257,Saint Anthony Hospital,1849811,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0,"Institutional (school, hospital, prison, etc.)",2875 W 19th St,General Medical and Surgical Hospitals,5,17031,41.854994,-87.698038
+258,Saporito Finishing Co,8300411,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00002,Unspecified,3119 S Austin Blvd,"Electroplating, Plating, Polishing, Anodizing, and Coloring",5,17031,41.835226,-87.772721
+259,Schaumburg Municipal Helistop,9715111,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00181,Airport,Unknown,Airport Operations,5,17031,42.047786,-88.052649
+260,Senior Flexonics,2715211,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00001,Unspecified,300 E Devon Ave,All Other Miscellaneous Fabricated Metal Product Manufacturing,5,17031,41.989528,-88.178374
+261,Sherwin-Williams Co,1731011,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00005,Unspecified,11700 S Cottage Grove,Paint and Coating Manufacturing,5,17031,41.681245,-87.608389
+262,Siemens Medical Solutions USA Inc,3210811,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0,Unspecified,2501 N Barrington Rd,Surgical and Medical Instrument Manufacturing,5,17031,42.070827,-88.138675
+263,Signode Industrial Group LLC,2308311,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00002,Unspecified,3620 W Lake Ave,Rolled Steel Shape Manufacturing,5,17031,42.089695,-87.845798
+264,Signode-Bridgeview,2551411,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.3165,Fabricated Metal Products Plant,7701 W 71st St,All Other Miscellaneous Fabricated Metal Product Manufacturing,5,17031,41.761432,-87.812356
+265,Sims Recycling Solutions,7314311,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00035,Secondary Copper Smelting/Refining Plant,3700 N Runge Ave,"Copper Rolling, Drawing, Extruding, and Alloying",5,17031,41.944858,-87.911035
+266,Sipi Metals Corp,1732511,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.01149,Secondary Copper Smelting/Refining Plant,1720 N Elston Ave,"Copper Rolling, Drawing, Extruding, and Alloying",5,17031,41.913364,-87.664551
+267,Skokie ISTP LLC,8188211,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00004,Pharmaceutical Manufacturing,4901 Searle Pkwy,Pharmaceutical Preparation Manufacturing,5,17031,42.028064,-87.750291
+268,Skyline Management Group,9719011,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00004,Steam/Heating Facility,5833 S Cicero Ave,Steam and Air-Conditioning Supply,5,17031,41.787095,-87.740532
+269,Sloan Valve Co,2301511,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.0002,Unspecified,10500 Seymour Ave,Plumbing Fixture Fitting and Trim Manufacturing,5,17031,41.952104,-87.889212
+270,Solo Cup Operating Corp,1731311,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00002,"Plastic, Resin, Rubber or Syn Fiber Manuf Plant",7575 S Kostner Ave,Unlaminated Plastics Profile Shape Manufacturing,5,17031,41.756984,-87.730372
+271,Solvay USA Inc,7313811,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00002,Unspecified,14000 S Seeley Ave,Surface Active Agent Manufacturing,5,17031,41.638184,-87.671348
+272,South Chicago Packing LLC,3214811,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00008,Food Products Processing Plant,945 W 38th St,Rendering and Meat Byproduct Processing,5,17031,41.825033,-87.650052
+273,South Suburban College,3353311,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00001,"Institutional (school, hospital, prison, etc.)",15800 State St,"Colleges, Universities, and Professional Schools",5,17031,41.60596,-87.618594
+274,South Suburban Hospital,3363411,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0,"Institutional (school, hospital, prison, etc.)",17800 S Kedzie Ave,General Medical and Surgical Hospitals,5,17031,41.567033,-87.697344
+275,Spectrum-Roosevelt LP,1764411,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00001,Unspecified,5000 W Roosevelt Rd,Electronic Shopping and Mail-Order Houses,5,17031,41.867518,-87.748012
+276,St Xavier University,1757011,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00001,"Institutional (school, hospital, prison, etc.)",3700 W 103rd St,"Colleges, Universities, and Professional Schools",5,17031,41.710918,-87.715234
+277,Stickney Water Reclamation Plant,3354811,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00007,Wastewater Treatment Facility,6001 W Pershing Rd,Sewage Treatment Facilities,5,17031,41.81704,-87.771095
+278,Swedish Covenant Hospital,3340511,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00004,"Institutional (school, hospital, prison, etc.)",5145 N California Ave,General Medical and Surgical Hospitals,5,17031,41.975274,-87.698067
+279,Synergy Flavors Innova LLC,3201411,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00005,Unspecified,1437 W 37th St,All Other Miscellaneous Food Manufacturing,5,17031,41.826548,-87.661784
+280,Sysco Food Services of Chicago Inc,14592011,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00001,Unspecified,250 Wieboldt Ave,Supermarkets and Other Grocery Retailers (except Convenience Retailers),5,17031,42.047369,-87.906104
+281,TINLEY PARK HELISTOP,12225611,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00007,Airport,Unknown,Airport Operations,5,17031,41.558886,-87.805986
+282,Tootsie Roll Industries LLC,1774911,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00006,Unspecified,7401 S Cicero Ave,Confectionery Manufacturing from Purchased Chocolate,5,17031,41.760044,-87.736879
+283,Tribune Properties Inc,1765611,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00002,Printing/Publishing Facility,435 N Michigan Ave,Commercial Printing (except Screen and Books),5,17031,41.890371,-87.623676
+284,Triton College,2629811,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00002,"Institutional (school, hospital, prison, etc.)",2000 5th Ave,"Colleges, Universities, and Professional Schools",5,17031,41.916851,-87.845486
+285,Tru Vue Inc,2453711,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00001,Unspecified,9400 W 55th St,Glass Product Manufacturing Made of Purchased Glass,5,17031,41.792238,-87.8531
+286,UniFirst Corp,17829611,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00006,Unspecified,2045 N 17th Ave,Industrial Launderers,5,17031,41.914066,-87.854093
+287,Unilever Illinois Manufacturing LLC,1909711,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00002,Food Products Processing Plant,2816 S Kilbourne Ave,Soybean and Other Oilseed Processing,5,17031,41.840321,-87.737682
+288,Union Pacific Railroad Co,3152811,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00001,Unspecified,423 N Sacramento Blvd,Line-Haul Railroads,5,17031,41.889752,-87.696255
+289,United Airlines,3359911,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00009,Unspecified,11601 W Touhy Ave,Scheduled Passenger Air Transportation,5,17031,41.995878,-87.921136
+290,United Airlines Inc,5528911,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00004,Unspecified,1200 E Algonquin Rd,Scheduled Passenger Air Transportation,5,17031,42.036223,-87.953237
+291,Unity Manufacturing Co,8314311,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.0003,Unspecified,1260 N Clybourn Ave,Electric Lamp Bulb and Other Lighting Equipment Manufacturing,5,17031,41.904923,-87.641982
+292,Universal Electric Foundry Inc,2783611,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00076,"Foundries, non-ferrous",1523 W Hubbard St,Other Nonferrous Metal Foundries (except Die-Casting),5,17031,41.889582,-87.666362
+293,University of Chicago,1849411,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0,"Institutional (school, hospital, prison, etc.)",5235 s Harper Ct Ste 1000,"Colleges, Universities, and Professional Schools",5,17031,41.784606,-87.590155
+294,UOP LLC,1820011,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00006,Unspecified,50 E Algonquin Rd,Research and Development in Nanotechnology,5,17031,42.032406,-87.917008
+295,UOP LLC,7313911,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00006,Unspecified,8400 Joliet Rd,Synthetic Dye and Pigment Manufacturing,5,17031,41.799668,-87.82744
+296,Valmont Coatings Inc,1865511,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.0001,Unspecified,10909 Franklin Ave,"Metal Coating, Engraving (except Jewelry and Silverware), and Allied Services to Manufacturers",5,17031,41.941723,-87.898291
+297,Vanee Food Co,1760611,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00002,Food Products Processing Plant,2759 S 25th Ave,Dried and Dehydrated Food Manufacturing,5,17031,41.853357,-87.86096
+298,Vanee Foods Co,2430811,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00003,Unspecified,5418 McDermott Dr,Specialty Canning,5,17031,41.89301,-87.90437
+299,Vantage Oleochemicals Inc,3203811,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00033,Chemical Plant,4650 S Racine Ave,All Other Miscellaneous Chemical Product and Preparation Manufacturing,5,17031,41.810961,-87.657293
+300,Vapor Power International,2715811,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00005,Industrial Machinery or Equipment Plant,551 S County Line Rd,Power Boiler and Heat Exchanger Manufacturing,5,17031,41.944828,-87.91917
+301,Ventura Foods LLC,17734311,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00001,Unspecified,201 W Armory Dr,"Mayonnaise, Dressing, and Other Prepared Sauce Manufacturing",5,17031,41.585525,-87.620869
+302,West Suburban Hospital,2645911,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00003,"Institutional (school, hospital, prison, etc.)",3 Erie Ct,General Medical and Surgical Hospitals,5,17031,41.891146,-87.775859
+303,WestRock CP LLC,2277811,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00002,Unspecified,6131 W 74th St,Corrugated and Solid Fiber Box Manufacturing,5,17031,41.756903,-87.774654
+304,WestRock CP LLC,2551511,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00003,Unspecified,7601 S 78th Ave,Corrugated and Solid Fiber Box Manufacturing,5,17031,41.753751,-87.813087
+305,WGN TV Continental Broadcasting Co Inc,15455411,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00003,Unspecified,2501 Bradley Pl,Television Broadcasting Stations,5,17031,41.948784,-87.691692
+306,Worlds Finest Chocolate Inc,3395311,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00002,Food Products Processing Plant,4801 S Lawndale Ave,Chocolate and Confectionery Manufacturing from Cacao Beans,5,17031,41.805674,-87.715094
+307,WR Grace,8189011,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00004,Unspecified,4099 W 71st St,Other Basic Inorganic Chemical Manufacturing,5,17031,41.763491,-87.723679
+308,Zekelman Industries Wheatland Tube Co,1776611,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00026,Unspecified,2300 W 47th St,Iron and Steel Pipe and Tube Manufacturing from Purchased Steel,5,17031,41.810058,-87.681026
+309,Zoetis LLC,1763411,Illinois,IL - Cook,Lead Compounds,CAP/HAP,0.00013,Unspecified,400 State St,Other Animal Food Manufacturing,5,17031,41.522984,-87.620579
+310,Crawford County Airport,2681211,Illinois,IL - Crawford,Lead Compounds,CAP/HAP,0.02447,Airport,10748 N 1650th St,Other Airport Operations,5,17033,39.01628,-87.646723
+311,Hershey Chocolate & Confectionery Co,2666911,Illinois,IL - Crawford,Lead Compounds,CAP/HAP,0.00008,Unspecified,1401 W Main St,Confectionery Manufacturing from Purchased Chocolate,5,17033,39.00431,-87.755331
+312,Marathon Petroleum Co LLC,8222511,Illinois,IL - Crawford,Lead Compounds,CAP/HAP,0.02518,Petroleum Refinery,400 Marathon Ave,Petroleum Refineries,5,17033,38.998676,-87.724781
+313,Rain CII Carbon LLC,2666711,Illinois,IL - Crawford,Lead Compounds,CAP/HAP,0.05989,Calcined Pet Coke Plant,12187 E 950th St,All Other Petroleum and Coal Products Manufacturing,5,17033,38.990207,-87.720397
+314,John Warner Hospital,2822911,Illinois,IL - De Witt,Lead Compounds,CAP/HAP,0,"Institutional (school, hospital, prison, etc.)",422 W White St,General Medical and Surgical Hospitals,5,17039,40.148441,-88.96485
+315,Stericycle Inc,8138111,Illinois,IL - De Witt,Lead Compounds,CAP/HAP,0.00059,Unspecified,5815 Weldon Springs Rd,Solid Waste Landfill,5,17039,40.137655,-88.937766
+316,DeKalb-Taylor Municipal Airport,2822711,Illinois,IL - DeKalb,Lead Compounds,CAP/HAP,0.05912,Airport,3232 Pleasant St,Other Airport Operations,5,17037,41.929005,-88.706137
+317,Duro Cast Inc,9707311,Illinois,IL - DeKalb,Lead Compounds,CAP/HAP,0.0001,"Foundries, non-ferrous",105 S Green St,Aluminum Foundries (except Die-Casting),5,17037,41.633541,-88.683915
+318,Hinckley Airport,2822611,Illinois,IL - DeKalb,Lead Compounds,CAP/HAP,0.10847,Airport,1610 Highland Dr,Other Airport Operations,5,17037,41.771133,-88.703595
+319,Kishwaukee Community Hospital,2493411,Illinois,IL - DeKalb,Lead Compounds,CAP/HAP,0.00002,"Institutional (school, hospital, prison, etc.)",1 Kish Hospital Dr,General Medical and Surgical Hospitals,5,17037,41.960631,-88.721759
+320,Northern Illinois University,3394711,Illinois,IL - DeKalb,Lead Compounds,CAP/HAP,0.00021,"Institutional (school, hospital, prison, etc.)",100 Stadium Dr,"Colleges, Universities, and Professional Schools",5,17037,41.931429,-88.780907
+321,Sycamore Precision Machine Inc,2494511,Illinois,IL - DeKalb,Lead Compounds,CAP/HAP,0.00001,Unspecified,334 E First St,All Other Miscellaneous Fabricated Metal Product Manufacturing,5,17037,42.09928,-88.688948
+322,WOODLAKE LANDING,12380511,Illinois,IL - DeKalb,Lead Compounds,CAP/HAP,0.01243,Airport,Unknown,Airport Operations,5,17037,41.64023,-88.64433
+323,Cronus Chemicals LLC,16787211,Illinois,IL - Douglas,Lead Compounds,CAP/HAP,0,Unspecified,765 E US Hwy 36,Nitrogenous Fertilizer Manufacturing,5,17041,39.796091,-88.325211
+324,Equistar Chemicals LP,8188611,Illinois,IL - Douglas,Lead Compounds,CAP/HAP,0.00111,Chemical Plant,625 E US Hwy 36,All Other Miscellaneous Chemical Product and Preparation Manufacturing,5,17041,39.795812,-88.347946
+325,Tuscola Airport,2750011,Illinois,IL - Douglas,Lead Compounds,CAP/HAP,0.01921,Airport,880 N County Rd 900 E,Other Airport Operations,5,17041,39.780947,-88.306413
+326,Alu-bra Foundry Inc,3222111,Illinois,IL - DuPage,Lead Compounds,CAP/HAP,0.00012,"Foundries, non-ferrous",630 E Green St,Other Nonferrous Metal Foundries (except Die-Casting),5,17043,41.951374,-87.928335
+327,Argonne National Laboratory,7411111,Illinois,IL - DuPage,Lead Compounds,CAP/HAP,0.00005,Unspecified,9700 S Cass Ave,Research and Development in Nanotechnology,5,17043,41.707232,-87.981551
+328,Ashland Sausage,10803411,Illinois,IL - DuPage,Lead Compounds,CAP/HAP,0.00002,Unspecified,280 Westgate Dr,Meat Processed from Carcasses,5,17043,41.897236,-88.128852
+329,Aurora Circuits LLC,3220711,Illinois,IL - DuPage,Lead Compounds,CAP/HAP,0.012,Unspecified,2250 White Oak Cir,Bare Printed Circuit Board Manufacturing,5,17043,41.795579,-88.261006
+330,Aurora Generation LLC,3220911,Illinois,IL - DuPage,Lead Compounds,CAP/HAP,0,Electricity Generation via Combustion,2909 N Eola Rd,Fossil Fuel Electric Power Generation,5,17043,41.815091,-88.22661
+331,Becker Specialty Corp,2563511,Illinois,IL - DuPage,Lead Compounds,CAP/HAP,0.01104,Unspecified,2500 Delta Ln,Paint and Coating Manufacturing,5,17043,41.990595,-87.94259
+332,Benedictine University,10804411,Illinois,IL - DuPage,Lead Compounds,CAP/HAP,0.00001,Unspecified,5700 College Rd,"Colleges, Universities, and Professional Schools",5,17043,41.776895,-88.097392
+333,Blackhawk Corrugated LLC,17741211,Illinois,IL - DuPage,Lead Compounds,CAP/HAP,0.00003,Unspecified,700 Kimberly Dr,Corrugated and Solid Fiber Box Manufacturing,5,17043,41.921579,-88.114566
+334,CNH Industrial America LLC,2634911,Illinois,IL - DuPage,Lead Compounds,CAP/HAP,0.00001,Unspecified,6900 Veterans Blvd,Farm Machinery and Equipment Manufacturing,5,17043,41.763546,-87.922299
+335,College Of Dupage,10804211,Illinois,IL - DuPage,Lead Compounds,CAP/HAP,0.00005,"Institutional (school, hospital, prison, etc.)",425 Fawell Blvd,"Colleges, Universities, and Professional Schools",5,17043,41.841185,-88.070694
+336,Creative Contract Packaging Corp,3220511,Illinois,IL - DuPage,Lead Compounds,CAP/HAP,0,Unspecified,3837 E Exchange Ave,All Other Miscellaneous Food Manufacturing,5,17043,41.765114,-88.224514
+337,Dupage County Airport,2655511,Illinois,IL - DuPage,Lead Compounds,CAP/HAP,0.26671,Airport,2700 International Dr,Other Airport Operations,5,17043,41.9126,-88.247306
+338,Fellowes Inc,2638111,Illinois,IL - DuPage,Lead Compounds,CAP/HAP,0.00001,Unspecified,1789 Norwood Ave,Corrugated and Solid Fiber Box Manufacturing,5,17043,41.988477,-88.044159
+339,Graphic Packaging International LLC,2635211,Illinois,IL - DuPage,Lead Compounds,CAP/HAP,0.00001,Unspecified,400 E North Ave,Folding Paperboard Box Manufacturing,5,17043,41.900408,-88.108729
+340,Hinsdale Hospital,8189111,Illinois,IL - DuPage,Lead Compounds,CAP/HAP,0,"Institutional (school, hospital, prison, etc.)",120 N Oak St,General Medical and Surgical Hospitals,5,17043,41.805345,-87.92165
+341,INEOS US Chemicals Co,7334411,Illinois,IL - DuPage,Lead Compounds,CAP/HAP,0.00003,Unspecified,150 W Warrenville Rd,Testing Laboratories and Services,5,17043,41.809315,-88.150706
+342,International Paper,14973311,Illinois,IL - DuPage,Lead Compounds,CAP/HAP,0.00004,Unspecified,2540 Prospect Ct,Corrugated and Solid Fiber Box Manufacturing,5,17043,41.808667,-88.232352
+343,International Paper Co,9730111,Illinois,IL - DuPage,Lead Compounds,CAP/HAP,0.00003,Unspecified,4160 Campus Dr,Corrugated and Solid Fiber Box Manufacturing,5,17043,41.776759,-88.220369
+344,INX International Ink Co,2788111,Illinois,IL - DuPage,Lead Compounds,CAP/HAP,0.00001,Unspecified,1860 Western Dr,Printing Ink Manufacturing,5,17043,41.889638,-88.241673
+345,Jel Sert Co,2787611,Illinois,IL - DuPage,Lead Compounds,CAP/HAP,0.00002,Food Products Processing Plant,501 Conde St,Coffee and Tea Manufacturing,5,17043,41.879962,-88.196603
+346,Kester,10807311,Illinois,IL - DuPage,Lead Compounds,CAP/HAP,0.00194,Fabricated Metal Products Plant,800 W Thorndale,"Nonferrous Metal (except Copper and Aluminum) Rolling, Drawing, and Extruding",5,17043,41.982057,-88.024856
+347,La Grou Distribution System,2788311,Illinois,IL - DuPage,Lead Compounds,CAP/HAP,0.00003,Unspecified,1800 W Hawthorne Ln Ste 100,Telephone Apparatus Manufacturing,5,17043,41.897318,-88.238136
+348,Mars Wrigley Confectionery US,2635011,Illinois,IL - DuPage,Lead Compounds,CAP/HAP,0.00002,Food Products Processing Plant,15W660 79th St,Ice Cream and Frozen Dessert Manufacturing,5,17043,41.747131,-87.931874
+349,Mega Circuit Inc,2656311,Illinois,IL - DuPage,Lead Compounds,CAP/HAP,0.0005,Unspecified,1040 S Westgate St,Bare Printed Circuit Board Manufacturing,5,17043,41.907851,-87.993678
+350,Meyercord Revenue Inc,2767611,Illinois,IL - DuPage,Lead Compounds,CAP/HAP,0.00001,Printing/Publishing Facility,475 Village Dr,Commercial Printing (except Screen and Books),5,17043,41.914527,-88.119554
+351,Mondelez Global LLC,1753811,Illinois,IL - DuPage,Lead Compounds,CAP/HAP,0.00002,Food Products Processing Plant,1555 W Ogden Ave,Breakfast Cereal Manufacturing,5,17043,41.771473,-88.18783
+352,New WinCup Holdings Inc,2788011,Illinois,IL - DuPage,Lead Compounds,CAP/HAP,0.0001,Unspecified,1425 W Hawthorne Ln,Polystyrene Foam Product Manufacturing,5,17043,41.9003,-88.228923
+353,Qualitek International Inc,2633111,Illinois,IL - DuPage,Lead Compounds,CAP/HAP,0.00006,Secondary Copper Smelting/Refining Plant,315 Fairbank St,"Copper Rolling, Drawing, Extruding, and Alloying",5,17043,41.922341,-88.017608
+354,Rana Meal Solutions LLC,16787311,Illinois,IL - DuPage,Lead Compounds,CAP/HAP,0.00006,Unspecified,550 Spitzer Rd,Perishable Prepared Food Manufacturing,5,17043,41.984444,-88.228577
+355,Rana Meal Solutions LLC,19126411,Illinois,IL - DuPage,Lead Compounds,CAP/HAP,0.00006,Unspecified,1370 Brewster Park,Perishable Prepared Food Manufacturing,5,17043,41.983739,-88.230206
+356,Schaumburg Regional Airport,2641611,Illinois,IL - DuPage,Lead Compounds,CAP/HAP,0.1009,Airport,905 W Irving Park Rd,Other Airport Operations,5,17043,41.989341,-88.101243
+357,Spraying System Co,2771511,Illinois,IL - DuPage,Lead Compounds,CAP/HAP,0.00004,Unspecified,200 W North Ave,All Other Miscellaneous Fabricated Metal Product Manufacturing,5,17043,41.90366,-88.09991
+358,US DOE - Fermilab,2641211,Illinois,IL - DuPage,Lead Compounds,CAP/HAP,0.00002,Unspecified,Wilson St & Kirk Rd,Research and Development in Nanotechnology,5,17043,41.842145,-88.250487
+359,US Frit LLC,17831611,Illinois,IL - DuPage,Lead Compounds,CAP/HAP,0.00975,Unspecified,500 Kehoe Blvd,Other Computer Related Services,5,17043,41.908442,-88.104233
+360,WestRock Container LLC,16905811,Illinois,IL - DuPage,Lead Compounds,CAP/HAP,0.00002,Unspecified,2759 N Eola Rd,Corrugated and Solid Fiber Box Manufacturing,5,17043,41.812046,-88.230074
+361,WestRock CP LLC,2637511,Illinois,IL - DuPage,Lead Compounds,CAP/HAP,0.00002,Unspecified,965 Muirfield Dr,Corrugated and Solid Fiber Box Manufacturing,5,17043,41.981223,-88.125979
+362,Wheaton College,9732511,Illinois,IL - DuPage,Lead Compounds,CAP/HAP,0.00004,"Institutional (school, hospital, prison, etc.)",511 N Irving Ave,"Colleges, Universities, and Professional Schools",5,17043,41.869813,-88.098913
+363,Abitec Corp,2636211,Illinois,IL - Edgar,Lead Compounds,CAP/HAP,0.00001,Food Products Processing Plant,1800 S Main St,All Other Miscellaneous Food Manufacturing,5,17045,39.594076,-87.694195
+364,Cargill Dry Corn Ingredients,2636111,Illinois,IL - Edgar,Lead Compounds,CAP/HAP,0.00002,Unspecified,616 S Jefferson St,Flour Milling,5,17045,39.60519,-87.703807
+365,Edgar County Airport,2651611,Illinois,IL - Edgar,Lead Compounds,CAP/HAP,0.0155,Airport,15551 Airport Rd,Other Airport Operations,5,17045,39.700085,-87.672404
+366,Effingham County Memorial Airport,1782011,Illinois,IL - Effingham,Lead Compounds,CAP/HAP,0.04771,Airport,Rr 1 Box 347,Other Airport Operations,5,17049,39.071157,-88.534006
+367,Mid Illinois Concrete - Effingham Ready Mix,1780611,Illinois,IL - Effingham,Lead Compounds,CAP/HAP,0,Concrete Batch Plant,1301 Commerce Ave,Ready-Mix Concrete Manufacturing,5,17049,39.107357,-88.558446
+368,PERCIVAL SPRINGS,11988411,Illinois,IL - Effingham,Lead Compounds,CAP/HAP,0.00248,Airport,Unknown,Airport Operations,5,17049,39.014444,-88.539278
+369,St Anthonys Memorial Hospital,2756811,Illinois,IL - Effingham,Lead Compounds,CAP/HAP,0.00002,"Institutional (school, hospital, prison, etc.)",503 N Maple St,General Medical and Surgical Hospitals,5,17049,39.125722,-88.549972
+370,Natural Gas Pipeline Co,2670411,Illinois,IL - Fayette,Lead Compounds,CAP/HAP,0.00004,Compressor Station,RR 2 Box 142b,Pipeline Transportation of Natural Gas,5,17051,39.101954,-88.860009
+371,Richardson Brothers,2669611,Illinois,IL - Fayette,Lead Compounds,CAP/HAP,0.00001,Unspecified,501 Cumberland Rd,Landscaping Services,5,17051,39.018658,-88.854109
+372,Vandalia Airport,1757511,Illinois,IL - Fayette,Lead Compounds,CAP/HAP,0.02248,Airport,Rr 3 Box 602,Other Airport Operations,5,17051,38.990237,-89.167233
+373,Vandalia Correctional Center,2671011,Illinois,IL - Fayette,Lead Compounds,CAP/HAP,0.00007,"Institutional (school, hospital, prison, etc.)","Rte 51 N, Box 500",Correctional Institutions,5,17051,39.009503,-89.097797
+374,Benton Airport,2625411,Illinois,IL - Franklin,Lead Compounds,CAP/HAP,0.01727,Airport,N Central St,Other Airport Operations,5,17055,38.0085,-88.934444
+375,Franklin Hospital,2623711,Illinois,IL - Franklin,Lead Compounds,CAP/HAP,0.00001,"Institutional (school, hospital, prison, etc.)",201 Bailey Ln,General Medical and Surgical Hospitals,5,17055,38.009959,-88.918187
+376,Illinois River Correctional Center,3206811,Illinois,IL - Fulton,Lead Compounds,CAP/HAP,0.00001,"Institutional (school, hospital, prison, etc.)",1300 W Locust St,Correctional Institutions,5,17057,40.5571,-90.0825
+377,Ingersoll Airport,3207411,Illinois,IL - Fulton,Lead Compounds,CAP/HAP,0.04294,Airport,250 S Avenue D,Other Airport Operations,5,17057,40.570658,-90.073919
+378,Vermont Foundry Co,3206311,Illinois,IL - Fulton,Lead Compounds,CAP/HAP,0.0488,"Foundries, non-ferrous",29 N Main St,Other Nonferrous Metal Foundries (except Die-Casting),5,17057,40.303115,-90.426954
+379,Viserion Grain LLC,3208011,Illinois,IL - Gallatin,Lead Compounds,CAP/HAP,0.00001,Unspecified,218 Market St,Grain and Field Bean Merchant Wholesalers,5,17059,37.692124,-88.139318
+380,Aux Sable Liquid Products,3349011,Illinois,IL - Grundy,Lead Compounds,CAP/HAP,0.00035,Gas Plant,6155 E US Rte 6,Natural Gas Extraction,5,17063,41.413284,-88.304262
+381,Costco Wholesale Corp,16892511,Illinois,IL - Grundy,Lead Compounds,CAP/HAP,0.00008,Unspecified,7320 Lisbon Rd,Warehouse Clubs and Supercenters,5,17063,41.391009,-88.435799
+382,Dwight Airport,3350711,Illinois,IL - Grundy,Lead Compounds,CAP/HAP,0.00452,Airport,10350 S Dwight Rd,Other Airport Operations,5,17063,41.132622,-88.438645
+383,HB Fuller Adhesives LLC,3349911,Illinois,IL - Grundy,Lead Compounds,CAP/HAP,0.00002,Unspecified,7440 W Dupont Rd,Plastics Material and Resin Manufacturing,5,17063,41.304952,-88.561651
+384,Minooka Meter Station,3349111,Illinois,IL - Grundy,Lead Compounds,CAP/HAP,0.00005,Unspecified,10985 N McLinden Rd,Pipeline Transportation of Natural Gas,5,17063,41.446836,-88.293226
+385,Morris Cogeneration LLC,3348811,Illinois,IL - Grundy,Lead Compounds,CAP/HAP,0.00029,Electricity Generation via Combustion,8805 N Tabler Rd,Fossil Fuel Electric Power Generation,5,17063,41.4132,-88.329757
+386,Morris Muni Airport,3350611,Illinois,IL - Grundy,Lead Compounds,CAP/HAP,0.09317,Airport,9980 N Route 47,Other Airport Operations,5,17063,41.425265,-88.418657
+387,Reichhold LLC 2,7790811,Illinois,IL - Grundy,Lead Compounds,CAP/HAP,0.00005,"Plastic, Resin, Rubber or Syn Fiber Manuf Plant",6350 E Collins Rd,Plastics Material and Resin Manufacturing,5,17063,41.388881,-88.301117
+388,Sponge Cushion Inc,3224411,Illinois,IL - Grundy,Lead Compounds,CAP/HAP,0.00001,Unspecified,902 Armstrong St,All Other Rubber Product Manufacturing,5,17063,41.365912,-88.412167
+389,MC LEANSBORO,11964911,Illinois,IL - Hamilton,Lead Compounds,CAP/HAP,0.00226,Airport,Unknown,Airport Operations,5,17065,38.076318,-88.538449
+390,Advanced Asphalt Co,17741811,Illinois,IL - Henry,Lead Compounds,CAP/HAP,0.00001,Hot Mix Asphalt Plant,1001 N Broadway St,Asphalt Paving Mixture and Block Manufacturing,5,17073,41.498594,-90.312984
+391,Gen Air Park,5530411,Illinois,IL - Henry,Lead Compounds,CAP/HAP,0.0113,Airport,20035 1700 Street E,Other Airport Operations,5,17073,41.439778,-90.110056
+392,Kewanee Municipal Airport,5530311,Illinois,IL - Henry,Lead Compounds,CAP/HAP,0.02703,Airport,3761 Midland Rd,Other Airport Operations,5,17073,41.203933,-89.962196
+393,Natural Gas Pipeline Co of America,5529611,Illinois,IL - Henry,Lead Compounds,CAP/HAP,0.00001,Compressor Station,16048 Highway 82,Pipeline Transportation of Natural Gas,5,17073,41.391319,-90.167528
+394,Patriot Renewable Fuels LLC,10814511,Illinois,IL - Henry,Lead Compounds,CAP/HAP,0.00009,Ethanol Biorefineries/Soy Biodiesel,101 Patriot Way,Ethyl Alcohol Manufacturing,5,17073,41.393398,-89.872214
+395,Incobrasa Industries Ltd,5549011,Illinois,IL - Iroquois,Lead Compounds,CAP/HAP,0.00037,Food Products Processing Plant,540 E US Hwy 24,Soybean and Other Oilseed Processing,5,17075,40.761516,-88.014274
+396,Iroquois Memorial Hospital,5533411,Illinois,IL - Iroquois,Lead Compounds,CAP/HAP,0.00002,"Institutional (school, hospital, prison, etc.)",200 Fairman Ave,General Medical and Surgical Hospitals,5,17075,40.765819,-87.731421
+397,Intertape Polymer Corp,7333311,Illinois,IL - Jackson,Lead Compounds,CAP/HAP,0.00002,Unspecified,2200 N McRoy Dr,Paper Bag and Coated and Treated Paper Manufacturing,5,17077,37.756421,-89.216183
+398,Southern Illinois Airport,2585911,Illinois,IL - Jackson,Lead Compounds,CAP/HAP,0.12388,Airport,N Airport Rd,Other Airport Operations,5,17077,37.780268,-89.248163
+399,Southern Illinois University,2585011,Illinois,IL - Jackson,Lead Compounds,CAP/HAP,0.00155,"Institutional (school, hospital, prison, etc.)",200 Physical Plant Dr,"Colleges, Universities, and Professional Schools",5,17077,37.711805,-89.215301
+400,BN National Trail Biodiesel LLC,10816011,Illinois,IL - Jasper,Lead Compounds,CAP/HAP,0,Unspecified,8810 Commercial Ave,All Other Miscellaneous Chemical Product and Preparation Manufacturing,5,17079,38.977431,-88.152972
+401,Illinois Power Generating Co,2587011,Illinois,IL - Jasper,Lead Compounds,CAP/HAP,0.0287,Electricity Generation via Combustion,6725 N 500th St,Fossil Fuel Electric Power Generation,5,17079,38.937195,-88.276242
+402,JASPER COUNTY FLYING CLUB,11257211,Illinois,IL - Jasper,Lead Compounds,CAP/HAP,0.00091,Airport,Unknown,Airport Operations,5,17079,38.930453,-88.155909
+403,Big Muddy River Correctional Center,2587711,Illinois,IL - Jefferson,Lead Compounds,CAP/HAP,0.00002,"Institutional (school, hospital, prison, etc.)",Rte 37,Correctional Institutions,5,17081,38.130187,-88.905234
+404,Continental Tire North America,2682311,Illinois,IL - Jefferson,Lead Compounds,CAP/HAP,0.007,Tire Manuf (not retread),11525 N Rte 142,Tire Manufacturing (except Retreading),5,17081,38.29007,-88.890371
+405,Mt  Vernon Airport,2682911,Illinois,IL - Jefferson,Lead Compounds,CAP/HAP,0.03945,Airport,100 Aviation Dr,Other Airport Operations,5,17081,38.322757,-88.859224
+406,Rend Lake College,2682811,Illinois,IL - Jefferson,Lead Compounds,CAP/HAP,0,"Institutional (school, hospital, prison, etc.)",468 N Ken Gray Pkwy,"Colleges, Universities, and Professional Schools",5,17081,38.130952,-88.919096
+407,Brewster Cheese Co,2442211,Illinois,IL - Jo Daviess,Lead Compounds,CAP/HAP,0.00014,Food Products Processing Plant,300 W Railroad Ave,Cheese Manufacturing,5,17085,42.348158,-90.011275
+408,East Dubuque Nitrogen Fertilizers LLC,2444211,Illinois,IL - Jo Daviess,Lead Compounds,CAP/HAP,0.00016,Fertilizer Plant,16675 Rte 20W,Nitrogenous Fertilizer Manufacturing,5,17085,42.44271,-90.557544
+409,Foster Field Airport,11635211,Illinois,IL - Jo Daviess,Lead Compounds,CAP/HAP,0.00452,Airport,6144 N Lake Rd #1,Airport Operations,5,17085,42.466444,-90.169389
+410,Lemfco Inc,2441411,Illinois,IL - Jo Daviess,Lead Compounds,CAP/HAP,0.096,"Foundries, Iron and Steel",100 S Commerce St,Iron Foundries,5,17085,42.415288,-90.427928
+411,STOCKTON,11346211,Illinois,IL - Jo Daviess,Lead Compounds,CAP/HAP,0.00026,Airport,20035 1700 Street E,Airport Operations,5,17085,42.323903,-89.992902
+412,Goreville Concrete Inc,2513111,Illinois,IL - Johnson,Lead Compounds,CAP/HAP,0,Concrete Batch Plant,Pyramid and Hubbard,Ready-Mix Concrete Manufacturing,5,17087,37.557842,-88.971284
+413,Vienna/Shawnee Correctional Center,2513711,Illinois,IL - Johnson,Lead Compounds,CAP/HAP,0.00044,"Institutional (school, hospital, prison, etc.)",6695 Rte 146,Correctional Institutions,5,17087,37.404839,-88.769619
+414,Aurora Municipal Airport,5381811,Illinois,IL - Kane,Lead Compounds,CAP/HAP,0.16154,Airport,Veteran'S Memorial Pkwy,Other Airport Operations,5,17089,41.770251,-88.477601
+415,Aurora Packing Co Inc,2603911,Illinois,IL - Kane,Lead Compounds,CAP/HAP,0.00002,Unspecified,125 S Grant St,Animal (except Poultry) Slaughtering,5,17089,41.800274,-88.320207
+416,Builders Asphalt LLC,10840611,Illinois,IL - Kane,Lead Compounds,CAP/HAP,0.00015,Hot Mix Asphalt Plant,45W 295 Main St,Asphalt Paving Mixture and Block Manufacturing,5,17089,41.837744,-88.494555
+417,Carl Buddig & Co,10839811,Illinois,IL - Kane,Lead Compounds,CAP/HAP,0.00004,Unspecified,2125 Rochester Dr,Meat Processed from Carcasses,5,17089,41.741304,-88.369196
+418,Clarios LLC,2601311,Illinois,IL - Kane,Lead Compounds,CAP/HAP,0.03048,Battery Plant,300 S Glengarry Dr,Battery Manufacturing,5,17089,41.883738,-88.284874
+419,Covestro Desotech Inc,7333211,Illinois,IL - Kane,Lead Compounds,CAP/HAP,0.00001,Unspecified,1122 St Charles St,Paint and Coating Manufacturing,5,17089,42.012277,-88.270977
+420,Delnor Community Hospital,2601611,Illinois,IL - Kane,Lead Compounds,CAP/HAP,0.00003,"Institutional (school, hospital, prison, etc.)",300 Randall Rd,General Medical and Surgical Hospitals,5,17089,41.887265,-88.34473
+421,Elgin Community College,1787211,Illinois,IL - Kane,Lead Compounds,CAP/HAP,0.00004,"Institutional (school, hospital, prison, etc.)",1700 Spartan Dr,"Colleges, Universities, and Professional Schools",5,17089,42.017757,-88.322554
+422,Illinois Tool Works,5410811,Illinois,IL - Kane,Lead Compounds,CAP/HAP,0.00001,Unspecified,1201 St Charles Rd,"Bolt, Nut, Screw, Rivet, and Washer Manufacturing",5,17089,42.010122,-88.266867
+423,Illinois Youth Center,5387911,Illinois,IL - Kane,Lead Compounds,CAP/HAP,0.00002,"Institutional (school, hospital, prison, etc.)",3825 Campton Hills Rd,Correctional Institutions,5,17089,41.906938,-88.374577
+424,International Paper Co,2603011,Illinois,IL - Kane,Lead Compounds,CAP/HAP,0.00003,Unspecified,1001 Knell St,Corrugated and Solid Fiber Box Manufacturing,5,17089,41.732322,-88.350631
+425,Omron Automotive Electronics Inc,7332811,Illinois,IL - Kane,Lead Compounds,CAP/HAP,0.00039,Unspecified,3709 Ohio Ave,Printed Circuit Assembly (Electronic Assembly) Manufacturing,5,17089,41.91255,-88.269862
+426,Polynt Composites USA Inc,8209511,Illinois,IL - Kane,Lead Compounds,CAP/HAP,0.00002,"Plastic, Resin, Rubber or Syn Fiber Manuf Plant",99 E Cottage Ave,Plastics Material and Resin Manufacturing,5,17089,42.117976,-88.288061
+427,Power Packaging an Excel Co,2601911,Illinois,IL - Kane,Lead Compounds,CAP/HAP,0.00002,Unspecified,2089 Pillsbury Dr,"Dry Pasta, Dough, and Flour Mixes Manufacturing from Purchased Flour",5,17089,41.892699,-88.267611
+428,Radco Industries,5410511,Illinois,IL - Kane,Lead Compounds,CAP/HAP,0.00001,Chemical Plant,39W930 Midan Dr,All Other Miscellaneous Chemical Product and Preparation Manufacturing,5,17089,41.884128,-88.393277
+429,Revcor,1912011,Illinois,IL - Kane,Lead Compounds,CAP/HAP,0.00001,Unspecified,251 Edward Ave,Industrial and Commercial Fan and Blower and Air Purification Equipment Manufacturing,5,17089,42.10613,-88.283264
+430,Rocky Road Power LLC,1786811,Illinois,IL - Kane,Lead Compounds,CAP/HAP,0.00088,Electricity Generation via Combustion,1221 Power Dr,Fossil Fuel Electric Power Generation,5,17089,42.093601,-88.239179
+431,SKF Sealing Solutions,1787111,Illinois,IL - Kane,Lead Compounds,CAP/HAP,0.00001,Unspecified,900 N State St,"Gasket, Packing, and Sealing Device Manufacturing",5,17089,42.055785,-88.298911
+432,Smithfield Packaged Meats Corp,4732311,Illinois,IL - Kane,Lead Compounds,CAP/HAP,0.00007,Unspecified,410 Kirk Rd,Animal (except Poultry) Slaughtering,5,17089,41.916448,-88.274475
+433,State of Il Math and Science Academy,1786011,Illinois,IL - Kane,Lead Compounds,CAP/HAP,0.00003,"Institutional (school, hospital, prison, etc.)",1500 W Sullivan,Elementary and Secondary Schools,5,17089,41.786733,-88.354719
+434,VVF Illinois Services LLC,7333011,Illinois,IL - Kane,Lead Compounds,CAP/HAP,0.00002,Unspecified,2000 Aucutt Rd,Soap and Other Detergent Manufacturing,5,17089,41.732097,-88.366009
+435,WestRock Converting Co,4734911,Illinois,IL - Kane,Lead Compounds,CAP/HAP,0,Pulp and Paper Plant,705 N Farnsworth,Paperboard Mills,5,17089,41.770059,-88.281271
+436,Armstrong Flooring Inc,4523711,Illinois,IL - Kankakee,Lead Compounds,CAP/HAP,0.00036,Unspecified,1401 N Hobbie Ave,All Other Plastics Product Manufacturing,5,17091,41.137198,-87.852622
+437,CSL Behring LLC,7791911,Illinois,IL - Kankakee,Lead Compounds,CAP/HAP,0.00016,Unspecified,Rte 50 & Armour Rd,Biological Product (except Diagnostic) Manufacturing,5,17091,41.160686,-87.854769
+438,EMD Millipore Corp,5398011,Illinois,IL - Kankakee,Lead Compounds,CAP/HAP,0.00003,Unspecified,195 W Birch St,Analytical Laboratory Instrument Manufacturing,5,17091,41.127705,-87.865501
+439,Gallagher Materials Corp,9695911,Illinois,IL - Kankakee,Lead Compounds,CAP/HAP,0.00006,Hot Mix Asphalt Plant,4500 Belson Rd,Asphalt Paving Mixture and Block Manufacturing,5,17091,41.186496,-87.855765
+440,Greater Kankakee Airport,5429111,Illinois,IL - Kankakee,Lead Compounds,CAP/HAP,0.10447,Airport,813a E 4000 S Rd,Other Airport Operations,5,17091,41.074604,-87.845688
+441,IKO Midwest Inc,10841911,Illinois,IL - Kankakee,Lead Compounds,CAP/HAP,0.00005,Hot Mix Asphalt Plant,235 W South Tec Dr,Asphalt Shingle and Coating Materials Manufacturing,5,17091,41.088334,-87.874372
+442,Kankakee Airport,5428911,Illinois,IL - Kankakee,Lead Compounds,CAP/HAP,0.02938,Airport,1520 State Route 115,Other Airport Operations,5,17091,41.0964,-87.9095
+443,Kensing LLC,7792011,Illinois,IL - Kankakee,Lead Compounds,CAP/HAP,0.00024,Pharmaceutical Manufacturing,2525 S Kensington Ave,Plastics Material and Resin Manufacturing,5,17091,41.085542,-87.880542
+444,Momence Packing Co,4522211,Illinois,IL - Kankakee,Lead Compounds,CAP/HAP,0.00002,Food Products Processing Plant,334 W North St,Rendering and Meat Byproduct Processing,5,17091,41.171143,-87.666637
+445,Natural Gas Pipeline Co of America,5428511,Illinois,IL - Kankakee,Lead Compounds,CAP/HAP,0.00002,Compressor Station,5611 S 12000 West Rd,Pipeline Transportation of Natural Gas,5,17091,41.033504,-88.089958
+446,Nucor Steel Kankakee Inc,5429011,Illinois,IL - Kankakee,Lead Compounds,CAP/HAP,0.13301,Steel Mill,1 Nucor Way,Iron and Steel Mills and Ferroalloy Manufacturing,5,17091,41.181332,-87.856643
+447,Rohm & Haas Chemical LLC,8222111,Illinois,IL - Kankakee,Lead Compounds,CAP/HAP,0.00004,"Plastic, Resin, Rubber or Syn Fiber Manuf Plant",1400 Harvard Dr,Plastics Material and Resin Manufacturing,5,17091,41.137132,-87.842238
+448,Shapiro Developmental Center,5397911,Illinois,IL - Kankakee,Lead Compounds,CAP/HAP,0.00006,"Institutional (school, hospital, prison, etc.)",100 E Jeffery St,General Medical and Surgical Hospitals,5,17091,41.102098,-87.867953
+449,Sherwin Williams Mfg Co The,8222011,Illinois,IL - Kankakee,Lead Compounds,CAP/HAP,0.00001,Unspecified,901 N Greenwood Ave,Paint and Coating Manufacturing,5,17091,41.130319,-87.856402
+450,Aurora Specialty Textiles Group Inc,16893811,Illinois,IL - Kendall,Lead Compounds,CAP/HAP,0.00002,Unspecified,2705 N Bridge St,Textile and Fabric Finishing Mills,5,17093,41.677554,-88.446136
+451,Fox Metro Water Reclamation District,5429511,Illinois,IL - Kendall,Lead Compounds,CAP/HAP,0.00001,Wastewater Treatment Facility,682 Rte 31,Sewage Treatment Facilities,5,17093,41.715639,-88.352871
+452,Grid at Rte 31 The,8222311,Illinois,IL - Kendall,Lead Compounds,CAP/HAP,0.00009,Unspecified,Rte 31,Construction Machinery Manufacturing,5,17093,41.712829,-88.364272
+453,Wrigley Mfg LLC,4597511,Illinois,IL - Kendall,Lead Compounds,CAP/HAP,0.00002,Unspecified,2800 N Route 47,Confectionery Manufacturing from Purchased Chocolate,5,17093,41.680248,-88.442465
+454,Galesburg Municipal Airport,4616911,Illinois,IL - Knox,Lead Compounds,CAP/HAP,0.02626,Airport,Rr 2 Box 117,Other Airport Operations,5,17095,40.938269,-90.431275
+455,Henry C Hill Correctional Center,4614411,Illinois,IL - Knox,Lead Compounds,CAP/HAP,0.00003,"Institutional (school, hospital, prison, etc.)",600 S Linwood Rd,Correctional Institutions,5,17095,40.939835,-90.403998
+456,Knox College,4598911,Illinois,IL - Knox,Lead Compounds,CAP/HAP,0.00004,"Institutional (school, hospital, prison, etc.)",E Berrien St and Prairie,"Colleges, Universities, and Professional Schools",5,17095,40.942987,-90.368839
+457,Koppers Inc,4616211,Illinois,IL - Knox,Lead Compounds,CAP/HAP,0.00002,Lumber/Sawmill,Rte 41 S,Wood Preservation,5,17095,40.898027,-90.39074
+458,St Marys Medical Hospital,4599511,Illinois,IL - Knox,Lead Compounds,CAP/HAP,0,"Institutional (school, hospital, prison, etc.)",3333 N Seminary St,General Medical and Surgical Hospitals,5,17095,40.986594,-90.360303
+459,TRI-COUNTY,11982411,Illinois,IL - Knox,Lead Compounds,CAP/HAP,0.0226,Airport,Unknown,Airport Operations,5,17095,40.774477,-90.074224
+460,WestRock CP LLC,4616111,Illinois,IL - Knox,Lead Compounds,CAP/HAP,0,Unspecified,775 S Linwood Rd,Corrugated and Solid Fiber Box Manufacturing,5,17095,40.938566,-90.401277
+461,ADM Fasco Mendota Rail,9683111,Illinois,IL - La Salle,Lead Compounds,CAP/HAP,0.00001,Unspecified,581 N 43rd Rd,Grain and Field Bean Merchant Wholesalers,5,17099,41.559304,-89.055108
+462,Carus LLC,4698811,Illinois,IL - La Salle,Lead Compounds,CAP/HAP,0.00006,Chemical Plant,1500 8th St,Other Basic Inorganic Chemical Manufacturing,5,17099,41.336759,-89.086261
+463,Cushing Field,5029411,Illinois,IL - La Salle,Lead Compounds,CAP/HAP,0.02712,Airport,State Route 71,Other Airport Operations,5,17099,41.519299,-88.605041
+464,Del Monte Foods Plant #112,4497411,Illinois,IL - La Salle,Lead Compounds,CAP/HAP,0.00001,Unspecified,347 N 43rd Rd,Fruit and Vegetable Canning,5,17099,41.556801,-89.09896
+465,Epsilyte LLC,5431611,Illinois,IL - La Salle,Lead Compounds,CAP/HAP,0.00002,"Plastic, Resin, Rubber or Syn Fiber Manuf Plant",501 Brunner St,Plastics Material and Resin Manufacturing,5,17099,41.325305,-89.112709
+466,Glen-Gery Corp,8208711,Illinois,IL - La Salle,Lead Compounds,CAP/HAP,0.00384,"Brick, Structural Clay, or Clay Ceramics Plant",1401 Broadway St,Clay Building Material and Refractories Manufacturing,5,17099,41.321663,-88.685673
+467,Golden Boy Nut Corp,4460711,Illinois,IL - La Salle,Lead Compounds,CAP/HAP,0.00001,Unspecified,118 Iowa Ave,All Other Miscellaneous Food Manufacturing,5,17099,41.123186,-88.822554
+468,Grandpa's Farm Airport,5029311,Illinois,IL - La Salle,Lead Compounds,CAP/HAP,0.01356,Airport,N 41st Rd,Other Airport Operations,5,17099,41.521977,-89.132584
+469,Illinois Cement Co,8208511,Illinois,IL - La Salle,Lead Compounds,CAP/HAP,0.03685,Portland Cement Manufacturing,1601 Rockwell Rd,Cement Manufacturing,5,17099,41.329483,-89.081612
+470,Illinois Valley Community Hospital,5432011,Illinois,IL - La Salle,Lead Compounds,CAP/HAP,0.00002,"Institutional (school, hospital, prison, etc.)",925 West St,General Medical and Surgical Hospitals,5,17099,41.328942,-89.124365
+471,Illinois Valley Regional Airport,5029911,Illinois,IL - La Salle,Lead Compounds,CAP/HAP,0.04659,Airport,Ed Urban Dr,Other Airport Operations,5,17099,41.347505,-89.153052
+472,James Hardie Building Products Inc,5447811,Illinois,IL - La Salle,Lead Compounds,CAP/HAP,0.00021,Unspecified,17 Unityte Dr,Other Concrete Product Manufacturing,5,17099,41.372514,-89.138584
+473,Kingspan Insulation,5430711,Illinois,IL - La Salle,Lead Compounds,CAP/HAP,0.00001,Unspecified,1101 Lori Ln,Polystyrene Foam Product Manufacturing,5,17099,41.552053,-89.102303
+474,Mahoney Environmental Solutions LLC dba Mendota AgriProducts,4636811,Illinois,IL - La Salle,Lead Compounds,CAP/HAP,0.00004,Food Products Processing Plant,448 N 3973 Rd,Rendering and Meat Byproduct Processing,5,17099,41.516534,-89.079283
+475,MBL (USA) Corp,7337211,Illinois,IL - La Salle,Lead Compounds,CAP/HAP,0.00002,"Plastic, Resin, Rubber or Syn Fiber Manuf Plant",601 Dayton Rd,Rubber and Plastics Hoses and Belting Manufacturing,5,17099,41.381446,-88.828575
+476,Metokote Corp,5447611,Illinois,IL - La Salle,Lead Compounds,CAP/HAP,0,Unspecified,5750 St Rt 251,"Metal Coating, Engraving (except Jewelry and Silverware), and Allied Services to Manufacturers",5,17099,41.375638,-89.127401
+477,Owens-Brockway Glass Container Inc,7793211,Illinois,IL - La Salle,Lead Compounds,CAP/HAP,0.1752,Glass Plant,901 N Shabbona St,Glass Container Manufacturing,5,17099,41.1314,-88.8252
+478,PCS Phosphate Co Inc,7939611,Illinois,IL - La Salle,Lead Compounds,CAP/HAP,0.00005,Unspecified,2660 E US Rt 6,Other Animal Food Manufacturing,5,17099,41.316011,-88.655825
+479,Pilkington North America Inc,4635211,Illinois,IL - La Salle,Lead Compounds,CAP/HAP,0.03197,Glass Plant,300 20th Ave,Flat Glass Manufacturing,5,17099,41.329533,-88.875586
+480,PQ LLC,5015111,Illinois,IL - La Salle,Lead Compounds,CAP/HAP,0.00002,Unspecified,340 E Grove St,Other Basic Inorganic Chemical Manufacturing,5,17099,41.341774,-89.003281
+481,REG Seneca LLC,10822611,Illinois,IL - La Salle,Lead Compounds,CAP/HAP,0.00029,Ethanol Biorefineries/Soy Biodiesel,614 Shipyard Rd,All Other Basic Organic Chemical Manufacturing,5,17099,41.306698,-88.590197
+482,ROTHROCK,11998311,Illinois,IL - La Salle,Lead Compounds,CAP/HAP,0.01356,Airport,Unknown,Airport Operations,5,17099,41.126251,-88.801667
+483,SABIC Innovative Plastics US LLC,7339111,Illinois,IL - La Salle,Lead Compounds,CAP/HAP,0.0025,"Plastic, Resin, Rubber or Syn Fiber Manuf Plant",2148 N 2753rd Rd,Plastics Material and Resin Manufacturing,5,17099,41.334533,-88.755775
+484,Sheridan Center-Dept of Corrections,7954311,Illinois,IL - La Salle,Lead Compounds,CAP/HAP,0.00004,"Institutional (school, hospital, prison, etc.)",4017 E 2603 Rd,Correctional Institutions,5,17099,41.517269,-88.685148
+485,Sky Dive Chicago Airport,5029611,Illinois,IL - La Salle,Lead Compounds,CAP/HAP,0.0226,Airport,3215 E 1969th Rd,Other Airport Operations,5,17099,41.399778,-88.793917
+486,Western Sand & Gravel Co LLC,4635611,Illinois,IL - La Salle,Lead Compounds,CAP/HAP,0,Unspecified,4220 MBL Dr,Construction Sand and Gravel Mining,5,17099,41.385984,-88.828951
+487,WH Maze Co,5431711,Illinois,IL - La Salle,Lead Compounds,CAP/HAP,0.00001,Fabricated Metal Products Plant,100 Church St,Steel Wire Drawing,5,17099,41.3208,-89.1397
+488,AbbVie Inc,8140211,Illinois,IL - Lake,Lead Compounds,CAP/HAP,0.00019,Pharmaceutical Manufacturing,1401 Sheridan Rd,Pharmaceutical Preparation Manufacturing,5,17097,42.334501,-87.836115
+489,C & F Packing Inc,4775311,Illinois,IL - Lake,Lead Compounds,CAP/HAP,0.00003,Food Products Processing Plant,515 Park Ave,Meat Processed from Carcasses,5,17097,42.410141,-88.069847
+490,Campbell's Airport,5564311,Illinois,IL - Lake,Lead Compounds,CAP/HAP,0.06779,Airport,W Tonwline Rd,Other Airport Operations,5,17097,42.324036,-88.076547
+491,Continental Automotive Systems Inc,4996611,Illinois,IL - Lake,Lead Compounds,CAP/HAP,0,Unspecified,21440 W Lake Cook Rd,Engineering Services,5,17097,42.15671,-88.050497
+492,Des Plaines River WRF-LCPWD,17737611,Illinois,IL - Lake,Lead Compounds,CAP/HAP,0,Unspecified,800 Krause Dr,Sewage Treatment Facilities,5,17097,42.165783,-87.936102
+493,Gillette Co,5463311,Illinois,IL - Lake,Lead Compounds,CAP/HAP,0.00002,Unspecified,3500 W 16th St,Toilet Preparation Manufacturing,5,17097,42.331905,-87.878911
+494,Gold Bond Building Products LLC,8138511,Illinois,IL - Lake,Lead Compounds,CAP/HAP,0.0001,Unspecified,515 Seashore Dr,Gypsum Product Manufacturing,5,17097,42.366541,-87.823281
+495,Good Shepherd Hospital,4774111,Illinois,IL - Lake,Lead Compounds,CAP/HAP,0,"Institutional (school, hospital, prison, etc.)",450 W Hwy 22,General Medical and Surgical Hospitals,5,17097,42.195704,-88.17308
+496,Grayslake Animal Hospital,5527511,Illinois,IL - Lake,Lead Compounds,CAP/HAP,0.00023,Crematory - Animal,1490 E Belvidere Rd,Veterinary Services,5,17097,42.33918,-88.011345
+497,Hospira Inc,9690211,Illinois,IL - Lake,Lead Compounds,CAP/HAP,0.00002,Pharmaceutical Manufacturing,375 N Field Dr,Pharmaceutical Preparation Manufacturing,5,17097,42.244623,-87.895956
+498,Midwest Printed Circuit Services Inc,5464411,Illinois,IL - Lake,Lead Compounds,CAP/HAP,0.00117,Unspecified,1741 Circuit Dr,Bare Printed Circuit Board Manufacturing,5,17097,42.380031,-88.0855
+499,Naval Station Great Lakes,7792511,Illinois,IL - Lake,Lead Compounds,CAP/HAP,0.00019,Military Base,310 Seabee Way,National Security,5,17097,42.315498,-87.838127
+500,North Shore Gas Co,4776611,Illinois,IL - Lake,Lead Compounds,CAP/HAP,0,Unspecified,2101 W Peterson Rd,Pipeline Transportation of Natural Gas,5,17097,42.305493,-88.006424
+501,North Shore Water Reclamation Dist,10820911,Illinois,IL - Lake,Lead Compounds,CAP/HAP,0.00002,Wastewater Treatment Facility,4701 9th St,Sewage Treatment Facilities,5,17097,42.475472,-87.887672
+502,Plexus Mfg Solutions - Chicago,8208311,Illinois,IL - Lake,Lead Compounds,CAP/HAP,0.00166,Unspecified,2400 Millbrook Dr,Printed Circuit Assembly (Electronic Assembly) Manufacturing,5,17097,42.192605,-87.944405
+503,PQ LLC,5012511,Illinois,IL - Lake,Lead Compounds,CAP/HAP,0.00002,Unspecified,1945 N Delany Rd,Other Basic Inorganic Chemical Manufacturing,5,17097,42.387031,-87.900995
+504,Roquette America Inc,5011911,Illinois,IL - Lake,Lead Compounds,CAP/HAP,0.00012,Chemical Plant,1550 Norhtwestern Ave,All Other Miscellaneous Chemical Product and Preparation Manufacturing,5,17097,42.380822,-87.896674
+505,USG Corp Research Center,4776711,Illinois,IL - Lake,Lead Compounds,CAP/HAP,0,Unspecified,700 N US Hwy 45,Gypsum Product Manufacturing,5,17097,42.292513,-88.000877
+506,Vantage Specialties Inc,5011811,Illinois,IL - Lake,Lead Compounds,CAP/HAP,0.00009,Unspecified,3938 Porett Dr,Surface Active Agent Manufacturing,5,17097,42.383812,-87.899574
+507,Waukegan Electric Generating Station,7792311,Illinois,IL - Lake,Lead Compounds,CAP/HAP,0.01936,Electricity Generation via Combustion,401 E Greenwood Ave,Fossil Fuel Electric Power Generation,5,17097,42.383092,-87.814271
+508,Waukegan Regional Airport,4698211,Illinois,IL - Lake,Lead Compounds,CAP/HAP,0.09772,Airport,3580 N Mcaree Rd,Other Airport Operations,5,17097,42.421506,-87.867004
+509,WW Grainger Inc,16791011,Illinois,IL - Lake,Lead Compounds,CAP/HAP,0.00001,Unspecified,100 Grainger Pkwy,Industrial Supplies Merchant Wholesalers,5,17097,42.233809,-87.908973
+510,Lawrence County Correctional Center,5034311,Illinois,IL - Lawrence,Lead Compounds,CAP/HAP,0.00002,"Institutional (school, hospital, prison, etc.)",US Hwy 50,Correctional Institutions,5,17101,38.728388,-87.906033
+511,Lawrenceville-Vincennes Airport,5035511,Illinois,IL - Lawrence,Lead Compounds,CAP/HAP,0.07142,Airport,Rr 4 Box 195,Other Airport Operations,5,17101,38.767737,-87.601106
+512,Mt  Carmel Airport,5035011,Illinois,IL - Lawrence,Lead Compounds,CAP/HAP,0.02298,Airport,Rr 1 Box 54,Other Airport Operations,5,17101,38.605538,-87.725994
+513,Bay Valley Foods LLC,5037711,Illinois,IL - Lee,Lead Compounds,CAP/HAP,0.00002,Unspecified,820 Palmyra St,"Dry, Condensed, and Evaporated Dairy Product Manufacturing",5,17103,41.847029,-89.497586
+514,Bresson Airport,5483711,Illinois,IL - Lee,Lead Compounds,CAP/HAP,0.0113,Airport,2764 Highway 30,Other Airport Operations,5,17103,41.76321,-89.101579
+515,C R  Walgreen Airport,5483611,Illinois,IL - Lee,Lead Compounds,CAP/HAP,0.09039,Airport,1650 Franklin Grove Rd,Other Airport Operations,5,17103,41.833869,-89.443986
+516,Conmat Inc,5482411,Illinois,IL - Lee,Lead Compounds,CAP/HAP,0.00001,Hot Mix Asphalt Plant,216 Palmyra Rd,Asphalt Paving Mixture and Block Manufacturing,5,17103,41.854865,-89.587828
+517,Dixon Correctional Center,5036411,Illinois,IL - Lee,Lead Compounds,CAP/HAP,0.00008,"Institutional (school, hospital, prison, etc.)",2600 N Brinton Ave,Correctional Institutions,5,17103,41.873652,-89.478705
+518,Donaldson Co Inc,7847811,Illinois,IL - Lee,Lead Compounds,CAP/HAP,0,Unspecified,815 Progress Dr,Other Motor Vehicle Parts Manufacturing,5,17103,41.811348,-89.474063
+519,Invenergy Nelson LLC,10824211,Illinois,IL - Lee,Lead Compounds,CAP/HAP,0,Electricity Generation via Combustion,1311 Nelson Rd,Fossil Fuel Electric Power Generation,5,17103,41.77466,-89.606565
+520,Raynor Garage Doors,7793011,Illinois,IL - Lee,Lead Compounds,CAP/HAP,0.00002,Fabricated Metal Products Plant,1101 E River Rd,Metal Window and Door Manufacturing,5,17103,41.848582,-89.461303
+521,Sauk Valley Community College,8139011,Illinois,IL - Lee,Lead Compounds,CAP/HAP,0.00001,"Institutional (school, hospital, prison, etc.)",173 Il Rt 2,"Colleges, Universities, and Professional Schools",5,17103,41.81752,-89.597783
+522,Sensient Flavors Inc,5035911,Illinois,IL - Lee,Lead Compounds,CAP/HAP,0.00002,Food Products Processing Plant,25 E Main St,Coffee and Tea Manufacturing,5,17103,41.712407,-89.331852
+523,FICKLIN-AIRTECH,11067311,Illinois,IL - Livingston,Lead Compounds,CAP/HAP,0.01115,Airport,Unknown,Airport Operations,5,17105,40.766673,-88.505395
+524,HJ Eppel & Co Inc,5394411,Illinois,IL - Livingston,Lead Compounds,CAP/HAP,0,Hot Mix Asphalt Plant,12758 E 1200 N Rd,Asphalt Paving Mixture and Block Manufacturing,5,17105,40.799586,-88.68633
+525,Kankakee Valley Const Co Inc,4813411,Illinois,IL - Livingston,Lead Compounds,CAP/HAP,0.0001,Hot Mix Asphalt Plant,12115 N 1600 E Rd,Asphalt Paving Mixture and Block Manufacturing,5,17105,40.801758,-88.623898
+526,Livingston Stone Corp,5405711,Illinois,IL - Livingston,Lead Compounds,CAP/HAP,0,Unspecified,11828 N 1600 E Rd,Crushed and Broken Limestone Mining and Quarrying,5,17105,40.797884,-88.621861
+527,LSC Communications Inc,8139411,Illinois,IL - Livingston,Lead Compounds,CAP/HAP,0.00001,Printing/Publishing Facility,801 N Union St,Commercial Printing (except Screen and Books),5,17105,41.106272,-88.41656
+528,LSC Communications Pontiac,5485811,Illinois,IL - Livingston,Lead Compounds,CAP/HAP,0.00003,Printing/Publishing Facility,1600 N Main St,Commercial Printing (except Screen and Books),5,17105,40.892513,-88.627062
+529,Pontiac Airport,5483811,Illinois,IL - Livingston,Lead Compounds,CAP/HAP,0.0219,Airport,15755 E 2000 North Rd,Other Airport Operations,5,17105,40.924444,-88.623944
+530,Pontiac Center-dept of Corrections,5485511,Illinois,IL - Livingston,Lead Compounds,CAP/HAP,0.00007,"Institutional (school, hospital, prison, etc.)",700 W Lincoln St,Correctional Institutions,5,17105,40.869195,-88.63896
+531,Eaton Corp,7790711,Illinois,IL - Logan,Lead Compounds,CAP/HAP,0.00001,Unspecified,1725 1200th Ave,Switchgear and Switchboard Apparatus Manufacturing,5,17107,40.167477,-89.370515
+532,ICG Illinois LLC,8209211,Illinois,IL - Logan,Lead Compounds,CAP/HAP,0.0085,Mines/Quarries,781 600th St,Underground Coal Mining,5,17107,40.003621,-89.450161
+533,Logan County Airport,4687811,Illinois,IL - Logan,Lead Compounds,CAP/HAP,0.01332,Airport,1351 Airport Rd,Other Airport Operations,5,17107,40.157934,-89.335719
+534,State Highway Construction Corp,4687711,Illinois,IL - Logan,Lead Compounds,CAP/HAP,0.00007,Hot Mix Asphalt Plant,4 mi W of Lincoln 2 1/2 mi s of Rte 10,Asphalt Paving Mixture and Block Manufacturing,5,17107,40.132292,-89.46453
+535,Archer Daniels Midland Co,8139911,Illinois,IL - Macon,Lead Compounds,CAP/HAP,0.01499,Ethanol Biorefineries/Soy Biodiesel,3883 Faries Pkwy,Wet Corn Milling and Starch Manufacturing,5,17115,39.870014,-88.890964
+536,Decatur Airport,5588411,Illinois,IL - Macon,Lead Compounds,CAP/HAP,0.052,Airport,910 S Airport Rd,Other Airport Operations,5,17115,39.834361,-88.858746
+537,Decatur Construction Services Inc,5401211,Illinois,IL - Macon,Lead Compounds,CAP/HAP,0.00001,Concrete Batch Plant,2501 N Martin Luther King,Ready-Mix Concrete Manufacturing,5,17115,39.86981,-88.951931
+538,Decatur Foundry Inc,4464811,Illinois,IL - Macon,Lead Compounds,CAP/HAP,0.15013,"Foundries, Iron and Steel",1745 N Illinois St,Iron Foundries,5,17115,39.859918,-88.943574
+539,Decatur Women's Correctional Center,5400811,Illinois,IL - Macon,Lead Compounds,CAP/HAP,0.00004,"Institutional (school, hospital, prison, etc.)",2310 E Mound Rd,Correctional Institutions,5,17115,39.894764,-88.927095
+540,Eisenhower High School,5417111,Illinois,IL - Macon,Lead Compounds,CAP/HAP,0.00001,"Institutional (school, hospital, prison, etc.)",1200 S 16th St,Elementary and Secondary Schools,5,17115,39.829336,-88.934666
+541,Fuyao Glass Illinois Inc,7793411,Illinois,IL - Macon,Lead Compounds,CAP/HAP,0.00123,Glass Plant,2768 E Elwin Rd,Flat Glass Manufacturing,5,17115,39.779437,-88.904475
+542,MacArthur High School-dist 61,5417211,Illinois,IL - Macon,Lead Compounds,CAP/HAP,0.00002,"Institutional (school, hospital, prison, etc.)",1155 N Fairview Ave,Elementary and Secondary Schools,5,17115,39.852971,-88.980044
+543,Millikin University Power Plant,5399911,Illinois,IL - Macon,Lead Compounds,CAP/HAP,0.00003,"Institutional (school, hospital, prison, etc.)",1184 W Main St,"Colleges, Universities, and Professional Schools",5,17115,39.843677,-88.970671
+544,Mueller Co,5416911,Illinois,IL - Macon,Lead Compounds,CAP/HAP,0.02913,"Foundries, non-ferrous",1226 E Garfield Ave,Other Nonferrous Metal Foundries (except Die-Casting),5,17115,39.863437,-88.939978
+545,Mueller Co LLC,18950111,Illinois,IL - Macon,Lead Compounds,CAP/HAP,0.00321,Unspecified,2700 N Jasper St,Other Nonferrous Metal Foundries (except Die-Casting),5,17115,39.871956,-88.942491
+546,Norfolk Southern Railway Co,5400611,Illinois,IL - Macon,Lead Compounds,CAP/HAP,0,Unspecified,1735 E Condit St,Short Line Railroads,5,17115,39.852038,-88.929178
+547,Tate & Lyle Ingredients Americas LLC,7793311,Illinois,IL - Macon,Lead Compounds,CAP/HAP,0.0438,Wet Corn Mill,2200 E Eldorado St,Wet Corn Milling and Starch Manufacturing,5,17115,39.849947,-88.923464
+548,Voestalpine Railway Systems Nortrak Inc,10829411,Illinois,IL - Macon,Lead Compounds,CAP/HAP,0.00021,"Foundries, Iron and Steel",690 E Kenwood,Iron Foundries,5,17115,39.86897,-88.949033
+549,Zelmer Memorial Airpark,5438111,Illinois,IL - Macoupin,Lead Compounds,CAP/HAP,0.0113,Airport,Zelmer Airport Rd,Other Airport Operations,5,17117,39.420048,-89.991218
+550,Alton Memorial Hospital,7879811,Illinois,IL - Madison,Lead Compounds,CAP/HAP,0,"Institutional (school, hospital, prison, etc.)",1 Memorial Dr,General Medical and Surgical Hospitals,5,17119,38.899572,-90.15914
+551,Alton Steel Inc,8221911,Illinois,IL - Madison,Lead Compounds,CAP/HAP,0.18111,Steel Mill,5 Cut St,Iron and Steel Mills and Ferroalloy Manufacturing,5,17119,38.884444,-90.143735
+552,Amsted Rail Co Inc,7939311,Illinois,IL - Madison,Lead Compounds,CAP/HAP,0.044,"Foundries, Iron and Steel",1700 Walnut St,Steel Foundries (except Investment),5,17119,38.70316,-90.158809
+553,Anderson Hospital,4792511,Illinois,IL - Madison,Lead Compounds,CAP/HAP,0.00001,"Institutional (school, hospital, prison, etc.)",Rte 162 & Old Edwardsville Rd,General Medical and Surgical Hospitals,5,17119,38.736681,-89.946221
+554,Ardent Mills LLC,5438811,Illinois,IL - Madison,Lead Compounds,CAP/HAP,0.00001,Unspecified,145 W Broadway,Flour Milling,5,17119,38.890416,-90.188791
+555,Asphalt Sales & Products Inc,10830811,Illinois,IL - Madison,Lead Compounds,CAP/HAP,0,Hot Mix Asphalt Plant,4824 Wagon Wheel Rd,Asphalt Paving Mixture and Block Manufacturing,5,17119,38.810245,-90.033788
+556,Christ Bros Products LLC,10831911,Illinois,IL - Madison,Lead Compounds,CAP/HAP,0,Hot Mix Asphalt Plant,211 Community Dr,Asphalt Paving Mixture and Block Manufacturing,5,17119,38.810117,-90.055135
+557,Gateway Energy & Coke Co LLC,10923611,Illinois,IL - Madison,Lead Compounds,CAP/HAP,0.07343,Coke Battery,2585 Edwardsville Rd,All Other Petroleum and Coal Products Manufacturing,5,17119,38.695879,-90.13181
+558,Granite City Works of United States Steel Corp,8191211,Illinois,IL - Madison,Lead Compounds,CAP/HAP,0.29088,Steel Mill,1951 State St,Iron and Steel Mills and Ferroalloy Manufacturing,5,17119,38.6954,-90.1367
+559,Green Plains Madison,10832911,Illinois,IL - Madison,Lead Compounds,CAP/HAP,0.00022,Ethanol Biorefineries/Soy Biodiesel,395 Bissell St,All Other Miscellaneous Chemical Product and Preparation Manufacturing,5,17119,38.684109,-90.180715
+560,Heidtman Steel Products Inc,8180511,Illinois,IL - Madison,Lead Compounds,CAP/HAP,0.00001,Steel Mill,10 Northgate Industrial Dr,Iron and Steel Mills and Ferroalloy Manufacturing,5,17119,38.744579,-90.131908
+561,Highland-Winet Airport,4044911,Illinois,IL - Madison,Lead Compounds,CAP/HAP,0.00452,Airport,13427 Luber Dr,Other Airport Operations,5,17119,38.77925,-89.640451
+562,Koch Fertilizer LLC,4044511,Illinois,IL - Madison,Lead Compounds,CAP/HAP,0,Unspecified,3892 Berm Hwy,Farm Supplies Merchant Wholesalers,5,17119,38.861098,-90.117808
+563,Kraft Heinz Co,4619111,Illinois,IL - Madison,Lead Compounds,CAP/HAP,0.00008,Food Products Processing Plant,2901 Missouri Ave,Soft Drink Manufacturing,5,17119,38.720065,-90.146245
+564,Mayco Mfg LLC,7954511,Illinois,IL - Madison,Lead Compounds,CAP/HAP,0.00334,Fabricated Metal Products Plant,1200 16th St,"Nonferrous Metal (except Copper and Aluminum) Rolling, Drawing, and Extruding",5,17119,38.69683,-90.157709
+565,Messer LLC,3955011,Illinois,IL - Madison,Lead Compounds,CAP/HAP,0.00001,Unspecified,1200 S Delmar,Industrial Gas Manufacturing,5,17119,38.823633,-90.093696
+566,Midwest Metal Coatings LLC,4634611,Illinois,IL - Madison,Lead Compounds,CAP/HAP,0.00001,Unspecified,9 Konzen Ct,"Metal Coating, Engraving (except Jewelry and Silverware), and Allied Services to Manufacturers",5,17119,38.727349,-90.143937
+567,Olin Winchester LLC,7791111,Illinois,IL - Madison,Lead Compounds,CAP/HAP,0.01049,Fabricated Metal Products Plant,427 N Shamrock St,"Small Arms, Ordnance, and Ordnance Accessories Manufacturing",5,17119,38.887755,-90.111999
+568,Phillips 66 Hartford Lubricant Plant,7809011,Illinois,IL - Madison,Lead Compounds,CAP/HAP,0,Petroleum Storage Facility,2300 S Delmar Ave,Petroleum Lubricating Oil and Grease Manufacturing,5,17119,38.81151,-90.095364
+569,Premcor Refining Group Inc.,7339411,Illinois,IL - Madison,Lead Compounds,CAP/HAP,0,Unspecified,201 E Hawthorne Ave,Petroleum Bulk Stations and Terminals,5,17119,38.834248,-90.087906
+570,Shafer-Metro-East Airport,4044711,Illinois,IL - Madison,Lead Compounds,CAP/HAP,0.1175,Airport,2070 Triad Rd,Other Airport Operations,5,17119,38.732909,-89.806567
+571,St  Louis Regional Airport,4044811,Illinois,IL - Madison,Lead Compounds,CAP/HAP,0.04917,Airport,8 Terminal Dr,Other Airport Operations,5,17119,38.894168,-90.051893
+572,St Anthonys Hospital,5439511,Illinois,IL - Madison,Lead Compounds,CAP/HAP,0.00005,"Institutional (school, hospital, prison, etc.)",One St Anthony's Way,General Medical and Surgical Hospitals,5,17119,38.908028,-90.173409
+573,Velocity Services LLC,8180611,Illinois,IL - Madison,Lead Compounds,CAP/HAP,0.00002,Chemical Plant,1450 Edwardsville Rd,Other Warehousing and Storage,5,17119,38.689342,-90.138009
+574,Wieland Rolled Products North America,10925611,Illinois,IL - Madison,Lead Compounds,CAP/HAP,0.0154,Fabricated Metal Products Plant,427 N Shamrock St,"Copper Rolling, Drawing, Extruding, and Alloying",5,17119,38.888368,-90.112807
+575,WRB Refining LP Wood River Refinery,7940411,Illinois,IL - Madison,Lead Compounds,CAP/HAP,0.0924,Petroleum Refinery,900 S Central Ave,Petroleum Refineries,5,17119,38.840401,-90.070774
+576,Beelman Ready Mix,4601111,Illinois,IL - Marion,Lead Compounds,CAP/HAP,0,Concrete Batch Plant,100 Old Cemetery Rd,Ready-Mix Concrete Manufacturing,5,17121,38.606317,-89.113429
+577,Centralia Corrugated Products,9701611,Illinois,IL - Marion,Lead Compounds,CAP/HAP,0.00006,Unspecified,2301 S Wabash Ave,Corrugated and Solid Fiber Box Manufacturing,5,17121,38.49663,-89.138701
+578,Centralia Municipal Airport,4604611,Illinois,IL - Marion,Lead Compounds,CAP/HAP,0.05967,Airport,2331 E Calumet,Other Airport Operations,5,17121,38.515369,-89.091695
+579,Griffin Airport,16109211,Illinois,IL - Marion,Lead Compounds,CAP/HAP,0.00045,Airport,7 Miles NW of Alma,Airport Operations,5,17121,38.802851,-88.997946
+580,Illinois Central Gulf Railroad,4602011,Illinois,IL - Marion,Lead Compounds,CAP/HAP,0,Unspecified,600 Gilmore St,Line-Haul Railroads,5,17121,38.505939,-89.143171
+581,Pinnacle Foods Group LLC,4602411,Illinois,IL - Marion,Lead Compounds,CAP/HAP,0.00001,Unspecified,100 W Calumet St,"Dry Pasta, Dough, and Flour Mixes Manufacturing from Purchased Flour",5,17121,38.518723,-89.14057
+582,Salem-Leckrone Airport,4619511,Illinois,IL - Marion,Lead Compounds,CAP/HAP,0.04119,Airport,Airport Rd,Other Airport Operations,5,17121,38.642872,-88.964185
+583,St Marys Hospital,4601411,Illinois,IL - Marion,Lead Compounds,CAP/HAP,0.00002,"Institutional (school, hospital, prison, etc.)",400 N Pleasant St,General Medical and Surgical Hospitals,5,17121,38.530192,-89.117058
+584,Lacon-Marshall County Airport,5565211,Illinois,IL - Marshall,Lead Compounds,CAP/HAP,0.04028,Airport,State Route 17,Other Airport Operations,5,17123,41.018218,-89.385589
+585,Mexichem Specialty Resins Inc,4621011,Illinois,IL - Marshall,Lead Compounds,CAP/HAP,0.12012,"Plastic, Resin, Rubber or Syn Fiber Manuf Plant",1550 CR 1450N,Plastics Material and Resin Manufacturing,5,17123,41.135266,-89.341088
+586,Unity Envirotech of IL LLC,4621211,Illinois,IL - Marshall,Lead Compounds,CAP/HAP,0,Fertilizer Plant,1557 CR 1400N,Phosphatic Fertilizer Manufacturing,5,17123,41.123819,-89.342292
+587,Havana Regional Airport,5535211,Illinois,IL - Mason,Lead Compounds,CAP/HAP,0.00317,Airport,9772 State Route 97,Other Airport Operations,5,17125,40.222693,-90.022782
+588,Macomb Municipal Airport,5568311,Illinois,IL - McDonough,Lead Compounds,CAP/HAP,0.01597,Airport,16190 E 1300th St,Other Airport Operations,5,17109,40.519703,-90.651517
+589,NTN Bower Corp,4704511,Illinois,IL - McDonough,Lead Compounds,CAP/HAP,0.00008,Unspecified,711 N Bower Ave,Ball and Roller Bearing Manufacturing,5,17109,40.465438,-90.635646
+590,Smith Airport,5568211,Illinois,IL - McDonough,Lead Compounds,CAP/HAP,0.01808,Airport,11980 Us 67,Other Airport Operations,5,17109,40.454183,-90.623141
+591,TriOak Foods Inc,4705311,Illinois,IL - McDonough,Lead Compounds,CAP/HAP,0,Unspecified,106 Industrial Park Rd,Other Animal Food Manufacturing,5,17109,40.550463,-90.518745
+592,Charter Manufacturing Co Inc,7353811,Illinois,IL - McHenry,Lead Compounds,CAP/HAP,0.02526,"Foundries, Iron and Steel",1800 W Lake Shore Dr,Iron Foundries,5,17111,42.291677,-88.410251
+593,Chroma Corp,7793111,Illinois,IL - McHenry,Lead Compounds,CAP/HAP,0,Chemical Plant,3900 Dayton St,Synthetic Dye and Pigment Manufacturing,5,17111,42.311151,-88.274037
+594,Dacy Airport,5568611,Illinois,IL - McHenry,Lead Compounds,CAP/HAP,0.0452,Airport,22207 Airport Rd,Other Airport Operations,5,17111,42.400476,-88.631515
+595,Dean Dairy Fluid LLC,10826611,Illinois,IL - McHenry,Lead Compounds,CAP/HAP,0.00004,Food Products Processing Plant,6303 Maxon Rd,Fluid Milk Manufacturing,5,17111,42.417964,-88.666539
+596,Engineered Polymer Solutions Inc,4558411,Illinois,IL - McHenry,Lead Compounds,CAP/HAP,0.00001,"Plastic, Resin, Rubber or Syn Fiber Manuf Plant",1400 N State St,Plastics Material and Resin Manufacturing,5,17111,42.263109,-88.612888
+597,Galt-Wonder Lake Airport,5568711,Illinois,IL - McHenry,Lead Compounds,CAP/HAP,0.09039,Airport,5112 Greenwood,Other Airport Operations,5,17111,42.401854,-88.376457
+598,Lake-In-The-Hills Airport,4891111,Illinois,IL - McHenry,Lead Compounds,CAP/HAP,0.07683,Airport,8407 Pyott Rd,Other Airport Operations,5,17111,42.206823,-88.322605
+599,Point Ready Mix LLC,4932111,Illinois,IL - McHenry,Lead Compounds,CAP/HAP,0.00002,Concrete Batch Plant,2203 Spring Ridge Dr,Ready-Mix Concrete Manufacturing,5,17111,42.43388,-88.242289
+600,Rohm & Haas Chemicals LLC,8208911,Illinois,IL - McHenry,Lead Compounds,CAP/HAP,0.00006,Unspecified,5005 Barnard Mill Rd,Adhesive Manufacturing,5,17111,42.390419,-88.295729
+601,Scot Forge Co,4931811,Illinois,IL - McHenry,Lead Compounds,CAP/HAP,0.0001,Steel Mill,8001 Winn Rd,Iron and Steel Forging,5,17111,42.44238,-88.249789
+602,Snap-On Tools Co,4150111,Illinois,IL - McHenry,Lead Compounds,CAP/HAP,0,Unspecified,3011 E Rte 176 Dock C,General Warehousing and Storage,5,17111,42.258315,-88.25248
+603,Union Special Corp,5587111,Illinois,IL - McHenry,Lead Compounds,CAP/HAP,0,Industrial Machinery or Equipment Plant,1 Union Special Plz,All Other Industrial Machinery Manufacturing,5,17111,42.171312,-88.430886
+604,American Buildings Co,4654711,Illinois,IL - McLean,Lead Compounds,CAP/HAP,0.00003,Unspecified,2101 E Main,Prefabricated Metal Building and Component Manufacturing,5,17113,40.738915,-88.975172
+605,Bridgestone Americas Tire Operations,4752611,Illinois,IL - McLean,Lead Compounds,CAP/HAP,0.00002,Tire Manuf (not retread),1600 Fort Jesse Rd,Tire Manufacturing (except Retreading),5,17113,40.519986,-88.955374
+606,Central Illinois Regional Airport,4464311,Illinois,IL - McLean,Lead Compounds,CAP/HAP,0.03331,Airport,3201 Cira Dr,Other Airport Operations,5,17113,40.477634,-88.910275
+607,Chicago Title Land Trust Co,4905311,Illinois,IL - McLean,Lead Compounds,CAP/HAP,0.00006,Unspecified,1601 GE Rd,Relay and Industrial Control Manufacturing,5,17113,40.500642,-88.949757
+608,Fervalue USA Inc,4905611,Illinois,IL - McLean,Lead Compounds,CAP/HAP,0.00002,Unspecified,2501 Beich Rd,Confectionery Manufacturing from Purchased Chocolate,5,17113,40.444786,-89.026878
+609,Illinois State University,4905411,Illinois,IL - McLean,Lead Compounds,CAP/HAP,0.00015,"Institutional (school, hospital, prison, etc.)",100 S University St,"Colleges, Universities, and Professional Schools",5,17113,40.510312,-88.99282
+610,Illinois Wesleyan University,4906011,Illinois,IL - McLean,Lead Compounds,CAP/HAP,0,"Institutional (school, hospital, prison, etc.)",301 E Emerson St,"Colleges, Universities, and Professional Schools",5,17113,40.492874,-88.990289
+611,St Joseph Medical Center,4906111,Illinois,IL - McLean,Lead Compounds,CAP/HAP,0.00003,"Institutional (school, hospital, prison, etc.)",2200 E Washington St,General Medical and Surgical Hospitals,5,17113,40.482917,-88.955673
+612,State Farm Insurance,16800411,Illinois,IL - McLean,Lead Compounds,CAP/HAP,0,Unspecified,2309 E Oakland Ave,Direct Life Insurance Carriers,5,17113,40.472793,-88.958289
+613,State Farm Mutual Automobile Insurance Co,4906411,Illinois,IL - McLean,Lead Compounds,CAP/HAP,0.00001,Unspecified,2102 E Hamilton Rd,Direct Life Insurance Carriers,5,17113,40.455821,-88.954847
+614,Mercer County Airport,5450211,Illinois,IL - Mercer,Lead Compounds,CAP/HAP,0.00904,Airport,1276 Highway 94,Other Airport Operations,5,17131,41.248645,-90.737084
+615,Crown Textile Services,9699511,Illinois,IL - Monroe,Lead Compounds,CAP/HAP,0.00002,Dry Cleaner - Petroleum Solvent,322 E Industrial Dr,Industrial Launderers,5,17133,38.449311,-90.200692
+616,Sackman Field Airport,5547111,Illinois,IL - Monroe,Lead Compounds,CAP/HAP,0.01356,Airport,11563 Bluff Rd,Other Airport Operations,5,17133,38.452306,-90.236056
+617,Hanson Material Service Yd,5555911,Illinois,IL - Montgomery,Lead Compounds,CAP/HAP,0.00005,Mineral Processing Plant,22283 Taylorville Rd & Nokomis Rd,Other Nonmetallic Mineral Mining and Quarrying,5,17135,39.335043,-89.310368
+618,Litchfield Municipal Airport,4637411,Illinois,IL - Montgomery,Lead Compounds,CAP/HAP,0.03149,Airport,Us 66 S,Other Airport Operations,5,17135,39.16737,-89.672161
+619,US Minerals,5555211,Illinois,IL - Montgomery,Lead Compounds,CAP/HAP,0.00007,Unspecified,796 Cips Trl,Other Nonmetallic Mineral Mining and Quarrying,5,17135,39.080929,-89.40014
+620,Illinois School For the Deaf,4638011,Illinois,IL - Morgan,Lead Compounds,CAP/HAP,0.00001,"Institutional (school, hospital, prison, etc.)",125 S Webster Ave,Elementary and Secondary Schools,5,17137,39.734038,-90.258265
+621,Jacksonville Airport,4656611,Illinois,IL - Morgan,Lead Compounds,CAP/HAP,0.02537,Airport,1956 Baldwin Rd,Other Airport Operations,5,17137,39.774465,-90.238466
+622,Moeller Ready Mix Inc,7953911,Illinois,IL - Morgan,Lead Compounds,CAP/HAP,0,Concrete Batch Plant,300 Moeller Rd,Ready-Mix Concrete Manufacturing,5,17137,39.687476,-90.234871
+623,Nestle Brands Beverage Division Inc,4654811,Illinois,IL - Morgan,Lead Compounds,CAP/HAP,0.00006,Unspecified,1111 Carnation Dr,"Dry, Condensed, and Evaporated Dairy Product Manufacturing",5,17137,39.749047,-90.267722
+624,Trammo Terminal Meredosia Inc,4656311,Illinois,IL - Morgan,Lead Compounds,CAP/HAP,0.00001,Unspecified,1921 Old Naples Rd,Farm Supplies Merchant Wholesalers,5,17137,39.805432,-90.5658
+625,MasterBrand Cabinets Inc,7807711,Illinois,IL - Moultrie,Lead Compounds,CAP/HAP,0,"Woodwork, Furniture, Millwork Manufacturing",501 W Progress St,Wood Kitchen Cabinet and Countertop Manufacturing,5,17139,39.715651,-88.478307
+626,HAMMER,10934511,Illinois,IL - Ogle,Lead Compounds,CAP/HAP,0.00339,Airport,Unknown,Airport Operations,5,17141,41.977752,-89.56018
+627,Martin & Co Excavating,4062511,Illinois,IL - Ogle,Lead Compounds,CAP/HAP,0.00002,Unspecified,1366 Rte 64 E,Crushed and Broken Limestone Mining and Quarrying,5,17141,42.016438,-89.308534
+628,Ogle County Airport,4063311,Illinois,IL - Ogle,Lead Compounds,CAP/HAP,0.01469,Airport,4660 Silver Creek Rd,Other Airport Operations,5,17141,42.037024,-89.392889
+629,Quality Metal Finishing Co,4658511,Illinois,IL - Ogle,Lead Compounds,CAP/HAP,0.00002,Unspecified,421 N Walnut St,Plumbing Fixture Fitting and Trim Manufacturing,5,17141,42.12925,-89.257003
+630,Rochelle Community Hospital,4045511,Illinois,IL - Ogle,Lead Compounds,CAP/HAP,0.00001,"Institutional (school, hospital, prison, etc.)",900 N 2nd St,General Medical and Surgical Hospitals,5,17141,41.928579,-89.063404
+631,Rochelle Foods LLC,4058811,Illinois,IL - Ogle,Lead Compounds,CAP/HAP,0.00012,Food Products Processing Plant,1001 S Main St,Meat Processed from Carcasses,5,17141,41.90954,-89.050486
+632,Rochelle Municipal Airport,4658411,Illinois,IL - Ogle,Lead Compounds,CAP/HAP,0.02712,Airport,Gurler Rd,Other Airport Operations,5,17141,41.893001,-89.07829
+633,Rock Road Companies Inc,17742111,Illinois,IL - Ogle,Lead Compounds,CAP/HAP,0,Hot Mix Asphalt Plant,6089 S Dement Rd,Asphalt Paving Mixture and Block Manufacturing,5,17141,41.933515,-89.029679
+634,Swenson Spreader Co,4971811,Illinois,IL - Ogle,Lead Compounds,CAP/HAP,0,Unspecified,127 Walnut St,All Other Transportation Equipment Manufacturing,5,17141,42.052482,-89.029062
+635,WEST GROVE,11956911,Illinois,IL - Ogle,Lead Compounds,CAP/HAP,0.00226,Airport,Unknown,Airport Operations,5,17141,42.096695,-89.419455
+636,Advanced Asphalt Co,9691011,Illinois,IL - Peoria,Lead Compounds,CAP/HAP,0.00002,Hot Mix Asphalt Plant,96 Sanger St,Asphalt Paving Mixture and Block Manufacturing,5,17143,40.669982,-89.615132
+637,Advanced Tri-Gen Power Systems Cogen Plant,5423811,Illinois,IL - Peoria,Lead Compounds,CAP/HAP,0,Electricity Generation via Combustion,1823 E Neal Ln,Fossil Fuel Electric Power Generation,5,17143,40.843013,-89.564082
+638,AZZ Galvanizing Peoria,7913411,Illinois,IL - Peoria,Lead Compounds,CAP/HAP,0.00041,Unspecified,6718 W Plank Rd,"Metal Coating, Engraving (except Jewelry and Silverware), and Allied Services to Manufacturers",5,17143,40.687903,-89.699752
+639,BioUrja Renewables LLC,7361511,Illinois,IL - Peoria,Lead Compounds,CAP/HAP,0.00082,Ethanol Biorefineries/Soy Biodiesel,1 Edmund St,All Other Miscellaneous Chemical Product and Preparation Manufacturing,5,17143,40.676479,-89.605949
+640,Bradley University,4814811,Illinois,IL - Peoria,Lead Compounds,CAP/HAP,0.00005,"Institutional (school, hospital, prison, etc.)",1501 W Bradley Ave,"Colleges, Universities, and Professional Schools",5,17143,40.698574,-89.617625
+641,Cast Technologies,4488911,Illinois,IL - Peoria,Lead Compounds,CAP/HAP,0.00342,"Foundries, non-ferrous",1100 SW Washington St,Other Nonferrous Metal Foundries (except Die-Casting),5,17143,40.682251,-89.601069
+642,Caterpillar Inc,4472911,Illinois,IL - Peoria,Lead Compounds,CAP/HAP,0.00001,Unspecified,501 SW Jefferson Ave,All Other Business Support Services,5,17143,40.689438,-89.597898
+643,Caterpillar Inc,7337911,Illinois,IL - Peoria,Lead Compounds,CAP/HAP,0.03055,"Foundries, Iron and Steel",8826 W Rte 24,Iron Foundries,5,17143,40.559343,-89.747989
+644,Corbion Biotech Inc,15461211,Illinois,IL - Peoria,Lead Compounds,CAP/HAP,0.00002,Unspecified,910 NE Adams St,All Other Miscellaneous Food Manufacturing,5,17143,40.696207,-89.579257
+645,Evonik Corp,7940111,Illinois,IL - Peoria,Lead Compounds,CAP/HAP,0.0002,Chemical Plant,8300 W Rte 24,Surface Active Agent Manufacturing,5,17143,40.564399,-89.724856
+646,Greater Peoria Regional Airport,4532511,Illinois,IL - Peoria,Lead Compounds,CAP/HAP,0.04334,Airport,6100 W Everett M. Dirksen Pkwy,Other Airport Operations,5,17143,40.659609,-89.688839
+647,Heritage Asphalt LLC,7354011,Illinois,IL - Peoria,Lead Compounds,CAP/HAP,0,Unspecified,201 S Levee Rd,Petroleum Bulk Stations and Terminals,5,17143,40.57218,-89.658611
+648,Illinois Central College - North Campus,4817011,Illinois,IL - Peoria,Lead Compounds,CAP/HAP,0.00001,"Institutional (school, hospital, prison, etc.)",5407 N University,"Colleges, Universities, and Professional Schools",5,17143,40.753276,-89.616457
+649,Illinois Power Resources Generating LLC,5422711,Illinois,IL - Peoria,Lead Compounds,CAP/HAP,0.06217,Electricity Generation via Combustion,7800 S Cilco Ln,Fossil Fuel Electric Power Generation,5,17143,40.595625,-89.662751
+650,Keystone Steel & Wire Co,7913311,Illinois,IL - Peoria,Lead Compounds,CAP/HAP,0.90119,Steel Mill,7000 SW Adams St,Steel Wire Drawing,5,17143,40.6416,-89.6454
+651,Komatsu America Corp,4472611,Illinois,IL - Peoria,Lead Compounds,CAP/HAP,0.00005,Unspecified,2300 NE Adams St,Construction Machinery Manufacturing,5,17143,40.708333,-89.561878
+652,Lenz Oil Service,4487611,Illinois,IL - Peoria,Lead Compounds,CAP/HAP,0.00002,Petroleum Storage Facility,3001 SW Washington St,Petroleum Bulk Stations and Terminals,5,17143,40.669271,-89.621609
+653,Methodist Medical Center,4488311,Illinois,IL - Peoria,Lead Compounds,CAP/HAP,0,"Institutional (school, hospital, prison, etc.)",112 Crescent Ave,General Medical and Surgical Hospitals,5,17143,40.69983,-89.596718
+654,Methodist Medical Center,4473011,Illinois,IL - Peoria,Lead Compounds,CAP/HAP,0.00001,Unspecified,415 St Marks Ct,Professional Organizations,5,17143,40.700535,-89.591101
+655,Methodist Services Inc,4487111,Illinois,IL - Peoria,Lead Compounds,CAP/HAP,0.00001,Unspecified,900 Main St,Religious Organizations,5,17143,40.698362,-89.595759
+656,Mt  Hawley Auxiliary Airport,4532111,Illinois,IL - Peoria,Lead Compounds,CAP/HAP,0.04802,Airport,1320 W Bird Blvd,Other Airport Operations,5,17143,40.795307,-89.613405
+657,PMP Fermentation Products Inc,4815711,Illinois,IL - Peoria,Lead Compounds,CAP/HAP,0.00005,Chemical Plant,900 NE Adams St,All Other Miscellaneous Chemical Product and Preparation Manufacturing,5,17143,40.695318,-89.580097
+658,Proctor Hospital,4815611,Illinois,IL - Peoria,Lead Compounds,CAP/HAP,0.00002,"Institutional (school, hospital, prison, etc.)",5409 N Knoxville,General Medical and Surgical Hospitals,5,17143,40.753047,-89.597908
+659,Seneca Foods Corp,5406011,Illinois,IL - Peoria,Lead Compounds,CAP/HAP,0.00008,Unspecified,606 Tremont St,Fruit and Vegetable Canning,5,17143,40.923711,-89.759666
+660,St Francis Medical Center,4488111,Illinois,IL - Peoria,Lead Compounds,CAP/HAP,0,"Institutional (school, hospital, prison, etc.)",530 NE Glen Oak Ave,General Medical and Surgical Hospitals,5,17143,40.70166,-89.592427
+661,General Cable,7940211,Illinois,IL - Perry,Lead Compounds,CAP/HAP,0.00138,Fabricated Metal Products Plant,1453 S Washington St,"Copper Rolling, Drawing, Extruding, and Alloying",5,17145,37.982249,-89.235147
+662,Illinois MPP Co,4532811,Illinois,IL - Perry,Lead Compounds,CAP/HAP,0.00002,Unspecified,1135 Industrial Park Blvd,"Electroplating, Plating, Polishing, Anodizing, and Coloring",5,17145,38.029146,-89.246171
+663,Pinckneyville Correctional Center,4533311,Illinois,IL - Perry,Lead Compounds,CAP/HAP,0.00001,"Institutional (school, hospital, prison, etc.)",5835 Rte 154,Correctional Institutions,5,17145,38.085772,-89.327472
+664,Pinckneyville Hospital,4533111,Illinois,IL - Perry,Lead Compounds,CAP/HAP,0.00001,"Institutional (school, hospital, prison, etc.)",101 N Walnut St,General Medical and Surgical Hospitals,5,17145,38.081011,-89.383288
+665,Pinckneyville-DuQuoin Airport,4534111,Illinois,IL - Perry,Lead Compounds,CAP/HAP,0.01808,Airport,4222 Caladium Rd,Other Airport Operations,5,17145,37.977884,-89.360449
+666,Pittsfield Penstone Airport,4684411,Illinois,IL - Pike,Lead Compounds,CAP/HAP,0.01524,Airport,Rr 3 Box 3181,Other Airport Operations,5,17149,39.63889,-90.778559
+667,Prairie Power Inc,7807411,Illinois,IL - Pike,Lead Compounds,CAP/HAP,0.00002,Electricity Generation via Combustion,13476 Hwy 100,Fossil Fuel Electric Power Generation,5,17149,39.448429,-90.614368
+668,Advanced Asphalt Co,4573911,Illinois,IL - Putnam,Lead Compounds,CAP/HAP,0.0001,Hot Mix Asphalt Plant,13559 Prairie Industrial Park,Asphalt Paving Mixture and Block Manufacturing,5,17155,41.301121,-89.294796
+669,Marquis Energy LLC,10848111,Illinois,IL - Putnam,Lead Compounds,CAP/HAP,0.00179,Ethanol Biorefineries/Soy Biodiesel,11953 Prairie Industrial Pkwy,Ethyl Alcohol Manufacturing,5,17155,41.276786,-89.319866
+670,Mid-American Growers,10848211,Illinois,IL - Putnam,Lead Compounds,CAP/HAP,0.00159,Unspecified,14240 Greenhouse Ave,Nursery and Tree Production,5,17155,41.290673,-89.195192
+671,Ardent Mills LLC,4706811,Illinois,IL - Randolph,Lead Compounds,CAP/HAP,0.00001,Unspecified,101 Water St,Flour Milling,5,17157,37.893292,-89.816306
+672,Chester Center-Dept Of Mental Health,4722611,Illinois,IL - Randolph,Lead Compounds,CAP/HAP,0,Unspecified,1315 Lehman Dr,Psychiatric and Substance Abuse Hospitals,5,17157,37.931063,-89.856728
+673,Dynegy Midwest Generation LLC,7954611,Illinois,IL - Randolph,Lead Compounds,CAP/HAP,0.01657,Electricity Generation via Combustion,10901 Baldwin Rd,Fossil Fuel Electric Power Generation,5,17157,38.204521,-89.855919
+674,Gilster Mary-Lee Corp,4721711,Illinois,IL - Randolph,Lead Compounds,CAP/HAP,0.00002,Unspecified,10 Industrial Park,All Other Business Support Services,5,17157,38.012094,-89.651256
+675,Gilster Mary-Lee Corp,7954211,Illinois,IL - Randolph,Lead Compounds,CAP/HAP,0.00001,Unspecified,705 N Sparta St,"Dry Pasta, Dough, and Flour Mixes Manufacturing from Purchased Flour",5,17157,38.010497,-89.659635
+676,Red Bud Regional Hospital,4707411,Illinois,IL - Randolph,Lead Compounds,CAP/HAP,0.00002,"Institutional (school, hospital, prison, etc.)",325 Spring St,General Medical and Surgical Hospitals,5,17157,38.209049,-89.997006
+677,Sparta Community Aiport - Hunter Field,4516311,Illinois,IL - Randolph,Lead Compounds,CAP/HAP,0.06071,Airport,1800 N Market,Other Airport Operations,5,17157,38.149635,-89.69955
+678,Olney-Noble Airport,4572611,Illinois,IL - Richland,Lead Compounds,CAP/HAP,0.01224,Airport,2632 E Illinois 250,Other Airport Operations,5,17159,38.722012,-88.173744
+679,3M Cordova,7363311,Illinois,IL - Rock Island,Lead Compounds,CAP/HAP,0.00002,"Plastic, Resin, Rubber or Syn Fiber Manuf Plant",22614 Rte 84 N,Plastics Material and Resin Manufacturing,5,17161,41.753782,-90.289643
+680,5th Ave Coating Service Center,4573411,Illinois,IL - Rock Island,Lead Compounds,CAP/HAP,0.00001,Unspecified,3015 5th Ave,"Metal Coating, Engraving (except Jewelry and Silverware), and Allied Services to Manufacturers",5,17161,41.527496,-90.414148
+681,Aramark Uniform Services Inc,4572911,Illinois,IL - Rock Island,Lead Compounds,CAP/HAP,0.00001,Dry Cleaner - Petroleum Solvent,390 42nd Ave,Linen Supply,5,17161,41.488792,-90.4534
+682,City of Rock Island WWTP,16793211,Illinois,IL - Rock Island,Lead Compounds,CAP/HAP,0,Wastewater Treatment Facility,1299 Mill St,Sewage Treatment Facilities,5,17161,41.499682,-90.597486
+683,Cordova Energy Co LLC,4594711,Illinois,IL - Rock Island,Lead Compounds,CAP/HAP,0,Electricity Generation via Combustion,24712 192nd Ave N,Fossil Fuel Electric Power Generation,5,17161,41.712682,-90.279831
+684,East Moline Correctional Center,4572811,Illinois,IL - Rock Island,Lead Compounds,CAP/HAP,0.00003,"Institutional (school, hospital, prison, etc.)",100 Hillcrest Rd,Correctional Institutions,5,17161,41.531848,-90.418441
+685,Exelon- Quad Cities Station,4579311,Illinois,IL - Rock Island,Lead Compounds,CAP/HAP,0.00003,Electricity Generation via Combustion,22710 206th Ave N,Fossil Fuel Electric Power Generation,5,17161,41.72634,-90.310651
+686,Genesis Medical Center,4578211,Illinois,IL - Rock Island,Lead Compounds,CAP/HAP,0.00002,"Institutional (school, hospital, prison, etc.)",801 Illini Dr,General Medical and Surgical Hospitals,5,17161,41.494494,-90.41863
+687,Genesis Medical Center - Illini Campus,11091811,Illinois,IL - Rock Island,Lead Compounds,CAP/HAP,0.00012,Airport,801 Illini Dr,Airport Operations,5,17161,41.495208,-90.418137
+688,John Deere Harvester Works,4573111,Illinois,IL - Rock Island,Lead Compounds,CAP/HAP,0.00009,Industrial Machinery or Equipment Plant,1100 13th Ave,Farm Machinery and Equipment Manufacturing,5,17161,41.527287,-90.434681
+689,John Deere Seeding Group,4559711,Illinois,IL - Rock Island,Lead Compounds,CAP/HAP,0.00005,Unspecified,501 River Dr,Farm Machinery and Equipment Manufacturing,5,17161,41.508446,-90.532961
+690,MC NEAL'S FIELD,12022911,Illinois,IL - Rock Island,Lead Compounds,CAP/HAP,0.00678,Airport,Unknown,Airport Operations,5,17161,41.5159,-90.3796
+691,Miller Container Inc,9680811,Illinois,IL - Rock Island,Lead Compounds,CAP/HAP,0.00001,Unspecified,3402 78th Ave,Corrugated and Solid Fiber Box Manufacturing,5,17161,41.442391,-90.614861
+692,Precision Aluminum - Foundry Division,9680411,Illinois,IL - Rock Island,Lead Compounds,CAP/HAP,0.00005,"Foundries, non-ferrous",1650 1st St,Aluminum Foundries (except Die-Casting),5,17161,41.495947,-90.596306
+693,Quad City Airport,4867211,Illinois,IL - Rock Island,Lead Compounds,CAP/HAP,0.03945,Airport,2200 69th Ave,Other Airport Operations,5,17161,41.448789,-90.50488
+694,Quad-City Seaplane Base,12495411,Illinois,IL - Rock Island,Lead Compounds,CAP/HAP,0.00018,Airport,2 miles S of Moline,Airport Operations,5,17161,41.460034,-90.492911
+695,River Bend Industrial Center,4573711,Illinois,IL - Rock Island,Lead Compounds,CAP/HAP,0.00002,Unspecified,1300 19th St,Lessors of Other Real Estate Property,5,17161,41.518539,-90.421726
+696,Sandstrom Products Co,8205711,Illinois,IL - Rock Island,Lead Compounds,CAP/HAP,0.0024,Unspecified,224 S Main St,Paint and Coating Manufacturing,5,17161,41.603934,-90.335831
+697,Tyson Fresh Meats Inc,7940711,Illinois,IL - Rock Island,Lead Compounds,CAP/HAP,0.00004,Unspecified,28424 38th Ave North,Animal (except Poultry) Slaughtering,5,17161,41.551434,-90.225723
+698,Williams-White and Co,4574711,Illinois,IL - Rock Island,Lead Compounds,CAP/HAP,0,Industrial Machinery or Equipment Plant,600 River Dr,Machine Tool Manufacturing,5,17161,41.507107,-90.527208
+699,Ferrell Hospital Community Foundation,4467111,Illinois,IL - Saline,Lead Compounds,CAP/HAP,0.00001,"Institutional (school, hospital, prison, etc.)",1201 Pine St,General Medical and Surgical Hospitals,5,17165,37.815602,-88.441958
+700,Harrisburg-Raleigh Airport,4482611,Illinois,IL - Saline,Lead Compounds,CAP/HAP,0.03738,Airport,Airport Rd,Other Airport Operations,5,17165,37.812579,-88.550481
+701,Illinois Youth Center,4467611,Illinois,IL - Saline,Lead Compounds,CAP/HAP,0.00001,"Institutional (school, hospital, prison, etc.)",1201 W Poplar St,Correctional Institutions,5,17165,37.734997,-88.560358
+702,Abraham Lincoln Capital Airport,5440811,Illinois,IL - Sangamon,Lead Compounds,CAP/HAP,0.03355,Airport,1200 Capital Airport Dr,Other Airport Operations,5,17167,39.844073,-89.678158
+703,Aramark Uniform Services Inc,4711211,Illinois,IL - Sangamon,Lead Compounds,CAP/HAP,0.00002,Dry Cleaner - Petroleum Solvent,4800 Industrial Dr,Industrial Launderers,5,17167,39.730412,-89.631232
+704,Capitol Power Plant,4971611,Illinois,IL - Sangamon,Lead Compounds,CAP/HAP,0.0001,Steam/Heating Facility,315 N Klein St,Steam and Air-Conditioning Supply,5,17167,39.804489,-89.657093
+705,City Water Light & Power,7377311,Illinois,IL - Sangamon,Lead Compounds,CAP/HAP,0.02834,Electricity Generation via Combustion,3100 Stevenson Dr,Fossil Fuel Electric Power Generation,5,17167,39.75575,-89.601397
+706,City Water Light & Power,4541611,Illinois,IL - Sangamon,Lead Compounds,CAP/HAP,0.01002,Electricity Generation via Combustion,3620 Ridgely Rd,Fossil Fuel Electric Power Generation,5,17167,39.8233,-89.5888
+707,Hospital Sisters 3rd Order St Francis,4484311,Illinois,IL - Sangamon,Lead Compounds,CAP/HAP,0.00001,Unspecified,4849 Laverna Rd,Religious Organizations,5,17167,39.842143,-89.561873
+708,Southern Illinois University School of Medicine,4709111,Illinois,IL - Sangamon,Lead Compounds,CAP/HAP,0,"Institutional (school, hospital, prison, etc.)",801 N Rutledge,"Colleges, Universities, and Professional Schools",5,17167,39.810223,-89.657973
+709,St Johns Hospital,7881311,Illinois,IL - Sangamon,Lead Compounds,CAP/HAP,0,"Institutional (school, hospital, prison, etc.)",701 E Mason,General Medical and Surgical Hospitals,5,17167,39.804727,-89.643987
+710,State Highway Construction Corp Inc,4711711,Illinois,IL - Sangamon,Lead Compounds,CAP/HAP,0.00008,Hot Mix Asphalt Plant,2017 Clear Lake Ave,Asphalt Paving Mixture and Block Manufacturing,5,17167,39.804364,-89.624668
+711,Truman Flatt & Sons Co Inc,4485111,Illinois,IL - Sangamon,Lead Compounds,CAP/HAP,0,Hot Mix Asphalt Plant,3076 Young Rd,Asphalt Paving Mixture and Block Manufacturing,5,17167,39.756376,-89.443934
+712,SCHUY-RUSH,11704411,Illinois,IL - Schuyler,Lead Compounds,CAP/HAP,0.00226,Airport,Unknown,Airport Operations,5,17169,40.117268,-90.588382
+713,Graphic Packaging International LLC,4692711,Illinois,IL - Shelby,Lead Compounds,CAP/HAP,0,Unspecified,500 Dacey Dr,Corrugated and Solid Fiber Box Manufacturing,5,17173,39.40174,-88.82007
+714,HILVETY,11206111,Illinois,IL - Shelby,Lead Compounds,CAP/HAP,0.0113,Airport,Unknown,Airport Operations,5,17173,39.649419,-88.972597
+715,Holland Energy LLC,9698311,Illinois,IL - Shelby,Lead Compounds,CAP/HAP,0.00004,Electricity Generation via Combustion,2061 E 000N Rd,Fossil Fuel Electric Power Generation,5,17173,39.223939,-88.759249
+716,Shelby County Airport,4726811,Illinois,IL - Shelby,Lead Compounds,CAP/HAP,0.0348,Airport,Rr 3 Box 38,Other Airport Operations,5,17173,39.412911,-88.847536
+717,Afton Chemical Corp,7338711,Illinois,IL - St. Clair,Lead Compounds,CAP/HAP,0.00033,Chemical Plant,501 Monsanto Ave,All Other Miscellaneous Chemical Product and Preparation Manufacturing,5,17163,38.601799,-90.168605
+718,Allnex USA Inc,7914111,Illinois,IL - St. Clair,Lead Compounds,CAP/HAP,0.00001,"Plastic, Resin, Rubber or Syn Fiber Manuf Plant",2904 Missouri Ave,Plastics Material and Resin Manufacturing,5,17163,38.601691,-90.132661
+719,Cerro Flow Products LLC,5031711,Illinois,IL - St. Clair,Lead Compounds,CAP/HAP,0.00003,Fabricated Metal Products Plant,3000 Mississippi Ave,"Copper Rolling, Drawing, Extruding, and Alloying",5,17163,38.591804,-90.172888
+720,Chemtrade Solutions LLC,4909311,Illinois,IL - St. Clair,Lead Compounds,CAP/HAP,0.00001,Unspecified,2500 Kingshighway,Synthetic Dye and Pigment Manufacturing,5,17163,38.64466,-90.08912
+721,Empire Comfort Systems,4867811,Illinois,IL - St. Clair,Lead Compounds,CAP/HAP,0.00003,Unspecified,918 Freeburg Ave,Heating Equipment (except Warm Air Furnaces) Manufacturing,5,17163,38.505123,-89.9779
+722,International Paper Co,4869111,Illinois,IL - St. Clair,Lead Compounds,CAP/HAP,0.00003,Printing/Publishing Facility,3001 Otto St,Corrugated and Solid Fiber Box Manufacturing,5,17163,38.529246,-90.017851
+723,Millstadt Rendering Co,4465611,Illinois,IL - St. Clair,Lead Compounds,CAP/HAP,0.00006,Food Products Processing Plant,3151 Clover Leaf School Rd,Rendering and Meat Byproduct Processing,5,17163,38.516293,-90.089744
+724,Scott Air Force Base,4466811,Illinois,IL - St. Clair,Lead Compounds,CAP/HAP,0.01678,Airport,Scott Air Force Base,Other Airport Operations,5,17163,38.543246,-89.851583
+725,Southwestern Illinois Correctional Center,4849411,Illinois,IL - St. Clair,Lead Compounds,CAP/HAP,0.00001,"Institutional (school, hospital, prison, etc.)",950 Kingshighway,Correctional Institutions,5,17163,38.61701,-90.091808
+726,St  Louis Downtown Airport,4466111,Illinois,IL - St. Clair,Lead Compounds,CAP/HAP,0.15959,Airport,1680 Sauget Industrial Pkwy,Other Airport Operations,5,17163,38.568974,-90.154974
+727,Touchette Regional Hospital,14978811,Illinois,IL - St. Clair,Lead Compounds,CAP/HAP,0,Unspecified,5900 Bond Ave,General Medical and Surgical Hospitals,5,17163,38.569894,-90.108771
+728,Upchurch Ready Mix Concrete Co,4848211,Illinois,IL - St. Clair,Lead Compounds,CAP/HAP,0,Concrete Batch Plant,2901 Missouri Ave,Ready-Mix Concrete Manufacturing,5,17163,38.602889,-90.13076
+729,US Air Force/Scott Air Force Base,7808611,Illinois,IL - St. Clair,Lead Compounds,CAP/HAP,0.00009,Military Base,702 Hangar Rd,National Security,5,17163,38.543888,-89.852301
+730,Veolia ES Technical Solutions LLC,7954711,Illinois,IL - St. Clair,Lead Compounds,CAP/HAP,0.00013,Unspecified,7 Mobile Ave,Solid Waste Landfill,5,17163,38.598032,-90.180633
+731,Watco Transloading LLC,5032011,Illinois,IL - St. Clair,Lead Compounds,CAP/HAP,0.00001,Unspecified,2 Monsanto Ave,Port and Harbor Operations,5,17163,38.602035,-90.183252
+732,Adkins Energy LLC,7339211,Illinois,IL - Stephenson,Lead Compounds,CAP/HAP,0.00059,Ethanol Biorefineries/Soy Biodiesel,4350 W Galena Rd,Ethyl Alcohol Manufacturing,5,17177,42.362856,-89.804604
+733,Albertus Airport,4129311,Illinois,IL - Stephenson,Lead Compounds,CAP/HAP,0.04606,Airport,1255 E Airport Rd,Other Airport Operations,5,17177,42.244446,-89.581843
+734,Berner Food & Beverage LLC,17932411,Illinois,IL - Stephenson,Lead Compounds,CAP/HAP,0.00005,Unspecified,2034 E Factory Rd,Cheese Manufacturing,5,17177,42.431792,-89.574384
+735,CoreFX Ingredients LLC,10854811,Illinois,IL - Stephenson,Lead Compounds,CAP/HAP,0.00001,Unspecified,12495 N Pleasant Hill Rd,All Other Miscellaneous Food Manufacturing,5,17177,42.481952,-89.555235
+736,Devansoy Inc,16794111,Illinois,IL - Stephenson,Lead Compounds,CAP/HAP,0.00003,Unspecified,10010 N Rock City Rd,Soybean and Other Oilseed Processing,5,17177,42.448701,-89.47846
+737,Dornink Airport,4115711,Illinois,IL - Stephenson,Lead Compounds,CAP/HAP,0.01469,Airport,Cedarville Rd,Other Airport Operations,5,17177,42.378105,-89.564174
+738,Honeywell International Inc,4111511,Illinois,IL - Stephenson,Lead Compounds,CAP/HAP,0.00001,Unspecified,11 W Spring St,Other Electronic Component Manufacturing,5,17177,42.295595,-89.61886
+739,Honeywell International Inc,4111411,Illinois,IL - Stephenson,Lead Compounds,CAP/HAP,0,Unspecified,323 E Stephenson St,Other Electronic Component Manufacturing,5,17177,42.300251,-89.61335
+740,Modern Plating Corp,4111611,Illinois,IL - Stephenson,Lead Compounds,CAP/HAP,0.00002,Unspecified,701/751 S Hancock Ave,"Electroplating, Plating, Polishing, Anodizing, and Coloring",5,17177,42.292014,-89.598939
+741,Titan Tire Corp of Freeport,4115011,Illinois,IL - Stephenson,Lead Compounds,CAP/HAP,0.00005,Tire Manuf (not retread),3769 Rte 20 E,Tire Manufacturing (except Retreading),5,17177,42.273493,-89.539572
+742,ADM Terminal Services,4129411,Illinois,IL - Tazewell,Lead Compounds,CAP/HAP,0,Unspecified,1000 Wesley Rd,Grain and Field Bean Merchant Wholesalers,5,17179,40.637188,-89.61657
+743,Alto ICP LLC,8017711,Illinois,IL - Tazewell,Lead Compounds,CAP/HAP,0.00063,Ethanol Biorefineries/Soy Biodiesel,1301 S Front St,Distilleries,5,17179,40.553714,-89.670624
+744,Caterpillar Inc,7808111,Illinois,IL - Tazewell,Lead Compounds,CAP/HAP,0.00009,Unspecified,100 Tractor Dr,Construction Machinery Manufacturing,5,17179,40.677063,-89.590004
+745,Caterpillar Inc- Peoria Proving Ground,3993311,Illinois,IL - Tazewell,Lead Compounds,CAP/HAP,0.00001,Unspecified,Spring Creek Rd,Construction Machinery Manufacturing,5,17179,40.740477,-89.490192
+746,Caterpillar Logistics Inc,7881811,Illinois,IL - Tazewell,Lead Compounds,CAP/HAP,0.00001,Unspecified,500 N Morton Ave,Construction and Mining (except Oil Well) Machinery and Equipment Merchant Wholesalers,5,17179,40.618367,-89.458926
+747,Enercon Engineering Inc,16555611,Illinois,IL - Tazewell,Lead Compounds,CAP/HAP,0,Unspecified,1 Altorfer Ln,Switchgear and Switchboard Apparatus Manufacturing,5,17179,40.673307,-89.579111
+748,Hanna Steel Corp,3990611,Illinois,IL - Tazewell,Lead Compounds,CAP/HAP,0.00007,Unspecified,220 Hanna Dr,"Metal Coating, Engraving (except Jewelry and Silverware), and Allied Services to Manufacturers",5,17179,40.544809,-89.658304
+749,Illinois Central College,4130111,Illinois,IL - Tazewell,Lead Compounds,CAP/HAP,0.00006,"Institutional (school, hospital, prison, etc.)",1 College Dr,"Colleges, Universities, and Professional Schools",5,17179,40.706182,-89.524343
+750,Midwest Generation LLC,8199411,Illinois,IL - Tazewell,Lead Compounds,CAP/HAP,0.00861,Electricity Generation via Combustion,13082 E Manito Rd,Fossil Fuel Electric Power Generation,5,17179,40.5408,-89.6786
+751,NestleUSA/Libbys,4164911,Illinois,IL - Tazewell,Lead Compounds,CAP/HAP,0.00005,Unspecified,216 N Morton Ave,Fruit and Vegetable Canning,5,17179,40.614151,-89.463564
+752,Palmer Flying Service Inc Airport,4622011,Illinois,IL - Tazewell,Lead Compounds,CAP/HAP,0.01356,Airport,7757 Airport Rd,Other Airport Operations,5,17179,40.4898,-89.777224
+753,Pekin Airport,4621911,Illinois,IL - Tazewell,Lead Compounds,CAP/HAP,0.01685,Airport,Skyaire Dr,Other Airport Operations,5,17179,40.488194,-89.675889
+754,Tazewell County Asphalt Co Inc,3991511,Illinois,IL - Tazewell,Lead Compounds,CAP/HAP,0,Hot Mix Asphalt Plant,23497 Ridge Rd,Asphalt Paving Mixture and Block Manufacturing,5,17179,40.668981,-89.52225
+755,Clyde L Choate Mental Health Center,4622911,Illinois,IL - Union,Lead Compounds,CAP/HAP,0.05946,"Institutional (school, hospital, prison, etc.)",1000 N Main St,Psychiatric and Substance Abuse Hospitals,5,17181,37.477867,-89.239313
+756,Aerosols Danville Inc,5554111,Illinois,IL - Vermilion,Lead Compounds,CAP/HAP,0.00002,Unspecified,1 W Hegeler Ln,All Other Miscellaneous Chemical Product and Preparation Manufacturing,5,17183,40.074117,-87.646221
+757,Danville Area Community College,4624211,Illinois,IL - Vermilion,Lead Compounds,CAP/HAP,0.00015,"Institutional (school, hospital, prison, etc.)",2000 E Main St,"Colleges, Universities, and Professional Schools",5,17183,40.127869,-87.587875
+758,Danville Correctional Center,5554411,Illinois,IL - Vermilion,Lead Compounds,CAP/HAP,0.00002,"Institutional (school, hospital, prison, etc.)",3820 E Main St,Correctional Institutions,5,17183,40.129637,-87.536418
+759,Dynachem Inc,5386211,Illinois,IL - Vermilion,Lead Compounds,CAP/HAP,0.00001,Chemical Plant,Maple Grove Rd,All Other Miscellaneous Chemical Product and Preparation Manufacturing,5,17183,40.00556,-87.643266
+760,OSF Sacred Heart Medical Center,4624511,Illinois,IL - Vermilion,Lead Compounds,CAP/HAP,0.00003,"Institutional (school, hospital, prison, etc.)",812 N Logan Ave,General Medical and Surgical Hospitals,5,17183,40.137476,-87.645468
+761,Quaker Manufacturing LLC,4639911,Illinois,IL - Vermilion,Lead Compounds,CAP/HAP,0.00003,Food Products Processing Plant,1703 Voorhees St,Breakfast Cereal Manufacturing,5,17183,40.148375,-87.593067
+762,REG Danville LLC,10856611,Illinois,IL - Vermilion,Lead Compounds,CAP/HAP,0.00021,Ethanol Biorefineries/Soy Biodiesel,300 N Anderson St,All Other Miscellaneous Chemical Product and Preparation Manufacturing,5,17183,40.129153,-87.619069
+763,Vermilion County Airport,5402411,Illinois,IL - Vermilion,Lead Compounds,CAP/HAP,0.03893,Airport,22633 N Bowman Ave,Other Airport Operations,5,17183,40.201553,-87.593928
+764,WELCH,12313211,Illinois,IL - Vermilion,Lead Compounds,CAP/HAP,0.00008,Airport,Unknown,Airport Operations,5,17183,40.100363,-87.574805
+765,Monmouth Airport,5557611,Illinois,IL - Warren,Lead Compounds,CAP/HAP,0.01095,Airport,Us 34,Other Airport Operations,5,17187,40.929704,-90.631107
+766,Smithfield Fresh Meats Corp,4545311,Illinois,IL - Warren,Lead Compounds,CAP/HAP,0.00002,Unspecified,1220 N 6th St Rd,Animal (except Poultry) Slaughtering,5,17187,40.928008,-90.641935
+767,Wells Pet Food Corp,4545011,Illinois,IL - Warren,Lead Compounds,CAP/HAP,0,Food Products Processing Plant,617 S D St,Dog and Cat Food Manufacturing,5,17187,40.905962,-90.652532
+768,Beelman Ready Mix,5573311,Illinois,IL - Washington,Lead Compounds,CAP/HAP,0,Concrete Batch Plant,17558 Mockingbird Rd,Ready-Mix Concrete Manufacturing,5,17189,38.375118,-89.380041
+769,Prairie State Generating Station,10857911,Illinois,IL - Washington,Lead Compounds,CAP/HAP,0.0865,Electricity Generation via Combustion,3872 County Hwy 12,Fossil Fuel Electric Power Generation,5,17189,38.279267,-89.666973
+770,Fairfield Municipal Airport,5575511,Illinois,IL - Wayne,Lead Compounds,CAP/HAP,0.0172,Airport,State Route 15,Other Airport Operations,5,17191,38.377888,-88.407561
+771,Carmi Municipal Airport,4659611,Illinois,IL - White,Lead Compounds,CAP/HAP,0.03051,Airport,1379 County Road 1500 N,Other Airport Operations,5,17193,38.089479,-88.123061
+772,Elastec Inc,5575811,Illinois,IL - White,Lead Compounds,CAP/HAP,0,Unspecified,1309 W Main St,All Other Miscellaneous General Purpose Machinery Manufacturing,5,17193,38.076581,-88.178479
+773,Erie Air Park Ultralight Flightpark,11127211,Illinois,IL - Whiteside,Lead Compounds,CAP/HAP,0.01356,Airport,1 mile N of Erie,Airport Operations,5,17195,41.68224,-90.079444
+774,Sterling Steel Co LLC,4097111,Illinois,IL - Whiteside,Lead Compounds,CAP/HAP,1.26843,Steel Mill,101 Ave K,Iron and Steel Mills and Ferroalloy Manufacturing,5,17195,41.786281,-89.709809
+775,Timken Drives LLC,4130511,Illinois,IL - Whiteside,Lead Compounds,CAP/HAP,0.00002,Steel Mill,901 19th Ave,Iron and Steel Forging,5,17195,41.859881,-90.158921
+776,Whiteside County Airport,4098211,Illinois,IL - Whiteside,Lead Compounds,CAP/HAP,0.07262,Airport,10950 Hoover Rd,Other Airport Operations,5,17195,41.740188,-89.680947
+777,Apollo Colors Inc,4492111,Illinois,IL - Will,Lead Compounds,CAP/HAP,0.00001,Chemical Plant,1550 Mound Rd,Synthetic Dye and Pigment Manufacturing,5,17197,41.500651,-88.122259
+778,AZZ Galvanizing Joliet,4550611,Illinois,IL - Will,Lead Compounds,CAP/HAP,0.00006,Unspecified,625 Mills Rd,"Metal Coating, Engraving (except Jewelry and Silverware), and Allied Services to Manufacturers",5,17197,41.503767,-88.063227
+779,Battery Builders LLC,4592611,Illinois,IL - Will,Lead Compounds,CAP/HAP,0.0032,Battery Plant,31W238 91st St,Battery Manufacturing,5,17197,41.717584,-88.2316
+780,Bult Field,4688911,Illinois,IL - Will,Lead Compounds,CAP/HAP,0.02988,Airport,28261 S Kedzie,Other Airport Operations,5,17197,41.377417,-87.67975
+781,Canal Terminal Co,4503011,Illinois,IL - Will,Lead Compounds,CAP/HAP,0.00003,Unspecified,23213 S Youngs Rd,Other Warehousing and Storage,5,17197,41.461289,-88.173853
+782,Chicago Glider Club Gliderport,12330011,Illinois,IL - Will,Lead Compounds,CAP/HAP,0.00113,Airport,2 miles NW of Channhon,Airport Operations,5,17197,41.431538,-88.247278
+783,Cintas Corp-#344,9679811,Illinois,IL - Will,Lead Compounds,CAP/HAP,0.00001,Dry Cleaner - Petroleum Solvent,1150 Windham Pkwy,Industrial Launderers,5,17197,41.662852,-88.117246
+784,CITGO Petroleum Corp,8191811,Illinois,IL - Will,Lead Compounds,CAP/HAP,0.009,Petroleum Refinery,135th St & New Ave,Petroleum Refineries,5,17197,41.6541,-88.0434
+785,Clow International Airport,4688711,Illinois,IL - Will,Lead Compounds,CAP/HAP,0.1095,Airport,130 S Clow International Pkwy,Other Airport Operations,5,17197,41.695974,-88.129231
+786,Diageo North America Inc,4491511,Illinois,IL - Will,Lead Compounds,CAP/HAP,0.00002,Breweries/Distilleries/Wineries,24440 W 143rd St,Distilleries,5,17197,41.623927,-88.214005
+787,Diversified CPC International Inc,4503111,Illinois,IL - Will,Lead Compounds,CAP/HAP,0.00012,Chemical Plant,24338 W Durkee Rd,Industrial Gas Manufacturing,5,17197,41.411985,-88.202211
+788,Ecolab Inc,4108511,Illinois,IL - Will,Lead Compounds,CAP/HAP,0.00004,Unspecified,3001 Channahon Rd,Soap and Other Detergent Manufacturing,5,17197,41.488138,-88.153787
+789,Federal Signal Corp Signal Division,4490911,Illinois,IL - Will,Lead Compounds,CAP/HAP,0.00001,Automobile/Truck or Parts Plant,2645 Federal Signal Dr,Motor Vehicle Electrical and Electronic Equipment Manufacturing,5,17197,41.450462,-87.755287
+790,G & W Electric Co,15463211,Illinois,IL - Will,Lead Compounds,CAP/HAP,0.00007,Unspecified,305 W Crossroads Pkwy,Switchgear and Switchboard Apparatus Manufacturing,5,17197,41.67386,-88.074253
+791,GC Net Lease Investors LLC,18946611,Illinois,IL - Will,Lead Compounds,CAP/HAP,0.00002,Unspecified,2200 Channahon Rd,General Warehousing and Storage,5,17197,41.489141,-88.13422
+792,INEOS Joliet LLC,10716511,Illinois,IL - Will,Lead Compounds,CAP/HAP,0.00009,Chemical Plant,23425 W Amoco Rd,Synthetic Dye and Pigment Manufacturing,5,17197,41.446382,-88.174324
+793,INEOS Styrolution America LLC,8088811,Illinois,IL - Will,Lead Compounds,CAP/HAP,0.00016,"Plastic, Resin, Rubber or Syn Fiber Manuf Plant",25846 SW Frontage Rd,Plastics Material and Resin Manufacturing,5,17197,41.412446,-88.196625
+794,Joliet Park District Airport,4689111,Illinois,IL - Will,Lead Compounds,CAP/HAP,0.05142,Airport,4100 W Jefferson,Other Airport Operations,5,17197,41.517694,-88.175611
+795,Joliet Township High School,4535311,Illinois,IL - Will,Lead Compounds,CAP/HAP,0.00001,"Institutional (school, hospital, prison, etc.)",401 N Larkin Ave,Elementary and Secondary Schools,5,17197,41.528388,-88.126826
+796,Kaluzny Bros Inc,4591711,Illinois,IL - Will,Lead Compounds,CAP/HAP,0.00006,Food Products Processing Plant,2324 Mound Rd,Rendering and Meat Byproduct Processing,5,17197,41.500661,-88.140482
+797,Knead Dough Baking Co Inc,9678711,Illinois,IL - Will,Lead Compounds,CAP/HAP,0.00001,Bakeries,556 St James Gate,Commercial Bakeries,5,17197,41.684394,-88.05738
+798,Lewis University,4664511,Illinois,IL - Will,Lead Compounds,CAP/HAP,0.00002,"Institutional (school, hospital, prison, etc.)",1 University Pkwy,"Colleges, Universities, and Professional Schools",5,17197,41.603638,-88.081522
+799,Lewis University Airport,4689211,Illinois,IL - Will,Lead Compounds,CAP/HAP,0.23212,Airport,1 Hangar Rd,Other Airport Operations,5,17197,41.608198,-88.097962
+800,Lincoln Generating Facility,4590011,Illinois,IL - Will,Lead Compounds,CAP/HAP,0,Electricity Generation via Combustion,27150 S Kankakee,Fossil Fuel Electric Power Generation,5,17197,41.393214,-87.943776
+801,Loders Croklaan USA,4686211,Illinois,IL - Will,Lead Compounds,CAP/HAP,0.00032,Food Products Processing Plant,24708 W Durkee Dr,Soybean and Other Oilseed Processing,5,17197,41.408978,-88.210161
+802,Midwest Generation LLC,7973011,Illinois,IL - Will,Lead Compounds,CAP/HAP,0.0028,Electricity Generation via Combustion,1800 Channahon Rd,Fossil Fuel Electric Power Generation,5,17197,41.4941,-88.1194
+803,Oxbow Midwest Calcining LLC,4504711,Illinois,IL - Will,Lead Compounds,CAP/HAP,0.00005,Calcined Pet Coke Plant,12308 S New Ave,All Other Petroleum and Coal Products Manufacturing,5,17197,41.662496,-88.038266
+804,PQ LLC,4107911,Illinois,IL - Will,Lead Compounds,CAP/HAP,0.00003,Unspecified,101 Ingalls Ave,Other Basic Inorganic Chemical Manufacturing,5,17197,41.547027,-88.083481
+805,Provena Hospitals d/b/a St Joseph Med,4108311,Illinois,IL - Will,Lead Compounds,CAP/HAP,0,"Institutional (school, hospital, prison, etc.)",33 N Madison St,General Medical and Surgical Hospitals,5,17197,41.528299,-88.136508
+806,Romeoville Asphalt Plant,4574411,Illinois,IL - Will,Lead Compounds,CAP/HAP,0.00017,Hot Mix Asphalt Plant,1 Block N of Taylor,Asphalt Paving Mixture and Block Manufacturing,5,17197,41.627835,-88.072187
+807,Sandeno Inc,4546411,Illinois,IL - Will,Lead Compounds,CAP/HAP,0.00001,Hot Mix Asphalt Plant,2113 Moen Ave,Asphalt Paving Mixture and Block Manufacturing,5,17197,41.506394,-88.13317
+808,Stateville Correctional Center,4574111,Illinois,IL - Will,Lead Compounds,CAP/HAP,0.00004,"Institutional (school, hospital, prison, etc.)",16830 Rte 53,Correctional Institutions,5,17197,41.578687,-88.09624
+809,Toyal America Inc,8180811,Illinois,IL - Will,Lead Compounds,CAP/HAP,0.00028,Secondary Aluminum Smelting/Refining Plant,17401 Broadway St,Secondary Smelting and Alloying of Aluminum,5,17197,41.570481,-88.08406
+810,Verdant Specialty Solutions US LLC,4491011,Illinois,IL - Will,Lead Compounds,CAP/HAP,0.00003,Unspecified,24601 Governors Hwy,Surface Active Agent Manufacturing,5,17197,41.442734,-87.730645
+811,West Liberty Foods LLC,4689611,Illinois,IL - Will,Lead Compounds,CAP/HAP,0.00003,Food Products Processing Plant,750 S Schmidt Rd,Meat Processed from Carcasses,5,17197,41.674215,-88.085308
+812,WestRock CP LLC,10860911,Illinois,IL - Will,Lead Compounds,CAP/HAP,0.00005,Unspecified,2251 Berens Dr,Corrugated and Solid Fiber Box Manufacturing,5,17197,41.490652,-88.010004
+813,Will County Generating Station,8018111,Illinois,IL - Will,Lead Compounds,CAP/HAP,0.0072,Electricity Generation via Combustion,529 E 135th St,Fossil Fuel Electric Power Generation,5,17197,41.633524,-88.062716
+814,Zenith Energy Terminals Joliet Holdings LLC,16898311,Illinois,IL - Will,Lead Compounds,CAP/HAP,0.00003,Unspecified,1035 W Laraway Rd,Other Warehousing and Storage,5,17197,41.485029,-88.109805
+815,Aisin Mfg Illinois LLC,10865311,Illinois,IL - Williamson,Lead Compounds,CAP/HAP,0.00001,Unspecified,11000 Redco Dr,Other Motor Vehicle Parts Manufacturing,5,17199,37.755783,-88.991227
+816,General Dynamics Ordnance & Tactical Systems Inc,4090511,Illinois,IL - Williamson,Lead Compounds,CAP/HAP,0.00001,Munition or Explosives Plant,6658 Rte 148,Small Arms Ammunition Manufacturing,5,17199,37.72586,-89.053176
+817,John A Logan College,4690111,Illinois,IL - Williamson,Lead Compounds,CAP/HAP,0,"Institutional (school, hospital, prison, etc.)",700 Logan College Rd,Junior Colleges,5,17199,37.747605,-89.09563
+818,Keyrock Energy LLC,8163411,Illinois,IL - Williamson,Lead Compounds,CAP/HAP,0.00002,Oil or Gas Facility (On-shore),20227 Thorn Rd,Crude Petroleum Extraction,5,17199,37.836956,-88.788569
+819,Reaco Battery Service Corp,9699911,Illinois,IL - Williamson,Lead Compounds,CAP/HAP,0.00037,Battery Plant,17217 Hwy 37,Battery Manufacturing,5,17199,37.84523,-88.933669
+820,Southern Illinois Power Coop,8164511,Illinois,IL - Williamson,Lead Compounds,CAP/HAP,0.00187,Electricity Generation via Combustion,11543 Lake of Egypt Rd,Fossil Fuel Electric Power Generation,5,17199,37.619778,-88.953071
+821,Williamson County Airport,4091411,Illinois,IL - Williamson,Lead Compounds,CAP/HAP,0.03195,Airport,10400 Terminal Dr,Other Airport Operations,5,17199,37.751175,-89.01657
+822,ARAMARK Uniform & Career Apparel Inc,4854411,Illinois,IL - Winnebago,Lead Compounds,CAP/HAP,0.00001,Dry Cleaner - Petroleum Solvent,215 18th Ave,Industrial Launderers,5,17201,42.246967,-89.096251
+823,AZZ Galvanizing Rockford LLC dba Roger Bros Galvanizing LLC,8205411,Illinois,IL - Winnebago,Lead Compounds,CAP/HAP,0.00001,Unspecified,1925 Kishwaukee St,"Metal Coating, Engraving (except Jewelry and Silverware), and Allied Services to Manufacturers",5,17201,42.246968,-89.087734
+824,Behr Metals Division,4855811,Illinois,IL - Winnebago,Lead Compounds,CAP/HAP,0.00109,Unspecified,1100 Seminary St,Nonferrous Metal (except Aluminum) Smelting and Refining,5,17201,42.25609,-89.093506
+825,Chem Processing Inc,8182611,Illinois,IL - Winnebago,Lead Compounds,CAP/HAP,0.0004,Unspecified,3910 Linden Oaks Dr,"Electroplating, Plating, Polishing, Anodizing, and Coloring",5,17201,42.2191,-89.024855
+826,Chemtool,4513311,Illinois,IL - Winnebago,Lead Compounds,CAP/HAP,0,Unspecified,1165 Prairie Hill Rd,Petroleum Lubricating Oil and Grease Manufacturing,5,17201,42.469206,-89.066899
+827,Cintas Corp-#355,9697611,Illinois,IL - Winnebago,Lead Compounds,CAP/HAP,0.00001,Dry Cleaner - Petroleum Solvent,5100 26th Ave,Industrial Launderers,5,17201,42.236912,-89.017065
+828,Cottonwood Airport,4091511,Illinois,IL - Winnebago,Lead Compounds,CAP/HAP,0.02034,Airport,5105 Auburn St,Other Airport Operations,5,17201,42.291686,-89.136218
+829,Dean Dairy Fluid LLC,4213311,Illinois,IL - Winnebago,Lead Compounds,CAP/HAP,0,Food Products Processing Plant,1126 Kilburn Ave,Ice Cream and Frozen Dessert Manufacturing,5,17201,42.286246,-89.102799
+830,Fitzgerald & Associates Funeral Home,4022711,Illinois,IL - Winnebago,Lead Compounds,CAP/HAP,0.00546,Crematory - Human,1860 S Mulford Rd,Funeral Homes and Funeral Services,5,17201,42.247477,-88.998432
+831,Fives Landis Corp,5313211,Illinois,IL - Winnebago,Lead Compounds,CAP/HAP,0.00001,Unspecified,481 Gardner St,Abrasive Product Manufacturing,5,17201,42.493564,-89.033232
+832,Greater Rockford Airport,4515011,Illinois,IL - Winnebago,Lead Compounds,CAP/HAP,0.04246,Airport,60 Airport Dr,Other Airport Operations,5,17201,42.200671,-89.089209
+833,Gunite Corp,4213711,Illinois,IL - Winnebago,Lead Compounds,CAP/HAP,0.2392,"Foundries, Iron and Steel",302 Peoples Ave,Iron Foundries,5,17201,42.242283,-89.092825
+834,Hamilton Sundstrand,7362311,Illinois,IL - Winnebago,Lead Compounds,CAP/HAP,0.00002,"Aircraft, Aerospace, or Related Parts Plant",4747 Harrison Ave,Other Aircraft Parts and Auxiliary Equipment Manufacturing,5,17201,42.236075,-89.02477
+835,Ingersoll Machine Tools,4213811,Illinois,IL - Winnebago,Lead Compounds,CAP/HAP,0.00001,Industrial Machinery or Equipment Plant,707 Fulton Ave,Machine Tool Manufacturing,5,17201,42.298799,-89.073606
+836,JL Clark LLC,8205511,Illinois,IL - Winnebago,Lead Compounds,CAP/HAP,0.00005,Fabricated Metal Products Plant,923 23rd Ave,Metal Can Manufacturing,5,17201,42.239777,-89.082747
+837,Mondelez Global LLC,4507211,Illinois,IL - Winnebago,Lead Compounds,CAP/HAP,0.00003,Unspecified,5500 Forest Hills Rd,Nonchocolate Confectionery Manufacturing,5,17201,42.307699,-89.046106
+838,Muller-Pinehurst Dairy,4512311,Illinois,IL - Winnebago,Lead Compounds,CAP/HAP,0.00001,Animal Feedlot or Farm,2110 Ogilby Rd,Dairy Cattle and Milk Production,5,17201,42.24763,-89.132364
+839,Rock Road Companies Inc,5409911,Illinois,IL - Winnebago,Lead Compounds,CAP/HAP,0.00008,Hot Mix Asphalt Plant,801 Beale Ct,Asphalt Paving Mixture and Block Manufacturing,5,17201,42.1861,-89.087074
+840,Rock Valley College,4855311,Illinois,IL - Winnebago,Lead Compounds,CAP/HAP,0.00003,"Institutional (school, hospital, prison, etc.)",3301 N Mulford Rd,"Colleges, Universities, and Professional Schools",5,17201,42.306287,-88.992661
+841,Rock Valley College,4870011,Illinois,IL - Winnebago,Lead Compounds,CAP/HAP,0.00004,"Institutional (school, hospital, prison, etc.)",5125 35th St,"Colleges, Universities, and Professional Schools",5,17201,42.207082,-89.037749
+842,State Line Foundries Inc,5594011,Illinois,IL - Winnebago,Lead Compounds,CAP/HAP,0.05238,"Foundries, Iron and Steel",13227 N 2nd St,Iron Foundries,5,17201,42.45328,-89.018155
+843,Top Die Casting Co,4514311,Illinois,IL - Winnebago,Lead Compounds,CAP/HAP,0.001,"Foundries, non-ferrous",13910 Dearborn Ave,Nonferrous Metal Die-Casting Foundries,5,17201,42.463192,-89.02106
+844,William Charles Const Co LLC Materials Div,4512011,Illinois,IL - Winnebago,Lead Compounds,CAP/HAP,0.00003,Unspecified,6450 Kishwaukee,Construction Sand and Gravel Mining,5,17201,42.185641,-89.119791
+845,Winnebago County Court House,4850411,Illinois,IL - Winnebago,Lead Compounds,CAP/HAP,0.00001,Unspecified,400 W State St,Lessors of Nonresidential Buildings (except Miniwarehouses),5,17201,42.271532,-89.096635
+846,Winnebago County Justice Center,10866311,Illinois,IL - Winnebago,Lead Compounds,CAP/HAP,0.00001,Unspecified,650 W State St,"Other Justice, Public Order, and Safety Activities",5,17201,42.27158,-89.096606
+847,Winnebago Foundry Inc,5313811,Illinois,IL - Winnebago,Lead Compounds,CAP/HAP,0.0361,"Foundries, Iron and Steel",132 Blackhawk Blvd,Iron Foundries,5,17201,42.495831,-89.037721
+848,Woodward Inc,5593711,Illinois,IL - Winnebago,Lead Compounds,CAP/HAP,0.00002,"Aircraft, Aerospace, or Related Parts Plant",5001 N Second St,Aircraft Engine and Engine Parts Manufacturing,5,17201,42.304209,-89.055549
+849,Hallmark Metamora Fixture Operations,5408611,Illinois,IL - Woodford,Lead Compounds,CAP/HAP,0.00002,"Woodwork, Furniture, Millwork Manufacturing",501 E Madison,Wood Kitchen Cabinet and Countertop Manufacturing,5,17203,40.794787,-89.358183
+850,Parsons Co Inc,8201811,Illinois,IL - Woodford,Lead Compounds,CAP/HAP,0.0005,Unspecified,1386 State Rt 117,"Metal Coating, Engraving (except Jewelry and Silverware), and Allied Services to Manufacturers",5,17203,40.791527,-89.270616
