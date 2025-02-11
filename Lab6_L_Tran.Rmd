@@ -1,0 +1,143 @@
+---
+title: 'GGIS 224 - Lab 6'
+author: 'Lyons Tran, Environmental Data Science @UIUC '
+date: "03/01/2024"
+output:
+  html_document: default
+  word_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Overview
+
+In this lab you'll explore the pattern of spatial clustering (autocorrelation) in the Chicago area using the ChiVes dataset.  
+
+Before starting the lab, make sure you've gone through [3. Spatial Cluster Detection](https://makosak.github.io/Intro2RSpatialMed/05-LISA.html).
+
+You will have a lot of flexibility in this lab, so please treat it as a mini-project. Follow the instruction below to explore the lab, and enjoy!
+
+---
+
+## Environment Setup
+
+Load up all libraries needed for this lab. 
+
+```{r environment-setup, warning=FALSE, message=FALSE}
+library(sf)
+library(dplyr)
+library(tmap)
+library(rgeoda)
+```
+
+---
+
+Read in the Chicago census tract level data (chives-data.geojson) that we used in Lab 3.
+
+```{r code chunk for reading the data}
+chitracts = st_read("C:/Users/lyons/OneDrive/Desktop/ggis224/chives-data.geojson") 
+#Change the pathway to the location of your chives-data.geojson
+```
+
+
+Recall that the Chives dataset was downloaded from [the ChiVes project website](https://chichives.com).
+
+ChiVes is a collaborative project that integrates and visualizes data in Chicago. 
+A handful of key metrics, such as tree cover, air pollution estimates, heat island effects, 
+traffic volumes, and social vulnerability index, help to reveal where in the city 
+people face particular challenges as we work towards a healthier Chicago. 
+You will need to review the Data page to understand the variable names and definitions. 
+Check out what attributes are available and what they define and measure in [the ChiVes project website](https://chichives.com).
+
+For your submission, please extend this R Markdown file to explore at least one attribute/variable given in chives-data, and calculate and map its Local Moran’s I (LISA) and the associated significance test. Refer to the scripts in [3. Spatial Cluster Detection](https://makosak.github.io/Intro2RSpatialMed/05-LISA.html) for an example. Let's use the default settings of 999 permutations and a p-value of 0.05; but since there are 999 permutations, it allows you to test the significance with the smallest p-value of 0.001. 
+
+Feel free to compare the result using a rook contiguity weight and the result using a queen contiguity weight (with either 1 or 2 orders). 
+
+Refer to the rgeoda tutorial for more information on spatial weights: https://geodacenter.github.io/rgeoda/articles/rgeoda_tutorial.html#spatial-weights.  
+
+**Your code should include:** 
+1. A choropleth map determining which Chives variable you want to explore for spatial autocorrelation (1 pt).
+2. A spatial contiguity weight matrix necessary for calculating LISA (1 pt).
+3. LISA calculation (2 pts). 
+4. A map displaying LISA results (2 pts).
+5. A map displaying LISA significance test (certainty check) results (2 pts).
+
+**Following your code and maps, answer the following discussions:**
+1. What is your hypothesis of the spatial autocorrelation pattern of the attribute you explored? Do you think your calculated result overall supports your hypothesis? (1 pt). 
+2. Did you identify any interesting hot spots and cold spots? And, did you find any census tracts that appear to be outliers? Given your best understanding of the local environments, why do you think those spots and outliers occur? (1 pt). 
+
+[1 bonus point] Calculate the global Moran's I. How do the LISA (local Moran's I) values compare? Do you see any advantage of using LISA? (only need to display a value, no map necessary)
+
+---
+
+```{r code chunk for your calculation and mapping}
+# Enter your scripts for calculating LISA here. 
+
+#mapping the variable 'hardship form chitracts': 
+tm_shape(chitracts) +
+  tm_polygons("city_property_tot", 
+              style="jenks", pal="BuPu",
+              legend.hist=T, n=4,
+              title = "City Property Totals", ) + 
+  tm_scale_bar(position = "left") + 
+  tm_layout(legend.outside = TRUE, legend.outside.position = "right")
+
+
+#spatial contiguity weight matrices for LISA:
+w.rook <- rook_weights(chitracts)
+w.queen <- queen_weights(chitracts)
+
+#calculating LISA: 
+lisa.rook <- local_moran(w.rook, chitracts['city_property_tot'], permutations = 999)
+lisa.queen <- local_moran(w.queen, chitracts['city_property_tot'], permutations = 999)
+
+#mapping LISA rooks
+lisa_colors.rook <- lisa_colors(lisa.rook)
+lisa_labels.rook <- lisa_labels(lisa.rook)
+lisa_clusters.rook <- lisa_clusters(lisa.rook)
+plot(st_geometry(chitracts), col = sapply(lisa_clusters.rook, function(x) {return(lisa_colors.rook[[x+1]])}), border = "#333333", lwd = 0.2)
+title(main = "City Property Totals LISA (ROOK)")
+legend('bottomleft', legend = lisa_labels.rook, fill = lisa_colors.rook, border = "#eeeeee")
+
+#mapping LISA queen
+lisa_colors.queen <- lisa_colors(lisa.queen)
+lisa_labels.queen <- lisa_labels(lisa.queen)
+lisa_clusters.queen <- lisa_clusters(lisa.queen)
+plot(st_geometry(chitracts), col=sapply(lisa_clusters.queen, function(x){return(lisa_colors.queen[[x+1]])}), border = "#333333", lwd=0.2)
+title(main = "City Property Totals LISA (Queen)")
+legend('bottomleft', legend = lisa_labels.queen, fill = lisa_colors.queen)
+
+#mapping LISA significance test using queen
+lisa_p <- lisa_pvalues(lisa.queen)
+p_labels <- c("Not significant", "p <= 0.05", "p <= 0.01", "p <= 0.001")
+p_colors <- c("#eeeeee", "#84f576", "#53c53c", "#348124")
+plot(st_geometry(chitracts), 
+     col=sapply(lisa_p, function(x){
+       if (x <= 0.001) return(p_colors[4])
+       else if (x <= 0.01) return(p_colors[3])
+       else if (x <= 0.05) return (p_colors[2])
+       else return(p_colors[1])}), border = "#333333", lwd=0.2)
+title(main = "City Property Totals LISA (Queen, P-Vlaue)")
+legend('bottomleft', legend = p_labels, fill = p_colors, border = "#eeeeee")
+```
+
+---
+
+Your discussion.
+
+*1. My hypothesis of the spatial autocorrelation pattern for City Property Totals was that it would've been more spread around central Chicago. Looking at my calculated results, the rook contiguity and queen contiguity weights used in the LISA calculations seem to support a more spread pattern up North, and a more condensed distribution in the South. Also looking at the p-value map, we can see a lot of p-values less than 0.001, which is well below the standard significance level (alpha level) of 0.05 bundled closer South, which supports this conclusion.*
+
+*2. I see that for both the rook and queen contiguity weights, the hot spot clusters stayed relatively the same between both calculations. With the queen contiguity weight, I see that the colder spots became more clustered up North compared to the rook contiguity. In my opinion, I do not notice any outliers in the census tracts. I think that these spots whether hot or cold occur because some areas have higher or lower values, so in this case, some regions had more or less properties owned by the city and outliers could be due to human error in reporting, or abnormal circumstances that led to that recording.*
+
+---
+
+```{r code chunk for bonus point}
+# Enter your scripts for the bonus question here. 
+```
+
+---
+Render your R Markdown document by clicking on the "Knit" option in RStudio. The .html output should include your scripts, calculations, maps, and your text discussion. Upload the .html file to your assignment submission.
+
+.

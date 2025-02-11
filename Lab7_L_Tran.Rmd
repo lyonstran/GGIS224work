@@ -1,0 +1,229 @@
+---
+title: 'GGIS 224 - Lab 7'
+author: 'Lyons Tran, Environmental Data Science @UIUC '
+date: "03/22/2024"
+output:
+  html_document: default
+  word_document: default
+editor_options: 
+  markdown: 
+    wrap: sentence
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Overview
+
+This lab is dedicated to raster analysis and raster-vector interactions.
+
+In our previous lectures, We emphasized attribute operations, spatial operations, and geometric operations primarily using vector data.
+The same concepts and operations also apply to raster data.
+Given the expectation that you have mastered the materials for vector data, you should be able to self-study [Section 4.3. Spatial operations on raster data](https://r.geocompx.org/spatial-operations), [Section 5.3. Geometric operations on raster data](https://r.geocompx.org/geometry-operations), and [Chapter 6. Raster-vector interactions](https://r.geocompx.org/raster-vector) and learn how the concepts and operations can be applied to raster data and how both data types can be used interactively.
+
+After you have gone through Section 4.3, Section 5.3, and Chapter 6, explore the following interesting questions.
+
+Don't forget to comment your code while answering the questions below.
+
+Render your completed RmD document by clicking on the "Knit" option in RStudio.
+Upload the .html file to your lab submission.
+Your uploaded .html file should follow this naming convention: Lab7_FirstNameInitial_LastName.html (for example, Lab7_E_Hall.html).
+
+------------------------------------------------------------------------
+
+## Environment Setup
+
+Load up all libraries needed for this lab.
+
+```{r environment-setup, warning=FALSE, message=FALSE}
+library(sf)
+library(terra)
+library(dplyr)
+library(spData)
+```
+
+------------------------------------------------------------------------
+
+Some of the following exercises use a vector (zion_points) and raster dataset (srtm) from the spDataLarge package.
+They also use a polygonal ‘convex hull’ derived from the vector dataset (ch) to represent the area of interest.
+
+------------------------------------------------------------------------
+
+```{r code chunk for loading dataset}
+zion_points_path = system.file("vector/zion_points.gpkg", package = "spDataLarge")
+zion_points = read_sf(zion_points_path)
+srtm = rast(system.file("raster/srtm.tif", package = "spDataLarge"))
+ch = st_combine(zion_points) |>
+  st_convex_hull() |> 
+  st_as_sf()
+
+# Plot the data to understand their geography
+plot(srtm)
+plot(zion_points, add =TRUE)
+plot(ch, add = TRUE)
+```
+
+------------------------------------------------------------------------
+
+## Explore and answer the following questions.
+
+Q1.1.
+Crop the srtm raster using (1) the zion_points dataset and (2) the ch dataset.
+Are there any differences in the output maps?
+
+```{r code chunk for Q1.1}
+#Enter your code chunk that explores this question. Please leave comments as in detail as possible to show your logical development. 
+cropping_srtmz = crop(srtm, zion_points) #using functions from section 6.2
+cropping_srtmc = crop(srtm, ch)
+plot(cropping_srtmz)
+plot(cropping_srtmc)
+```
+
+Are there any differences in the cropped maps?
+Why?
+
+*There does not appear to be any apparent differences between the cropped maps. The reason there may be no apparent differences is because crop() from the terra package simply reduces the rectangular extent of the object passed through in the first argument to the extent of the object passed in the second argument (so here, it'd be the srtm raster reduced by zion_points or ch).*
+
+Q1.2.
+Instead of cropping, mask srtm with zion_points and ch.
+Are there any differences in the output maps?
+If so, why?
+
+```{r code chunk for Q1.2}
+#Enter your code chunk that explores this question. Please leave comments as in detail as possible to show your logical development. 
+masking_z = mask(srtm, zion_points) #used functions from section 6.2
+masking_ch = mask(srtm, ch)
+plot(masking_z)
+plot(masking_ch)
+```
+
+Are there any differences in the masked maps?
+Why?
+
+*As we can see, there is a difference between the maps of the masked objects. As to why there is a difference,this could be because the mask() function sets the values outside of the bounds of the objects passed through (in this case, ch and zion_points) to be masked.*
+
+------------------------------------------------------------------------
+
+Q2.
+Extract elevation values: (1) Extract values from the srtm raster with zion_points.
+(2) Next, extract average (mean) values of srtm using a 500-meter buffer around each point (in zion_points).
+(3) Compare these two sets of values in the same layer (dataframe).
+
+```{r code chunk for Q2}
+#Enter your code chunk that explores this question. Please leave comments as in detail as possible to show your logical development.
+
+extract_zion = terra::extract(srtm, zion_points)
+#function from section 6.3 to extract values from srtm raster with zion_points
+
+zion_buffer = st_buffer(zion_points, dist = 500) #recalled st_buffer function from previous labs to make a buffer
+
+mean_buffer = terra::extract(srtm, zion_buffer, fun = "mean")
+#extract the the average of the values using the 'fun' argument in the extract() method and doing it by 'mean'(had to look up documentation). Then, extract by srtm raster and buffer created before with a dist of 500 m. 
+
+df = data.frame(ez = c(extract_zion), mb = c(mean_buffer)) #acquired data.frame() function by looking it up on google
+df
+
+
+```
+
+When would extracting values by buffers be more suitable than by points alone?
+
+*It would appear that extracting values by buffers would be more suitable than points when we want to analyze values more accurately. We can see in the mb.srtm column (representing the srtm values through the buffers) has a lot more detail than the ez.srtm column.*
+
+------------------------------------------------------------------------
+
+Q3.
+Rasterize elevation points: (1) Subset points higher than 3100 meters in New Zealand (the nz_height object).
+(2) Create a template raster with a resolution of 3 km for the extent of the new point dataset.
+(3) Using these two new objects, rasterize the points to display the number of points\>3100m (count) in each grid cell.
+Plot the result.
+(4) Now rasterize the points to display the maximum elevation point in each 3km grid cell.
+Plot the result.
+
+```{r code chunk for Q3}
+#Enter your code chunk that explores this question. Please leave comments as in detail as possible to show your logical development.
+
+points_gt_3100 = nz_height |> filter(elevation > 3100)
+#subsets the points higher than 3100 meters in New Zealand using pipe operator on nz_height with filter()
+
+rast_template = rast(ext(points_gt_3100), resolution = 3000)
+#makes a raster template as shown in section 6.4
+
+rasterization = rasterize(points_gt_3100, rast_template, field = "elevation")
+
+plot(rasterization)
+
+max = rasterize(points_gt_3100, rast_template, field = "elevation",fun = "max")
+
+plot(max)
+#uses the rasterize() function from section 6.4 to display the number of points > 3100m and get the max through the field argument and fun argument for the max. 
+ 
+
+```
+
+------------------------------------------------------------------------
+
+Q4.
+Raster Local operations (4.3.3) and Zonal operations (4.3.5): (1) Using local operations, use *dem = rast(system.file("raster/dem.tif", package = "spDataLarge"))* and reclassify the elevation in three classes: low (\<300), medium (300-500), and high (\>500).
+(2) Then with zonal operations, read the NDVI raster (ndvi = rast(system.file("raster/ndvi.tif", package = "spDataLarge"))) and compute the mean NDVI *and* the mean elevation for each altitudinal class.
+
+```{r code chunk for Q4}
+#Enter your code chunk that explores this question. Please leave comments as in detail as possible to show your logical development. 
+dem = system.file("raster/dem.tif", package = "spDataLarge")
+dem_rast = rast(dem)
+
+rcl = matrix(c(0, 299, "low", 300, 499, "medium", 500, Inf, "high"), ncol = 3, byrow = TRUE)
+rcl
+#done as shown in 4.3.3 tutorial. inf represents numbers greater than 500 and onward. Code above reclassifies the elevation in the three classes
+
+ndvi = rast(system.file("raster/ndvi.tif", package = "spDataLarge"))
+
+#mean_ndvi = zonal(ndvi, rcl, "mean")
+#mean_elev = zonal(dem_rast, rcl, "mean")
+#The two lines of code above should work I think, but I kinda gave up trying to make it work lol
+
+
+
+
+```
+
+------------------------------------------------------------------------
+
+Q5.
+Use the Landsat image provided by the spDataLarge package: *rast(system.file("raster/landsat.tif", package = "spDataLarge"))* to calculate the Normalized Difference Water Index (NDWI; (green - nir)/(green + nir)) of the image.
+NDWI is similar to NDVI (see Section 4.3.3) except that NDVI is to enhance the appearance of vegetation from a multispectral image whereas NDWI is to enhance the appearance of water.
+
+Hint: For NDVI and NDWI calculation, please follow the procedure described in Section 4.3.3 of Chapter 4.
+As described in Chapter 4, the image (which is a Landsat level-2 product) has four spectral bands from the Landsat 8 satellite — blue (band 1 in the image), green (band 2), red (band 3), and near-infrared (NIR, band 4).
+The Landsat level-2 products are stored as integers to save disk space, and thus we need to convert them to floating-point numbers before doing any calculations.
+For that purpose, we need to apply a scaling factor (0.0000275) and add an offset (-0.2) to the original values
+
+Bonus: 1 point.
+Calculate a correlation between NDVI and NDWI for this area.
+You can use the [layerCor()](https://rspatial.github.io/terra/reference/layerCor.html) function, and refer to Section 3.3.1 in Chapter 3 for stacking multilayered rasters.
+
+```{r code chunk for Q5}
+#Enter your code chunk that explores this question. Please leave comments as in detail as possible to show your logical development. 
+multi_raster_file = system.file("raster/landsat.tif", package = "spDataLarge")
+multi_rast = rast(multi_raster_file) #acquired from 4.3.3
+
+multi_rast = (multi_rast * 0.0000275) - 0.2
+multi_rast[multi_rast < 0] = 0
+
+ndwi_fun = ndvi_fun = function(nir, green){
+  (green - nir) / (green + nir)
+}
+
+ndwi_rast = lapp(multi_rast[[c(4, 3)]], fun = ndwi_fun)
+
+plot(ndwi_rast)
+#essentially code as taught through 4.3.3 tutorial. 
+```
+
+------------------------------------------------------------------------
+
+Render your document by clicking on the "Knit" option in RStudio.
+Upload the .html file to your assignment submission!
+
+.

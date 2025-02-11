@@ -1,0 +1,143 @@
+---
+title: 'GGIS 224 - Lab 4'
+author: 'Lyons Tran, Environmental Data Science @UIUC '
+date: "2/16/2024"
+output:
+  html_document: default
+  word_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Overview
+
+In this lab, you'll explore a few interesting questions about spatial operations based on vector data. You will be on your way to mastering the basics of spatial predicates, topological relations, and spatial subsetting, joining, and aggregation. 
+
+Before starting with these questions, you will need to go through *Chapter 4. Spatial Data Operations* in the textbook [Geocomputation in R](https://geocompr.robinlovelace.net/). Feel free to skip Sections 4.2.4 and 4.3 for now. After going through Chapter 4, you will continue using the same data from the spData package to answer the questions below.
+
+It’s a good habit to comment on your codes while you are developing them. This is essential for tracking your own progress, particularly for questions with a complicated logic. The comments are also helpful for improving the readability of the codes. To add a comment, simply type #, followed by your own description. The text after # will be treated as "comments" which will not participate in execution.    
+
+Render your completed RmD document by clicking on the "Knit" option in RStudio. Upload the .html file to your lab submission.
+Your uploaded .html file should follow this naming convention: Lab4_FirstNameInitial_LastName.html (for example, Lab4_E_Hall.html).
+
+---
+
+## Environment Setup
+
+Load up all libraries needed for this lab. 
+
+```{r environment-setup, warning=FALSE, message=FALSE}
+library(sf)
+library(dplyr)
+library(spData) #data package needed for this lab
+```
+
+Load necessary data sets within the spData package
+
+```{r spData datasets}
+data("nz_height")
+data("nz")
+```
+
+---
+
+## Explore and answer the following questions. 
+
+Q1. It was established in Section 4.2 of Chapter 4 that Canterbury was the region of New Zealand containing most of the 100 highest points in the country. How many of these high points does the Canterbury region contain?
+
+```{r code chunk for Q1 (1 pt)}
+#Enter your code chunk that solves the question. Please leave comments as in detail as possible to show your logical development. 
+#For example, you can start with:
+canterbury = nz |> filter(Name == "Canterbury") #Subset the boundary of Canterbury from nz, using attribute subsetting. 
+canterbury_height = nz_height[canterbury, ] #Subset the high points from nz_height that are intersected by Canterbury, using spatial subsetting. 
+
+#Continue your code below to find how many high points are in the Canterbury region, then type your answer on line 61:
+nrow(canterbury_height)
+```
+How many of these high points does the Canterbury region contain?
+
+*70*
+---
+
+Q2. Plot the result of Q1 using the plot() function to create a map showing (1) all of New Zealand, (2) the Canterbury region highlighted (filled) in yellow, (3) high points in Canterbury represented by red X's (hint: pch = 4) and (4) high points in other parts of New Zealand represented by blue circles. See the help page ?points for details with an illustration of different pch values.
+
+```{r code chunk for Q2 (3 pts)}
+#Enter your code chunk that creates the plot.
+plot(st_geometry(nz))
+plot(st_geometry(canterbury), col = "yellow", add = TRUE)
+plot(st_geometry(canterbury_height), pch = 4, col = "red", add = TRUE)
+plot(nz_height[canterbury,, op = st_disjoint], pch = 1, col = "blue", add = TRUE)
+```
+
+---
+
+Q3. Which region has the second highest number of nz_height points, and how many does it have? Hint: consider using the function n() within [summarize()](https://dplyr.tidyverse.org/reference/summarise.html). 
+
+BONUS (+1 pt): What is the average elevation of the high points within this region (which has the second highest number of high points)? 
+
+```{r code chunk for Q3 (2 pts)}
+#Enter your code chunk that answers the question. 
+count_heights = st_join(nz, nz_height) |> group_by(Name)
+second = count_heights |> count(Name) |> arrange(desc(n)) |> slice(2) |> pull(Name)
+number_of_second = count_heights |> filter(Name == second) |> summarize(num_highest_points = n())
+avg_elev = count_heights |> filter(Name == second) |> 
+  summarize(avg_elev_in_second = mean(elevation, na.rm = TRUE))
+
+```
+
+What is the region and how many does it have?
+
+*West Coast*
+
+What is the average elevation of the high points within this region (Extra Credit +1 pt)? 
+
+*2889.455*
+
+---
+
+Q4. Test your knowledge of spatial predicates by finding out and plotting how US states relate to each other. You'll be using the us_states layer in the spData package as you did for Lab 3. 
+
+(1) Create an sf object representing the state of Colorado (hint: Colorado = us_states[us_states$NAME == "Colorado",], or use filter), and then (2) plot all of the United States and (3) add Colorado filled in blue. 
+
+Next, (4) create a new object representing all the states that are geographically contiguous(hint: st_touches) with Colorado, and (5) plot them with a yellow filling on the same map.  
+
+Then, (6) create another object representing all the states that are within a distance of 200 miles from Colorado, and (7) plot them with a red outline (hollow filling) on the same map.
+
+```{r code chunk for Q4 (4 pts)}
+data(us_states)
+
+#Enter your code to generate the map. 
+colorado_shp = us_states[us_states$NAME == "Colorado", ]
+
+#parts 1 - 3
+plot(st_geometry(us_states))
+plot(st_geometry(colorado_shp), col = "blue", add = TRUE)
+
+#parts 4 - 5
+states_touching_co = us_states[colorado_shp, op = st_touches]
+plot(st_geometry(states_touching_co), col = "yellow", add = TRUE)
+
+#parts 6 - 7 -> I know my code below is wrong, I couldn't figure it out in time lol
+colorado_zone = st_buffer(colorado_shp, dist = 200)
+within_200_colorado = st_join(us_states, colorado_zone, join = st_within)
+plot(st_geometry(within_200_colorado), border = "red", add = TRUE)
+```
+
+Q5. When you are subsetting the states that are geographically contiguous with Colorado (part of Q4), you can use either st_touches or st_intersects predicates. Experiment the results using both predicates (no need to submit code here) (1 pt).
+
+What difference did you notice? And based on your experiment, can you briefly summarize the difference between st_touches and st_intersects?
+
+*I notice that after altering my code to use st_intersects, it colors all the states applicable yellow, whereas my st_touches operation kept all the states that meet the criteria colors appropriately colored. This may be a syntax/semantics error within my code but also could be because of the actual functions and uses of st_intersects and st_touches as although they are both supposed to return matrices, I concur that intersects checks for if there is any part of the shapes/polygons interacting in any way and touches only checks for common boundaries, disregarding anything to do with the interiors of the shapes/polygons.*
+
+```{r Experiment here for Q5}
+states_touching_co = us_states[colorado_shp, op = st_touches]
+states_touching_co = us_states[colorado_shp, op = st_intersects]
+```
+
+---
+
+Render your document by clicking on the "Knit" option in RStudio. Upload the .html file to your assignment submission!
+
+.
